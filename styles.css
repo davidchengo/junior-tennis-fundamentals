@@ -524,6 +524,9 @@ img { display: block; max-width: 100%; }
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+.video-drill-grid.single-col {
+  grid-template-columns: 1fr;
+}
 .video-drill-card {
   background: var(--bg2);
   border: 1px solid var(--border);
