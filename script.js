@@ -111,7 +111,7 @@ sections.forEach(s => observer.observe(s));
 document.querySelectorAll('.yt-player').forEach(player => {
   const activate = () => {
     const id = player.dataset.videoId;
-    const origin = encodeURIComponent(location.origin || 'https://davidchengo.github.io');
+    const origin = encodeURIComponent(location.origin || 'https://davidchengo.github.io/junior-tennis-fundamentals');
     const iframe = document.createElement('iframe');
     iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&rel=0&origin=${origin}`;
     iframe.title = player.getAttribute('aria-label') || 'YouTube video player';
