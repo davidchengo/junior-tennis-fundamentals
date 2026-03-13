@@ -107,9 +107,20 @@ const observer = new IntersectionObserver(entries => {
 
 sections.forEach(s => observer.observe(s));
 
-// ── YouTube click-to-play ──
+// ── YouTube click-to-play (single active player) ──
+let activeYTPlayer = null;
+
 document.querySelectorAll('.yt-player').forEach(player => {
+  // Save original thumbnail HTML so we can restore it when another video starts
+  player._origHTML = player.innerHTML;
+
   const activate = () => {
+    // Stop & restore the previously active player
+    if (activeYTPlayer && activeYTPlayer !== player) {
+      activeYTPlayer.innerHTML = activeYTPlayer._origHTML;
+      activeYTPlayer.style.cursor = '';
+    }
+
     const id = player.dataset.videoId;
     const origin = encodeURIComponent(location.origin || 'https://davidchengo.github.io/junior-tennis-fundamentals');
     const iframe = document.createElement('iframe');
@@ -121,7 +132,10 @@ document.querySelectorAll('.yt-player').forEach(player => {
     player.innerHTML = '';
     player.appendChild(iframe);
     player.style.cursor = 'default';
+
+    activeYTPlayer = player;
   };
+
   player.addEventListener('click', activate);
   player.addEventListener('keydown', e => {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
