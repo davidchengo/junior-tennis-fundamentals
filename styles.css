@@ -296,6 +296,116 @@ img { display: block; max-width: 100%; }
   margin-top: 32px;
 }
 .start-next p { color: var(--text-muted); }
+.start-next-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* ── Beginner Tennis Training ── */
+.beginner-training {
+  padding: 96px 0;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+}
+.training-container { max-width: 1000px; }
+.training-intro { max-width: 760px; margin: 0 auto 44px; text-align: center; }
+.training-kicker {
+  display: block;
+  color: var(--green-light);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.training-intro h2 { color: #fff; font-size: clamp(1.9rem, 4vw, 2.7rem); line-height: 1.2; margin-bottom: 14px; }
+.training-intro p { color: var(--text-muted); font-size: 1rem; }
+.practice-plan {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.plan-header { padding: 40px; background: linear-gradient(145deg, #102513 0%, var(--bg) 72%); }
+.plan-label { color: var(--green-light); font-size: 0.75rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.plan-header h3 { color: #fff; font-size: clamp(1.6rem, 4vw, 2.25rem); line-height: 1.2; margin: 7px 0 20px; }
+.plan-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.plan-meta span {
+  background: rgba(76,175,80,0.12);
+  border: 1px solid rgba(76,175,80,0.28);
+  border-radius: 100px;
+  color: var(--green-light);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 5px 11px;
+}
+.plan-purpose { color: var(--text-muted); max-width: 760px; margin-bottom: 24px; }
+.plan-purpose strong { color: #fff; }
+.lesson-flow, .mini-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.lesson-flow span, .mini-flow span { color: #fff; background: var(--bg3); border-radius: 6px; padding: 7px 10px; }
+.lesson-flow b, .mini-flow b { color: var(--green-light); }
+.lesson-outcome { margin-top: 26px; padding: 18px 20px; border-left: 3px solid var(--yellow); background: rgba(255,214,0,0.06); }
+.lesson-outcome p { color: var(--text-muted); font-size: 0.88rem; margin-bottom: 4px; }
+.lesson-outcome strong { color: #fff; font-size: 1.05rem; }
+.teaching-cues { padding: 22px 40px; text-align: center; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--bg3); }
+.teaching-cues > span { display: block; color: var(--text-muted); font-size: 0.75rem; margin-bottom: 7px; }
+.teaching-cues div { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; color: var(--green-light); text-transform: uppercase; letter-spacing: 0.08em; }
+.teaching-cues div b { color: var(--text-muted); }
+.teaching-cues p { color: var(--text-muted); font-size: 0.8rem; margin-top: 8px; }
+.lesson-timeline { padding: 14px 40px 30px; }
+.lesson-step { display: grid; grid-template-columns: 95px 1fr; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--border); }
+.lesson-step:last-child { border-bottom: none; }
+.lesson-time { color: var(--green-light); font-weight: 800; font-size: 0.82rem; padding-top: 4px; white-space: nowrap; }
+.lesson-content { min-width: 0; }
+.lesson-heading { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.lesson-heading span { color: var(--green-light); background: rgba(76,175,80,0.12); border-radius: 5px; padding: 3px 8px; font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; }
+.lesson-heading h4 { color: #fff; font-size: 1.2rem; }
+.lesson-content > p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
+.lesson-content ul, .lesson-content ol, .challenge-columns ul { display: grid; gap: 7px; margin: 12px 0 16px; }
+.lesson-content ul li, .challenge-columns li { color: var(--text-muted); font-size: 0.88rem; padding-left: 16px; position: relative; }
+.lesson-content ul li::before, .challenge-columns li::before { content: '•'; color: var(--green-light); position: absolute; left: 0; }
+.lesson-content ol { list-style: none; counter-reset: lesson-list; }
+.lesson-content ol li { counter-increment: lesson-list; color: var(--text-muted); font-size: 0.88rem; display: flex; gap: 9px; }
+.lesson-content ol li::before { content: counter(lesson-list); color: var(--green-light); font-weight: 800; }
+.lesson-note { font-style: italic; }
+.lesson-goal { padding: 11px 13px; background: var(--bg2); border-radius: 7px; }
+.lesson-goal strong, .lesson-challenge strong, .activity-list strong { color: #fff; }
+.ethan-tip { margin-top: 14px; padding: 13px 15px; background: rgba(255,214,0,0.06); border: 1px solid rgba(255,214,0,0.16); border-radius: 8px; }
+.ethan-tip strong { color: var(--yellow); font-size: 0.78rem; }
+.ethan-tip p { color: var(--text-muted); font-size: 0.85rem; margin-top: 3px; }
+.activity-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0 16px; }
+.activity-list > div { padding: 12px; background: var(--bg2); border-radius: 7px; }
+.activity-list p { color: var(--text-muted); font-size: 0.8rem; margin-top: 4px; }
+.mini-flow { margin: 12px 0 16px; }
+.cue-label { color: #fff !important; font-weight: 700; margin-bottom: 4px !important; }
+.lesson-challenge { color: var(--text-muted); font-size: 0.88rem; padding: 11px 13px; border: 1px dashed rgba(76,175,80,0.3); border-radius: 7px; margin: 14px 0; }
+.lesson-phrase { color: #fff !important; font-size: 1rem !important; font-weight: 700; }
+.score-box { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0; }
+.score-box span { display: flex; flex-direction: column; color: var(--text-muted); font-size: 0.82rem; background: var(--bg2); border-radius: 7px; padding: 10px 14px; }
+.score-box strong { color: var(--green-light); }
+.challenge-principle { margin: 0 40px 40px; padding: 28px; background: linear-gradient(145deg, rgba(76,175,80,0.13), rgba(76,175,80,0.04)); border: 1px solid rgba(76,175,80,0.28); border-radius: var(--radius); }
+.challenge-principle h4 { color: #fff; font-size: 1.15rem; margin-bottom: 7px; }
+.challenge-principle h4 span { color: var(--green-light); }
+.challenge-principle > p { color: var(--text-muted); font-size: 0.88rem; }
+.challenge-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 20px; }
+.challenge-columns strong { color: var(--green-light); font-size: 0.88rem; }
+.training-videos { margin: 0 40px 30px; padding-top: 32px; border-top: 1px solid var(--border); }
+.training-videos h4 { color: #fff; font-size: 1.2rem; margin-bottom: 6px; }
+.training-videos > div > p { color: var(--text-muted); font-size: 0.88rem; }
+.video-placeholder-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 20px; }
+.video-placeholder { min-height: 130px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: var(--bg2); border: 1px dashed rgba(255,255,255,0.16); border-radius: 9px; }
+.video-placeholder > span { color: var(--green-light); font-size: 1.25rem; opacity: 0.65; }
+.video-placeholder p { color: #fff; font-size: 0.85rem; font-weight: 700; margin-top: 7px; }
+.video-placeholder small { color: var(--text-muted); font-size: 0.7rem; }
+.ethan-context { margin: 0 40px 40px; color: var(--text-muted); font-size: 0.78rem; line-height: 1.6; }
+.ethan-context strong { color: var(--text); }
 
 /* ── Parent Guidance ── */
 .parents {
@@ -1021,6 +1131,7 @@ img { display: block; max-width: 100%; }
 /* ── Responsive ── */
 @media (max-width: 900px) {
   .pathway-grid { grid-template-columns: 1fr; }
+  .activity-list { grid-template-columns: 1fr; }
   .tech-layout { grid-template-columns: 1fr; }
   .tech-drills { position: static; }
   .hero-graphic { display: none; }
@@ -1029,12 +1140,26 @@ img { display: block; max-width: 100%; }
   .footer-brand { grid-column: 1 / -1; }
 }
 @media (max-width: 680px) {
-  .pathways, .beginner-start, .parents { padding: 64px 0; }
+  .pathways, .beginner-start, .beginner-training, .parents { padding: 64px 0; }
   .orientation-grid, .parent-guidance { grid-template-columns: 1fr; }
   .parent-guidance { padding: 10px 24px; }
   .parent-guidance > div:nth-last-child(2) { border-bottom: 1px solid var(--border); }
   .start-next { align-items: stretch; flex-direction: column; text-align: center; }
-  .start-next .btn { justify-content: center; }
+  .start-next-actions { flex-direction: column; }
+  .start-next .btn { justify-content: center; width: 100%; }
+  .plan-header { padding: 28px 22px; }
+  .lesson-flow { gap: 6px; }
+  .lesson-flow span { padding: 6px 7px; font-size: 0.68rem; }
+  .teaching-cues { padding: 20px 18px; }
+  .lesson-timeline { padding: 4px 22px 22px; }
+  .lesson-step { display: block; padding: 26px 0; }
+  .lesson-time { display: inline-block; margin-bottom: 10px; padding: 4px 9px; background: rgba(76,175,80,0.1); border-radius: 100px; }
+  .lesson-heading { align-items: flex-start; flex-direction: column; }
+  .challenge-principle, .training-videos, .ethan-context { margin-left: 22px; margin-right: 22px; }
+  .challenge-principle { padding: 22px; }
+  .challenge-principle h4 { line-height: 1.6; }
+  .challenge-columns, .video-placeholder-grid { grid-template-columns: 1fr; }
+  .video-placeholder { min-height: 105px; }
   .nav-links { display: none; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg2); border-bottom: 1px solid var(--border); padding: 16px; gap: 4px; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
