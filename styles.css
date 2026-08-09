@@ -396,14 +396,13 @@ img { display: block; max-width: 100%; }
 .challenge-principle > p { color: var(--text-muted); font-size: 0.88rem; }
 .challenge-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 20px; }
 .challenge-columns strong { color: var(--green-light); font-size: 0.88rem; }
-.training-videos { margin: 0 40px 30px; padding-top: 32px; border-top: 1px solid var(--border); }
-.training-videos h4 { color: #fff; font-size: 1.2rem; margin-bottom: 6px; }
-.training-videos > div > p { color: var(--text-muted); font-size: 0.88rem; }
-.video-placeholder-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 20px; }
-.video-placeholder { min-height: 130px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: var(--bg2); border: 1px dashed rgba(255,255,255,0.16); border-radius: 9px; }
-.video-placeholder > span { color: var(--green-light); font-size: 1.25rem; opacity: 0.65; }
-.video-placeholder p { color: #fff; font-size: 0.85rem; font-weight: 700; margin-top: 7px; }
-.video-placeholder small { color: var(--text-muted); font-size: 0.7rem; }
+.serve-video-note { color: var(--text-muted); font-size: 0.84rem; padding: 11px 13px; border-left: 2px solid var(--green); background: rgba(76,175,80,0.06); margin: 14px 0; }
+.serve-video-note strong { color: #fff; }
+.lesson-video { max-width: 480px; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+.watch-label { display: block; color: var(--green-light); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 9px; }
+.lesson-video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #000; border: 1px solid var(--border); border-radius: 8px; }
+.lesson-video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.lesson-video small { display: block; color: var(--text-muted); font-size: 0.7rem; line-height: 1.45; margin-top: 7px; }
 .ethan-context { margin: 0 40px 40px; color: var(--text-muted); font-size: 0.78rem; line-height: 1.6; }
 .ethan-context strong { color: var(--text); }
 
@@ -1155,11 +1154,11 @@ img { display: block; max-width: 100%; }
   .lesson-step { display: block; padding: 26px 0; }
   .lesson-time { display: inline-block; margin-bottom: 10px; padding: 4px 9px; background: rgba(76,175,80,0.1); border-radius: 100px; }
   .lesson-heading { align-items: flex-start; flex-direction: column; }
-  .challenge-principle, .training-videos, .ethan-context { margin-left: 22px; margin-right: 22px; }
+  .challenge-principle, .ethan-context { margin-left: 22px; margin-right: 22px; }
   .challenge-principle { padding: 22px; }
   .challenge-principle h4 { line-height: 1.6; }
-  .challenge-columns, .video-placeholder-grid { grid-template-columns: 1fr; }
-  .video-placeholder { min-height: 105px; }
+  .challenge-columns { grid-template-columns: 1fr; }
+  .lesson-video { max-width: none; }
   .nav-links { display: none; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg2); border-bottom: 1px solid var(--border); padding: 16px; gap: 4px; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
