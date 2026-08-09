@@ -782,6 +782,25 @@ img { display: block; max-width: 100%; }
   .check-group.two-col { grid-template-columns: 1fr; }
 }
 
+/* ── About Rally School ── */
+.about {
+  padding: 88px 0;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+}
+.about-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.about .section-header { margin-bottom: 28px; }
+.about-inner > p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+.about-inner > p:last-child { margin-bottom: 0; }
+
 /* ── Footer ── */
 .footer {
   background: var(--bg2);
