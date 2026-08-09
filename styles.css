@@ -217,6 +217,119 @@ img { display: block; max-width: 100%; }
 }
 .section-header.light h2 { color: #fff; }
 .section-header.light p { color: rgba(255,255,255,0.7); }
+.compact-header { margin-bottom: 36px; }
+
+/* ── Beginner Pathways ── */
+.pathways {
+  padding: 80px 0;
+  background: var(--bg2);
+}
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.pathway-card {
+  display: block;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+.pathway-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(76,175,80,0.4);
+  box-shadow: var(--shadow);
+}
+.pathway-icon { display: block; font-size: 1.8rem; margin-bottom: 14px; }
+.pathway-card h3 { color: #fff; font-size: 1.1rem; margin-bottom: 8px; }
+.pathway-card p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 18px; }
+.pathway-link { color: var(--green-light); font-size: 0.85rem; font-weight: 700; }
+
+/* ── Beginner Orientation ── */
+.beginner-start {
+  padding: 88px 0;
+  background: var(--bg);
+}
+.orientation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.orientation-item {
+  display: flex;
+  gap: 16px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.orientation-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(76,175,80,0.15);
+  color: var(--green-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+.orientation-item h3, .parent-guidance h3 {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+.orientation-item p, .parent-guidance p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+.start-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 32px;
+}
+.start-next p { color: var(--text-muted); }
+
+/* ── Parent Guidance ── */
+.parents {
+  padding: 88px 0;
+  background: linear-gradient(135deg, #0a1a0a 0%, #0f2010 100%);
+}
+.parents-inner { max-width: 1000px; margin: 0 auto; }
+.parent-guidance {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 40px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 14px 32px;
+}
+.parent-guidance > div { padding: 20px 0; border-bottom: 1px solid var(--border); }
+.parent-guidance > div:nth-last-child(-n+2) { border-bottom: none; }
+
+/* ── Educational Guidance Notice ── */
+.guidance-note {
+  max-width: 900px;
+  margin: -24px auto 40px;
+  padding: 18px 20px;
+  background: rgba(76,175,80,0.08);
+  border: 1px solid rgba(76,175,80,0.28);
+  border-left: 3px solid var(--green);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+.guidance-note strong { color: var(--green-light); }
+.checklist-guidance { margin-bottom: 32px; }
 
 /* ── Level Cards ── */
 .levels {
@@ -907,6 +1020,7 @@ img { display: block; max-width: 100%; }
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
+  .pathway-grid { grid-template-columns: 1fr; }
   .tech-layout { grid-template-columns: 1fr; }
   .tech-drills { position: static; }
   .hero-graphic { display: none; }
@@ -915,6 +1029,12 @@ img { display: block; max-width: 100%; }
   .footer-brand { grid-column: 1 / -1; }
 }
 @media (max-width: 680px) {
+  .pathways, .beginner-start, .parents { padding: 64px 0; }
+  .orientation-grid, .parent-guidance { grid-template-columns: 1fr; }
+  .parent-guidance { padding: 10px 24px; }
+  .parent-guidance > div:nth-last-child(2) { border-bottom: 1px solid var(--border); }
+  .start-next { align-items: stretch; flex-direction: column; text-align: center; }
+  .start-next .btn { justify-content: center; }
   .nav-links { display: none; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg2); border-bottom: 1px solid var(--border); padding: 16px; gap: 4px; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
