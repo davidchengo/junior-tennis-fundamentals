@@ -1048,6 +1048,14 @@ img { display: block; max-width: 100%; }
   text-align: center;
 }
 .footer-bottom p { font-size: 0.82rem; color: var(--text-muted); }
+.story-link {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  transition: color var(--transition);
+}
+.story-link:hover { color: var(--green-light); }
 
 /* ── Nav Track Button ── */
 .nav-track-btn {
