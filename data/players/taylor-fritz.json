@@ -76,5 +76,32 @@
       "losses": 11,
       "winRate": 84.1
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "1997-10-28",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q17660516"
+  },
+  "ranking": {
+    "rank": 9,
+    "points": 3720,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Fritz RG19 (23) (48199372707).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fritz_RG19_%2823%29_%2848199372707%29.jpg/500px-Fritz_RG19_%2823%29_%2848199372707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Fritz_RG19_%2823%29_%2848199372707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Fritz RG19 (23)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 24,
       "winRate": 70.4
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2002-10-09",
+    "heightCm": 193,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": "Q108532383"
+  },
+  "ranking": {
+    "rank": 5,
+    "points": 3920,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Shelton MCM23 (27) (52883150181).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Shelton_MCM23_%2827%29_%2852883150181%29.jpg/500px-Shelton_MCM23_%2827%29_%2852883150181%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Shelton_MCM23_%2827%29_%2852883150181%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Shelton MCM23 (27)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

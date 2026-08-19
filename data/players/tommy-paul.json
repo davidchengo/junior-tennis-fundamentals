@@ -76,5 +76,29 @@
       "losses": 15,
       "winRate": 79.7
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "1997-05-17",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q20050871"
+  },
+  "ranking": {
+    "rank": 28,
+    "points": 1645,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Paul RG21 (2) (51376841649).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Paul_RG21_%282%29_%2851376841649%29.jpg/500px-Paul_RG21_%282%29_%2851376841649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Paul_RG21_%282%29_%2851376841649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

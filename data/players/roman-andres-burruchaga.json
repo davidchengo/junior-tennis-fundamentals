@@ -50,5 +50,21 @@
       "losses": 8,
       "winRate": 46.7
     }
-  }
+  },
+  "identity": {
+    "countryCode": "ARG",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "birthDate": "2002-01-23",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 63,
+    "points": 875,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

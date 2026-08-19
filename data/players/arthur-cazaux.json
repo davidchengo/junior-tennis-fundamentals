@@ -76,5 +76,32 @@
       "losses": 7,
       "winRate": 74.1
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "2002-08-23",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q85626140"
+  },
+  "ranking": {
+    "rank": 81,
+    "points": 757,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Cazaux BOR22 (52082936542).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cazaux_BOR22_%2852082936542%29.jpg/500px-Cazaux_BOR22_%2852082936542%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cazaux_BOR22_%2852082936542%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Cazaux BOR22",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

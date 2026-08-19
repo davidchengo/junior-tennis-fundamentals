@@ -76,5 +76,32 @@
       "losses": 13,
       "winRate": 75.0
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2000-07-05",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q47500285"
+  },
+  "ranking": {
+    "rank": 60,
+    "points": 900,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Sebastian Korda (2023 DC Open) 02.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sebastian_Korda_%282023_DC_Open%29_02.jpg/500px-Sebastian_Korda_%282023_DC_Open%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sebastian_Korda_%282023_DC_Open%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

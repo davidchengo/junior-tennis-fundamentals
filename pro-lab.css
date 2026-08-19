@@ -669,3 +669,102 @@ body {
   border-color: var(--lab-green);
   color: var(--lab-green);
 }
+
+/* =========================================================
+   PLAYER IDENTITY
+   ========================================================= */
+
+.player-identity {
+  margin-top: 10px;
+
+  color: var(--lab-muted) !important;
+
+  font-size: .85rem;
+  line-height: 1.6;
+}
+
+.player-identity .identity-main {
+  display: block;
+
+  color: #dce3ec !important;
+  font-weight: 700;
+}
+
+.player-identity .identity-secondary {
+  display: block;
+
+  margin-top: 2px;
+
+  color: var(--lab-muted) !important;
+}
+
+.player-identity .flag {
+  margin-right: 5px;
+}
+
+
+/* =========================================================
+   PRO LAB PLAYER PHOTOS
+   ========================================================= */
+
+.player-photo {
+  width: 132px;
+  height: 132px;
+  margin-bottom: 18px;
+
+  overflow: hidden;
+
+  background: #1b222c;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 20px;
+
+  box-shadow: 0 16px 36px rgba(0,0,0,.3);
+}
+
+.battle-title > div:first-child .player-photo {
+  margin-right: auto;
+}
+
+.battle-title > div:last-child .player-photo {
+  margin-left: auto;
+}
+
+.player-photo img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center top;
+}
+
+.player-photo-fallback {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(103,223,122,.12),
+      transparent 65%
+    );
+}
+
+@media (max-width: 820px) {
+
+  .player-photo {
+    width: 105px;
+    height: 105px;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}

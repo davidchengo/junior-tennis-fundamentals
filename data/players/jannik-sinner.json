@@ -76,5 +76,32 @@
       "losses": 1,
       "winRate": 98.2
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "2001-08-16",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q54812588"
+  },
+  "ranking": {
+    "rank": 1,
+    "points": 13500,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Jannik Sinner US Open 2025 (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg/500px-Jannik_Sinner_US_Open_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "artist": "The White House derivative work: Kacir",
+    "credit": "https://www.flickr.com/photos/202101414@N05/54777103163/",
+    "attribution": null,
+    "attributionRequired": "false",
+    "source": "Wikimedia Commons"
   }
 }

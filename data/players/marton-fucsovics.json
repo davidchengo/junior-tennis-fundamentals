@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 64.3
     }
+  },
+  "identity": {
+    "countryCode": "HUN",
+    "countryName": "Hungary",
+    "flag": "🇭🇺",
+    "birthDate": "1992-02-08",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q649333"
+  },
+  "ranking": {
+    "rank": 75,
+    "points": 819,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Márton Fucsovics 3, 2015 Wimbledon Qualifying - Diliff.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/M%C3%A1rton_Fucsovics_3%2C_2015_Wimbledon_Qualifying_-_Diliff.jpg/500px-M%C3%A1rton_Fucsovics_3%2C_2015_Wimbledon_Qualifying_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/M%C3%A1rton_Fucsovics_3%2C_2015_Wimbledon_Qualifying_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Diliff",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

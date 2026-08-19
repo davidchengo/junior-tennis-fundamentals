@@ -76,5 +76,29 @@
       "losses": 28,
       "winRate": 63.6
     }
+  },
+  "identity": {
+    "countryCode": "GBR",
+    "countryName": "Great Britain",
+    "flag": "🇬🇧",
+    "birthDate": "1995-08-23",
+    "heightCm": 188,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": "Q23668736"
+  },
+  "ranking": {
+    "rank": 29,
+    "points": 1595,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Norrie WM17 (2) (36143094896).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Norrie_WM17_%282%29_%2836143094896%29.jpg/500px-Norrie_WM17_%282%29_%2836143094896%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Norrie_WM17_%282%29_%2836143094896%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

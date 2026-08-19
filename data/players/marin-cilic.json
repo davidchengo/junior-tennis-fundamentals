@@ -76,5 +76,32 @@
       "losses": 11,
       "winRate": 56.0
     }
+  },
+  "identity": {
+    "countryCode": "CRO",
+    "countryName": "Croatia",
+    "flag": "🇭🇷",
+    "birthDate": "1988-09-28",
+    "heightCm": 198,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q245241"
+  },
+  "ranking": {
+    "rank": 47,
+    "points": 994,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Cilic US16 (66) (29569801430).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cilic_US16_%2866%29_%2829569801430%29.jpg/500px-Cilic_US16_%2866%29_%2829569801430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cilic_US16_%2866%29_%2829569801430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Cilic US16 (66)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

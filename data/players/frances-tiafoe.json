@@ -76,5 +76,29 @@
       "losses": 29,
       "winRate": 64.6
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "1998-01-20",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q17305299"
+  },
+  "ranking": {
+    "rank": 26,
+    "points": 1705,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Tiafoe EBN17 (3) (35716381482).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tiafoe_EBN17_%283%29_%2835716381482%29.jpg/500px-Tiafoe_EBN17_%283%29_%2835716381482%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tiafoe_EBN17_%283%29_%2835716381482%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 14,
       "winRate": 77.0
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "1996-04-12",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q29918446"
+  },
+  "ranking": {
+    "rank": 48,
+    "points": 985,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Matteo Berrettini, 2021.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Matteo_Berrettini%2C_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Matteo_Berrettini%2C_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Attribution",
+    "licenseUrl": null,
+    "artist": "Presidenza della Repubblica",
+    "credit": "https://www.quirinale.it/elementi/59074",
+    "attribution": "Quirinale.it",
+    "attributionRequired": null,
+    "source": "Wikimedia Commons"
   }
 }

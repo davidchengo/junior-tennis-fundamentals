@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 46.4
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2004-03-12",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 67,
+    "points": 854,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Ethan Quinn (2023 Cary) 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ethan_Quinn_%282023_Cary%29_01.jpg/500px-Ethan_Quinn_%282023_Cary%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ethan_Quinn_%282023_Cary%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

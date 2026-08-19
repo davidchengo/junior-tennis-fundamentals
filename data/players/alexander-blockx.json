@@ -76,5 +76,21 @@
       "losses": 7,
       "winRate": 61.1
     }
-  }
+  },
+  "identity": {
+    "countryCode": "BEL",
+    "countryName": "Belgium",
+    "flag": "🇧🇪",
+    "birthDate": "2005-04-08",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 37,
+    "points": 1280,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

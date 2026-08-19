@@ -76,5 +76,32 @@
       "losses": 25,
       "winRate": 70.9
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "2002-05-06",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q64347071"
+  },
+  "ranking": {
+    "rank": 10,
+    "points": 3540,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Cobolli WMQ23 (53061712891).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cobolli_WMQ23_%2853061712891%29.jpg/500px-Cobolli_WMQ23_%2853061712891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Cobolli_WMQ23_%2853061712891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Cobolli WMQ23",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

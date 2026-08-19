@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 66.7
     }
+  },
+  "identity": {
+    "countryCode": "CAN",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "birthDate": "2001-09-24",
+    "heightCm": 203,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 54,
+    "points": 935,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Diallo BMW Open 2026.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Diallo_BMW_Open_2026.jpg/500px-Diallo_BMW_Open_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Diallo_BMW_Open_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Partynia",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 26,
       "winRate": 61.2
     }
+  },
+  "identity": {
+    "countryCode": "NED",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "birthDate": "1996-07-02",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q28777443"
+  },
+  "ranking": {
+    "rank": 41,
+    "points": 1150,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Griekspoor RG22 (1) (52144112028).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Griekspoor_RG22_%281%29_%2852144112028%29.jpg/500px-Griekspoor_RG22_%281%29_%2852144112028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Griekspoor_RG22_%281%29_%2852144112028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Griekspoor RG22 (1)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

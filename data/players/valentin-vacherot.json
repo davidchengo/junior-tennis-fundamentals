@@ -66,5 +66,29 @@
       "losses": 3,
       "winRate": 84.2
     }
+  },
+  "identity": {
+    "countryCode": "MON",
+    "countryName": "Monaco",
+    "flag": "🇲🇨",
+    "birthDate": "1998-11-16",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q107314093"
+  },
+  "ranking": {
+    "rank": 20,
+    "points": 2145,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Valentin Vacherot Basel 2025 (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Valentin_Vacherot_Basel_2025_%28cropped%29.jpg/500px-Valentin_Vacherot_Basel_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Valentin_Vacherot_Basel_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 16,
       "winRate": 60.0
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "1996-10-26",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q18001228"
+  },
+  "ranking": {
+    "rank": 92,
+    "points": 678,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Halys RG15 (22) (18685208034).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Halys_RG15_%2822%29_%2818685208034%29.jpg/500px-Halys_RG15_%2822%29_%2818685208034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Halys_RG15_%2822%29_%2818685208034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Halys RG15 (22)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

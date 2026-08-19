@@ -76,5 +76,32 @@
       "losses": 19,
       "winRate": 54.8
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "2003-07-08",
+    "heightCm": 203,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q107207704"
+  },
+  "ranking": {
+    "rank": 93,
+    "points": 670,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Giovanni Mpetshi Perricard (2023 US Open) 01 (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Giovanni_Mpetshi_Perricard_%282023_US_Open%29_01_%28cropped%29.jpg/500px-Giovanni_Mpetshi_Perricard_%282023_US_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Giovanni_Mpetshi_Perricard_%282023_US_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

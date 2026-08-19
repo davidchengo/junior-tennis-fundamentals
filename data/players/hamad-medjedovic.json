@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 57.1
     }
+  },
+  "identity": {
+    "countryCode": "SRB",
+    "countryName": "Serbia",
+    "flag": "🇷🇸",
+    "birthDate": "2003-07-18",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q106962940"
+  },
+  "ranking": {
+    "rank": 68,
+    "points": 844,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Medjedovic RGQ23.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Medjedovic_RGQ23.jpg/500px-Medjedovic_RGQ23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Medjedovic_RGQ23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "https://www.flickr.com/photos/sirobi/52942982672/",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 22,
       "winRate": 56.0
     }
+  },
+  "identity": {
+    "countryCode": "GER",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "birthDate": "1990-04-25",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q1681537"
+  },
+  "ranking": {
+    "rank": 77,
+    "points": 779,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Struff RG18 (6) (42260262224).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Struff_RG18_%286%29_%2842260262224%29.jpg/500px-Struff_RG18_%286%29_%2842260262224%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Struff_RG18_%286%29_%2842260262224%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Struff RG18 (6)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 21,
       "winRate": 60.4
     }
+  },
+  "identity": {
+    "countryCode": "NED",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "birthDate": "1995-10-04",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q28038578"
+  },
+  "ranking": {
+    "rank": 55,
+    "points": 935,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Van de Zandschulp RG21 (29) (51375315497).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Van_de_Zandschulp_RG21_%2829%29_%2851375315497%29.jpg/500px-Van_de_Zandschulp_RG21_%2829%29_%2851375315497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Van_de_Zandschulp_RG21_%2829%29_%2851375315497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Van de Zandschulp RG21 (29)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

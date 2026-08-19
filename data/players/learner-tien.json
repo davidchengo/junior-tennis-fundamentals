@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 68.8
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2005-12-02",
+    "heightCm": 180,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 19,
+    "points": 2270,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Learner Tien (2024 US Open) 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Learner_Tien_%282024_US_Open%29_01.jpg/500px-Learner_Tien_%282024_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Learner_Tien_%282024_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

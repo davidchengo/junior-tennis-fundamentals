@@ -76,5 +76,32 @@
       "losses": 19,
       "winRate": 66.7
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "1995-05-11",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q24061220"
+  },
+  "ranking": {
+    "rank": 66,
+    "points": 855,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Sonego MCM22 (22) (52035355412).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sonego_MCM22_%2822%29_%2852035355412%29.jpg/500px-Sonego_MCM22_%2822%29_%2852035355412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sonego_MCM22_%2822%29_%2852035355412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Sonego MCM22 (22)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,29 @@
       "losses": 17,
       "winRate": 71.7
     }
+  },
+  "identity": {
+    "countryCode": "ESP",
+    "countryName": "Spain",
+    "flag": "🇪🇸",
+    "birthDate": "1999-06-05",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q33084529"
+  },
+  "ranking": {
+    "rank": 22,
+    "points": 1860,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Davidovich Fokina RG19 (9) (48199314646).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Davidovich_Fokina_RG19_%289%29_%2848199314646%29.jpg/500px-Davidovich_Fokina_RG19_%289%29_%2848199314646%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Davidovich_Fokina_RG19_%289%29_%2848199314646%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

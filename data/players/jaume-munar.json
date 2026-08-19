@@ -76,5 +76,32 @@
       "losses": 23,
       "winRate": 54.9
     }
+  },
+  "identity": {
+    "countryCode": "ESP",
+    "countryName": "Spain",
+    "flag": "🇪🇸",
+    "birthDate": "1997-05-05",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q17274717"
+  },
+  "ranking": {
+    "rank": 44,
+    "points": 1105,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Munar WM19 (12) (48521794586).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Munar_WM19_%2812%29_%2848521794586%29.jpg/500px-Munar_WM19_%2812%29_%2848521794586%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Munar_WM19_%2812%29_%2848521794586%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Munar WM19 (12)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 31,
       "winRate": 45.6
     }
+  },
+  "identity": {
+    "countryCode": "AUS",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "birthDate": "1996-04-06",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q47090843"
+  },
+  "ranking": {
+    "rank": 100,
+    "points": 626,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Vukic RGQ22 (5) (52128494517).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Vukic_RGQ22_%285%29_%2852128494517%29.jpg/500px-Vukic_RGQ22_%285%29_%2852128494517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vukic_RGQ22_%285%29_%2852128494517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Vukic RGQ22 (5)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

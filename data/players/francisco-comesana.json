@@ -76,5 +76,32 @@
       "losses": 20,
       "winRate": 47.4
     }
+  },
+  "identity": {
+    "countryCode": "ARG",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "birthDate": "2000-10-06",
+    "heightCm": 178,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 89,
+    "points": 688,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Francisco Comesaña (2023 US Open) 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Francisco_Comesa%C3%B1a_%282023_US_Open%29_01.jpg/500px-Francisco_Comesa%C3%B1a_%282023_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Francisco_Comesa%C3%B1a_%282023_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 25,
       "winRate": 67.5
     }
+  },
+  "identity": {
+    "countryCode": "RUS",
+    "countryName": "RUS",
+    "flag": "🌐",
+    "birthDate": "1997-10-20",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q17373391"
+  },
+  "ranking": {
+    "rank": 13,
+    "points": 2460,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Andrey Rublev (2023 US Open) 12.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Andrey_Rublev_%282023_US_Open%29_12.jpg/500px-Andrey_Rublev_%282023_US_Open%29_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Andrey_Rublev_%282023_US_Open%29_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

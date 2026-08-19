@@ -17,6 +17,81 @@ function pct(v) {
   return v == null ? "—" : `${v}%`;
 }
 
+function ageFromBirthDate(birthDate) {
+
+  if (!birthDate) return null;
+
+  const birth = new Date(`${birthDate}T00:00:00`);
+  const today = new Date();
+
+  let age =
+    today.getFullYear() - birth.getFullYear();
+
+  const monthDiff =
+    today.getMonth() - birth.getMonth();
+
+  if (
+    monthDiff < 0 ||
+    (
+      monthDiff === 0 &&
+      today.getDate() < birth.getDate()
+    )
+  ) {
+    age--;
+  }
+
+  return age;
+}
+
+function heightLabel(heightCm) {
+
+  if (!heightCm) return "Height unavailable";
+
+  const totalInches =
+    Math.round(heightCm / 2.54);
+
+  const feet =
+    Math.floor(totalInches / 12);
+
+  const inches =
+    totalInches % 12;
+
+  return `${heightCm} cm · ${feet}'${inches}"`;
+}
+
+function identityHTML(profile) {
+
+  const identity = profile.identity || {};
+  const ranking = profile.ranking || {};
+
+  const age =
+    ageFromBirthDate(identity.birthDate);
+
+  const details = [
+    age != null ? `Age ${age}` : null,
+    heightLabel(identity.heightCm),
+    identity.handLabel || null
+  ].filter(Boolean);
+
+  const secondary = [
+    identity.countryName || null,
+    ranking.points != null
+      ? `${ranking.points.toLocaleString()} pts`
+      : null
+  ].filter(Boolean);
+
+  return `
+    <span class="identity-main">
+      <span class="flag">${identity.flag || "🌐"}</span>
+      ${details.join(" · ")}
+    </span>
+
+    <span class="identity-secondary">
+      ${secondary.join(" · ")}
+    </span>
+  `;
+}
+
 function matchupKey(a, b) {
   return [a, b].sort().join("|||");
 }
@@ -305,6 +380,28 @@ function renderBattlefield(profile1, profile2, p1, p2, matchup) {
   `;
 }
 
+
+function photoHTML(profile) {
+
+  const image = profile.image;
+
+  if (!image || !image.thumbnailUrl) {
+    return `
+      <div class="player-photo-fallback">
+        🎾
+      </div>
+    `;
+  }
+
+  return `
+    <img
+      src="${image.thumbnailUrl}"
+      alt="${profile.name}"
+      loading="lazy"
+    >
+  `;
+}
+
 async function startBattle(shouldScroll = true) {
 
   const error =
@@ -345,6 +442,18 @@ async function startBattle(shouldScroll = true) {
 
   document.getElementById("p2-rank").textContent =
     `ATP #${p2.rank}`;
+
+  document.getElementById("p1-identity").innerHTML =
+    identityHTML(profile1);
+
+  document.getElementById("p2-identity").innerHTML =
+    identityHTML(profile2);
+
+  document.getElementById("p1-photo").innerHTML =
+    photoHTML(profile1);
+
+  document.getElementById("p2-photo").innerHTML =
+    photoHTML(profile2);
 
   const key = matchupKey(p1.name, p2.name);
 

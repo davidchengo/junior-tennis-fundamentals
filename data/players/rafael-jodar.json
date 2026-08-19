@@ -66,5 +66,32 @@
       "losses": 2,
       "winRate": 90.0
     }
+  },
+  "identity": {
+    "countryCode": "ESP",
+    "countryName": "Spain",
+    "flag": "🇪🇸",
+    "birthDate": "2006-09-17",
+    "heightCm": null,
+    "hand": "U",
+    "handLabel": "Unknown",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 23,
+    "points": 1849,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Rafa Jódar Espinar 2025.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rafa_J%C3%B3dar_Espinar_2025.jpg/500px-Rafa_J%C3%B3dar_Espinar_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rafa_J%C3%B3dar_Espinar_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Tensionado",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "false",
+    "source": "Wikimedia Commons"
   }
 }

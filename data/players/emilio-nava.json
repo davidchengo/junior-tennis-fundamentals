@@ -76,5 +76,32 @@
       "losses": 8,
       "winRate": 60.0
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2001-12-02",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q60990844"
+  },
+  "ranking": {
+    "rank": 87,
+    "points": 707,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Nava BLO22 (24) (52157277484).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nava_BLO22_%2824%29_%2852157277484%29.jpg/500px-Nava_BLO22_%2824%29_%2852157277484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nava_BLO22_%2824%29_%2852157277484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Nava BLO22 (24)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -70,5 +70,32 @@
       "losses": 11,
       "winRate": 47.6
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "2004-05-11",
+    "heightCm": 178,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q107205896"
+  },
+  "ranking": {
+    "rank": 98,
+    "points": 633,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Van Assche RGQ22 (26) (52129515531).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Van_Assche_RGQ22_%2826%29_%2852129515531%29.jpg/500px-Van_Assche_RGQ22_%2826%29_%2852129515531%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Van_Assche_RGQ22_%2826%29_%2852129515531%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "van Assche RGQ22 (26)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

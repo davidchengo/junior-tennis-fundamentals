@@ -76,5 +76,32 @@
       "losses": 11,
       "winRate": 59.3
     }
+  },
+  "identity": {
+    "countryCode": "NED",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "birthDate": "2000-05-31",
+    "heightCm": 180,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q60239470"
+  },
+  "ranking": {
+    "rank": 83,
+    "points": 746,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "De Jong WMQ23 (53061896384).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/De_Jong_WMQ23_%2853061896384%29.jpg/500px-De_Jong_WMQ23_%2853061896384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/De_Jong_WMQ23_%2853061896384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "de Jong WMQ23",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

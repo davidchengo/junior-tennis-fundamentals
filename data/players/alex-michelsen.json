@@ -76,5 +76,21 @@
       "losses": 29,
       "winRate": 64.6
     }
-  }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2004-08-25",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 38,
+    "points": 1205,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

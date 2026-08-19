@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 62.5
     }
+  },
+  "identity": {
+    "countryCode": "BRA",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "birthDate": "2006-08-21",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 25,
+    "points": 1735,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "João Fonseca (2024 Cary) 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Jo%C3%A3o_Fonseca_%282024_Cary%29_01.jpg/500px-Jo%C3%A3o_Fonseca_%282024_Cary%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Jo%C3%A3o_Fonseca_%282024_Cary%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

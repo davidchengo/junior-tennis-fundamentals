@@ -76,5 +76,32 @@
       "losses": 11,
       "winRate": 38.9
     }
+  },
+  "identity": {
+    "countryCode": "BEL",
+    "countryName": "Belgium",
+    "flag": "🇧🇪",
+    "birthDate": "2002-01-13",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 51,
+    "points": 966,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Collignon WMQ23 (53061896279).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Collignon_WMQ23_%2853061896279%29.jpg/500px-Collignon_WMQ23_%2853061896279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Collignon_WMQ23_%2853061896279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Collignon WMQ23",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

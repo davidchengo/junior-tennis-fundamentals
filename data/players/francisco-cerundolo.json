@@ -76,5 +76,29 @@
       "losses": 28,
       "winRate": 68.9
     }
+  },
+  "identity": {
+    "countryCode": "ARG",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "birthDate": "1998-08-13",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q61709770"
+  },
+  "ranking": {
+    "rank": 27,
+    "points": 1660,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Cerundolo MCM23 (21) (52883527185) (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cerundolo_MCM23_%2821%29_%2852883527185%29_%28cropped%29.jpg/500px-Cerundolo_MCM23_%2821%29_%2852883527185%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cerundolo_MCM23_%2821%29_%2852883527185%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

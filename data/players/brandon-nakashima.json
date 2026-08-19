@@ -76,5 +76,32 @@
       "losses": 23,
       "winRate": 68.1
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "2001-08-03",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q60676610"
+  },
+  "ranking": {
+    "rank": 32,
+    "points": 1385,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Brandon Nakashima (2024 DC Open) 01 (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Brandon_Nakashima_%282024_DC_Open%29_01_%28cropped%29.jpg/500px-Brandon_Nakashima_%282024_DC_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Brandon_Nakashima_%282024_DC_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

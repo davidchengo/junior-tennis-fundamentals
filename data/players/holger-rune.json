@@ -76,5 +76,32 @@
       "losses": 14,
       "winRate": 75.0
     }
+  },
+  "identity": {
+    "countryCode": "DEN",
+    "countryName": "Denmark",
+    "flag": "🇩🇰",
+    "birthDate": "2003-04-29",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 64,
+    "points": 860,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Holger Rune practicing 2019 (cropped).png",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Holger_Rune_practicing_2019_%28cropped%29.png/500px-Holger_Rune_practicing_2019_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Holger_Rune_practicing_2019_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Wewanttogotoaworld",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,21 @@
       "losses": 11,
       "winRate": 42.1
     }
-  }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "2001-05-29",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 74,
+    "points": 823,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

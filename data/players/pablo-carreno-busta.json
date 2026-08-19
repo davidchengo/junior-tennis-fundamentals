@@ -76,5 +76,32 @@
       "losses": 8,
       "winRate": 69.2
     }
+  },
+  "identity": {
+    "countryCode": "ESP",
+    "countryName": "Spain",
+    "flag": "🇪🇸",
+    "birthDate": "1991-07-12",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q7121592"
+  },
+  "ranking": {
+    "rank": 71,
+    "points": 835,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Carreno Busta RG19 (11) (48199369451).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Carreno_Busta_RG19_%2811%29_%2848199369451%29.jpg/500px-Carreno_Busta_RG19_%2811%29_%2848199369451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Carreno_Busta_RG19_%2811%29_%2848199369451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Carreno Busta RG19 (11)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

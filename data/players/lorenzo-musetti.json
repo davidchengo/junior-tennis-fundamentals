@@ -76,5 +76,32 @@
       "losses": 18,
       "winRate": 73.5
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "2002-03-03",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q54813043"
+  },
+  "ranking": {
+    "rank": 16,
+    "points": 2315,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Musetti MCM22 (52) (52036662724).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Musetti_MCM22_%2852%29_%2852036662724%29.jpg/500px-Musetti_MCM22_%2852%29_%2852036662724%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Musetti_MCM22_%2852%29_%2852036662724%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Musetti MCM22 (52)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

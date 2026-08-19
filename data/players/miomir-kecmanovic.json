@@ -76,5 +76,32 @@
       "losses": 34,
       "winRate": 50.7
     }
+  },
+  "identity": {
+    "countryCode": "SRB",
+    "countryName": "Serbia",
+    "flag": "🇷🇸",
+    "birthDate": "1999-08-31",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q22005752"
+  },
+  "ranking": {
+    "rank": 49,
+    "points": 980,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Kecmanovic RG19 (42) (48199200981).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kecmanovic_RG19_%2842%29_%2848199200981%29.jpg/500px-Kecmanovic_RG19_%2842%29_%2848199200981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kecmanovic_RG19_%2842%29_%2848199200981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Kecmanovic RG19 (42)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

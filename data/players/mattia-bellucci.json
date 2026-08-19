@@ -76,5 +76,32 @@
       "losses": 16,
       "winRate": 50.0
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "2001-06-01",
+    "heightCm": 175,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 78,
+    "points": 777,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Bellucci WMQ23 (53061135007).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bellucci_WMQ23_%2853061135007%29.jpg/500px-Bellucci_WMQ23_%2853061135007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Bellucci_WMQ23_%2853061135007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Bellucci WMQ23",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

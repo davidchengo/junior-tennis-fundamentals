@@ -76,5 +76,32 @@
       "losses": 26,
       "winRate": 57.4
     }
+  },
+  "identity": {
+    "countryCode": "BEL",
+    "countryName": "Belgium",
+    "flag": "🇧🇪",
+    "birthDate": "1999-06-03",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q100700157"
+  },
+  "ranking": {
+    "rank": 40,
+    "points": 1150,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Bergs MLC21 (2).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bergs_MLC21_%282%29.jpg/500px-Bergs_MLC21_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Bergs_MLC21_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "https://www.flickr.com/photos/16732597@N07/51602286626/",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

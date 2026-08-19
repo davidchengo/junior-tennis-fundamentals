@@ -76,5 +76,32 @@
       "losses": 21,
       "winRate": 68.2
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "1998-06-26",
+    "heightCm": 188,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": "Q54007306"
+  },
+  "ranking": {
+    "rank": 33,
+    "points": 1370,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Humbert RG19 (7) (48199190756).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Humbert_RG19_%287%29_%2848199190756%29.jpg/500px-Humbert_RG19_%287%29_%2848199190756%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Humbert_RG19_%287%29_%2848199190756%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Humbert RG19 (7)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

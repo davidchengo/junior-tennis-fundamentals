@@ -70,5 +70,21 @@
       "losses": 12,
       "winRate": 40.0
     }
-  }
+  },
+  "identity": {
+    "countryCode": "POR",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "birthDate": "2003-08-06",
+    "heightCm": 188,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 94,
+    "points": 668,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

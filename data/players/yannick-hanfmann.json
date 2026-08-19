@@ -76,5 +76,32 @@
       "losses": 17,
       "winRate": 65.3
     }
+  },
+  "identity": {
+    "countryCode": "GER",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "birthDate": "1991-11-13",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q29628209"
+  },
+  "ranking": {
+    "rank": 59,
+    "points": 906,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Hanfmann RGQ19 (23) (48002696768).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hanfmann_RGQ19_%2823%29_%2848002696768%29.jpg/500px-Hanfmann_RGQ19_%2823%29_%2848002696768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Hanfmann_RGQ19_%2823%29_%2848002696768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Hanfmann RGQ19 (23)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

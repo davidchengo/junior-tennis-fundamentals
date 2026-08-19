@@ -76,5 +76,32 @@
       "losses": 15,
       "winRate": 63.4
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "1997-08-28",
+    "heightCm": 211,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q20655502"
+  },
+  "ranking": {
+    "rank": 86,
+    "points": 718,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Opelka WMQ18 (7) (42834211754).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Opelka_WMQ18_%287%29_%2842834211754%29.jpg/500px-Opelka_WMQ18_%287%29_%2842834211754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Opelka_WMQ18_%287%29_%2842834211754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Opelka WMQ18 (7)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

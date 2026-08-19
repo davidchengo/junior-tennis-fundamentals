@@ -76,5 +76,32 @@
       "losses": 34,
       "winRate": 56.4
     }
+  },
+  "identity": {
+    "countryCode": "POR",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "birthDate": "1997-02-19",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q106238976"
+  },
+  "ranking": {
+    "rank": 50,
+    "points": 970,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Borges BOR22 (52082935912).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Borges_BOR22_%2852082935912%29.jpg/500px-Borges_BOR22_%2852082935912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Borges_BOR22_%2852082935912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Borges BOR22",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

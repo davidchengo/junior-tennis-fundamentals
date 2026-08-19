@@ -9,6 +9,16 @@
     "rankingDate": 20260608,
     "matches": 185,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2001-08-16",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q54812588"
+    },
     "profile": "data/players/jannik-sinner.json"
   },
   {
@@ -21,6 +31,16 @@
     "rankingDate": 20260608,
     "matches": 173,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "2003-05-05",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q85518537"
+    },
     "profile": "data/players/carlos-alcaraz.json"
   },
   {
@@ -33,6 +53,16 @@
     "rankingDate": 20260608,
     "matches": 217,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GER",
+      "countryName": "Germany",
+      "flag": "🇩🇪",
+      "birthDate": "1997-04-20",
+      "heightCm": 198,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q13990552"
+    },
     "profile": "data/players/alexander-zverev.json"
   },
   {
@@ -45,6 +75,16 @@
     "rankingDate": 20260608,
     "matches": 167,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CAN",
+      "countryName": "Canada",
+      "flag": "🇨🇦",
+      "birthDate": "2000-08-08",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q20752045"
+    },
     "profile": "data/players/felix-auger-aliassime.json"
   },
   {
@@ -57,6 +97,16 @@
     "rankingDate": 20260608,
     "matches": 161,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2002-10-09",
+      "heightCm": 193,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q108532383"
+    },
     "profile": "data/players/ben-shelton.json"
   },
   {
@@ -69,6 +119,16 @@
     "rankingDate": 20260608,
     "matches": 182,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "flag": "🇦🇺",
+      "birthDate": "1999-02-17",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q22958938"
+    },
     "profile": "data/players/alex-de-minaur.json"
   },
   {
@@ -81,6 +141,16 @@
     "rankingDate": 20260608,
     "matches": 112,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "SRB",
+      "countryName": "Serbia",
+      "flag": "🇷🇸",
+      "birthDate": "1987-05-22",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q5812"
+    },
     "profile": "data/players/novak-djokovic.json"
   },
   {
@@ -93,6 +163,16 @@
     "rankingDate": 20260608,
     "matches": 168,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "RUS",
+      "countryName": "RUS",
+      "flag": "🌐",
+      "birthDate": "1996-02-11",
+      "heightCm": 198,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q21622022"
+    },
     "profile": "data/players/daniil-medvedev.json"
   },
   {
@@ -105,6 +185,16 @@
     "rankingDate": 20260608,
     "matches": 174,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1997-10-28",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q17660516"
+    },
     "profile": "data/players/taylor-fritz.json"
   },
   {
@@ -117,6 +207,16 @@
     "rankingDate": 20260608,
     "matches": 160,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2002-05-06",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q64347071"
+    },
     "profile": "data/players/flavio-cobolli.json"
   },
   {
@@ -129,6 +229,16 @@
     "rankingDate": 20260608,
     "matches": 139,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "KAZ",
+      "countryName": "Kazakhstan",
+      "flag": "🇰🇿",
+      "birthDate": "1997-06-17",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q23678983"
+    },
     "profile": "data/players/alexander-bublik.json"
   },
   {
@@ -141,6 +251,16 @@
     "rankingDate": 20260608,
     "matches": 140,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CZE",
+      "countryName": "Czech Republic",
+      "flag": "🇨🇿",
+      "birthDate": "2001-11-08",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q61415365"
+    },
     "profile": "data/players/jiri-lehecka.json"
   },
   {
@@ -153,6 +273,16 @@
     "rankingDate": 20260608,
     "matches": 163,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "RUS",
+      "countryName": "RUS",
+      "flag": "🌐",
+      "birthDate": "1997-10-20",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q17373391"
+    },
     "profile": "data/players/andrey-rublev.json"
   },
   {
@@ -165,6 +295,16 @@
     "rankingDate": 20260608,
     "matches": 169,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "NOR",
+      "countryName": "Norway",
+      "flag": "🇳🇴",
+      "birthDate": "1998-12-22",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q18810082"
+    },
     "profile": "data/players/casper-ruud.json"
   },
   {
@@ -177,6 +317,16 @@
     "rankingDate": 20260608,
     "matches": 142,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "RUS",
+      "countryName": "RUS",
+      "flag": "🌐",
+      "birthDate": "1996-05-21",
+      "heightCm": 198,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q16568576"
+    },
     "profile": "data/players/karen-khachanov.json"
   },
   {
@@ -189,6 +339,16 @@
     "rankingDate": 20260608,
     "matches": 157,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2002-03-03",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q54813043"
+    },
     "profile": "data/players/lorenzo-musetti.json"
   },
   {
@@ -201,6 +361,16 @@
     "rankingDate": 20260608,
     "matches": 134,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CZE",
+      "countryName": "Czech Republic",
+      "flag": "🇨🇿",
+      "birthDate": "2005-09-01",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q102228055"
+    },
     "profile": "data/players/jakub-mensik.json"
   },
   {
@@ -213,6 +383,16 @@
     "rankingDate": 20260608,
     "matches": 142,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2002-02-14",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/luciano-darderi.json"
   },
   {
@@ -225,6 +405,16 @@
     "rankingDate": 20260608,
     "matches": 99,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2005-12-02",
+      "heightCm": 180,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/learner-tien.json"
   },
   {
@@ -237,6 +427,16 @@
     "rankingDate": 20260608,
     "matches": 50,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "MON",
+      "countryName": "Monaco",
+      "flag": "🇲🇨",
+      "birthDate": "1998-11-16",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q107314093"
+    },
     "profile": "data/players/valentin-vacherot.json"
   },
   {
@@ -249,6 +449,16 @@
     "rankingDate": 20260608,
     "matches": 129,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2004-06-12",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q107207693"
+    },
     "profile": "data/players/arthur-fils.json"
   },
   {
@@ -261,6 +471,16 @@
     "rankingDate": 20260608,
     "matches": 135,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "1999-06-05",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q33084529"
+    },
     "profile": "data/players/alejandro-davidovich-fokina.json"
   },
   {
@@ -273,6 +493,16 @@
     "rankingDate": 20260608,
     "matches": 37,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "2006-09-17",
+      "heightCm": null,
+      "hand": "U",
+      "handLabel": "Unknown",
+      "wikidataId": null
+    },
     "profile": "data/players/rafael-jodar.json"
   },
   {
@@ -285,6 +515,16 @@
     "rankingDate": 20260608,
     "matches": 124,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1995-07-23",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q54007388"
+    },
     "profile": "data/players/arthur-rinderknech.json"
   },
   {
@@ -297,6 +537,16 @@
     "rankingDate": 20260608,
     "matches": 87,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "BRA",
+      "countryName": "Brazil",
+      "flag": "🇧🇷",
+      "birthDate": "2006-08-21",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/joao-fonseca.json"
   },
   {
@@ -309,6 +559,16 @@
     "rankingDate": 20260608,
     "matches": 141,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1998-01-20",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q17305299"
+    },
     "profile": "data/players/frances-tiafoe.json"
   },
   {
@@ -321,6 +581,16 @@
     "rankingDate": 20260608,
     "matches": 163,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "1998-08-13",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q61709770"
+    },
     "profile": "data/players/francisco-cerundolo.json"
   },
   {
@@ -333,6 +603,16 @@
     "rankingDate": 20260608,
     "matches": 144,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1997-05-17",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q20050871"
+    },
     "profile": "data/players/tommy-paul.json"
   },
   {
@@ -345,6 +625,16 @@
     "rankingDate": 20260608,
     "matches": 127,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GBR",
+      "countryName": "Great Britain",
+      "flag": "🇬🇧",
+      "birthDate": "1995-08-23",
+      "heightCm": 188,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q23668736"
+    },
     "profile": "data/players/cameron-norrie.json"
   },
   {
@@ -357,6 +647,16 @@
     "rankingDate": 20260608,
     "matches": 150,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "1999-07-18",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q104728520"
+    },
     "profile": "data/players/tomas-martin-etcheverry.json"
   },
   {
@@ -369,6 +669,16 @@
     "rankingDate": 20260608,
     "matches": 121,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CHI",
+      "countryName": "Chile",
+      "flag": "🇨🇱",
+      "birthDate": "1997-06-02",
+      "heightCm": 188,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q65159701"
+    },
     "profile": "data/players/alejandro-tabilo.json"
   },
   {
@@ -381,6 +691,16 @@
     "rankingDate": 20260608,
     "matches": 140,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2001-08-03",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q60676610"
+    },
     "profile": "data/players/brandon-nakashima.json"
   },
   {
@@ -393,6 +713,16 @@
     "rankingDate": 20260608,
     "matches": 139,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1998-06-26",
+      "heightCm": 188,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q54007306"
+    },
     "profile": "data/players/ugo-humbert.json"
   },
   {
@@ -405,6 +735,16 @@
     "rankingDate": 20260608,
     "matches": 111,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2001-02-22",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/matteo-arnaldi.json"
   },
   {
@@ -417,6 +757,16 @@
     "rankingDate": 20260608,
     "matches": 34,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "PER",
+      "countryName": "Peru",
+      "flag": "🇵🇪",
+      "birthDate": "2004-03-25",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/ignacio-buse.json"
   },
   {
@@ -429,6 +779,16 @@
     "rankingDate": 20260608,
     "matches": 109,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1999-04-19",
+      "heightCm": 180,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q30078104"
+    },
     "profile": "data/players/corentin-moutet.json"
   },
   {
@@ -441,6 +801,16 @@
     "rankingDate": 20260608,
     "matches": 33,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "BEL",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "birthDate": "2005-04-08",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/alexander-blockx.json"
   },
   {
@@ -453,6 +823,16 @@
     "rankingDate": 20260608,
     "matches": 147,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2004-08-25",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/alex-michelsen.json"
   },
   {
@@ -465,6 +845,16 @@
     "rankingDate": 20260608,
     "matches": 112,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2001-02-27",
+      "heightCm": 178,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/mariano-navone.json"
   },
   {
@@ -477,6 +867,16 @@
     "rankingDate": 20260608,
     "matches": 115,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "BEL",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "birthDate": "1999-06-03",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q100700157"
+    },
     "profile": "data/players/zizou-bergs.json"
   },
   {
@@ -489,6 +889,16 @@
     "rankingDate": 20260608,
     "matches": 138,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "NED",
+      "countryName": "Netherlands",
+      "flag": "🇳🇱",
+      "birthDate": "1996-07-02",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q28777443"
+    },
     "profile": "data/players/tallon-griekspoor.json"
   },
   {
@@ -501,6 +911,16 @@
     "rankingDate": 20260608,
     "matches": 116,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CAN",
+      "countryName": "Canada",
+      "flag": "🇨🇦",
+      "birthDate": "1999-04-15",
+      "heightCm": 185,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q20979382"
+    },
     "profile": "data/players/denis-shapovalov.json"
   },
   {
@@ -513,6 +933,16 @@
     "rankingDate": 20260608,
     "matches": 126,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CZE",
+      "countryName": "Czech Republic",
+      "flag": "🇨🇿",
+      "birthDate": "2000-10-13",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q61594997"
+    },
     "profile": "data/players/tomas-machac.json"
   },
   {
@@ -525,6 +955,16 @@
     "rankingDate": 20260608,
     "matches": 113,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "1997-05-05",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q17274717"
+    },
     "profile": "data/players/jaume-munar.json"
   },
   {
@@ -537,6 +977,16 @@
     "rankingDate": 20260608,
     "matches": 39,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2001-11-15",
+      "heightCm": 183,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q105636111"
+    },
     "profile": "data/players/juan-manuel-cerundolo.json"
   },
   {
@@ -549,6 +999,16 @@
     "rankingDate": 20260608,
     "matches": 96,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1988-06-29",
+      "heightCm": 180,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": "Q373522"
+    },
     "profile": "data/players/adrian-mannarino.json"
   },
   {
@@ -561,6 +1021,16 @@
     "rankingDate": 20260608,
     "matches": 58,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CRO",
+      "countryName": "Croatia",
+      "flag": "🇭🇷",
+      "birthDate": "1988-09-28",
+      "heightCm": 198,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q245241"
+    },
     "profile": "data/players/marin-cilic.json"
   },
   {
@@ -573,6 +1043,16 @@
     "rankingDate": 20260608,
     "matches": 105,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "1996-04-12",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q29918446"
+    },
     "profile": "data/players/matteo-berrettini.json"
   },
   {
@@ -585,6 +1065,16 @@
     "rankingDate": 20260608,
     "matches": 131,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "SRB",
+      "countryName": "Serbia",
+      "flag": "🇷🇸",
+      "birthDate": "1999-08-31",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q22005752"
+    },
     "profile": "data/players/miomir-kecmanovic.json"
   },
   {
@@ -597,6 +1087,16 @@
     "rankingDate": 20260608,
     "matches": 137,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "POR",
+      "countryName": "Portugal",
+      "flag": "🇵🇹",
+      "birthDate": "1997-02-19",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q106238976"
+    },
     "profile": "data/players/nuno-borges.json"
   },
   {
@@ -609,6 +1109,16 @@
     "rankingDate": 20260608,
     "matches": 38,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "BEL",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "birthDate": "2002-01-13",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/raphael-collignon.json"
   },
   {
@@ -621,6 +1131,16 @@
     "rankingDate": 20260608,
     "matches": 44,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2001-04-10",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q64747475"
+    },
     "profile": "data/players/thiago-agustin-tirante.json"
   },
   {
@@ -633,6 +1153,16 @@
     "rankingDate": 20260608,
     "matches": 50,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2002-01-09",
+      "heightCm": 193,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/terence-atmane.json"
   },
   {
@@ -645,6 +1175,16 @@
     "rankingDate": 20260608,
     "matches": 89,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CAN",
+      "countryName": "Canada",
+      "flag": "🇨🇦",
+      "birthDate": "2001-09-24",
+      "heightCm": 203,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/gabriel-diallo.json"
   },
   {
@@ -657,6 +1197,16 @@
     "rankingDate": 20260608,
     "matches": 103,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "NED",
+      "countryName": "Netherlands",
+      "flag": "🇳🇱",
+      "birthDate": "1995-10-04",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q28038578"
+    },
     "profile": "data/players/botic-van-de-zandschulp.json"
   },
   {
@@ -669,6 +1219,16 @@
     "rankingDate": 20260608,
     "matches": 131,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2000-12-28",
+      "heightCm": 170,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q47396310"
+    },
     "profile": "data/players/sebastian-baez.json"
   },
   {
@@ -681,6 +1241,16 @@
     "rankingDate": 20260608,
     "matches": 78,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "1999-06-17",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q106207380"
+    },
     "profile": "data/players/camilo-ugo-carabelli.json"
   },
   {
@@ -693,6 +1263,16 @@
     "rankingDate": 20260608,
     "matches": 27,
     "coverage": "Moderate",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "2006-01-08",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/martin-landaluce.json"
   },
   {
@@ -705,6 +1285,16 @@
     "rankingDate": 20260608,
     "matches": 88,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GER",
+      "countryName": "Germany",
+      "flag": "🇩🇪",
+      "birthDate": "1991-11-13",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q29628209"
+    },
     "profile": "data/players/yannick-hanfmann.json"
   },
   {
@@ -717,6 +1307,16 @@
     "rankingDate": 20260608,
     "matches": 111,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2000-07-05",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q47500285"
+    },
     "profile": "data/players/sebastian-korda.json"
   },
   {
@@ -729,6 +1329,16 @@
     "rankingDate": 20260608,
     "matches": 129,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "HUN",
+      "countryName": "Hungary",
+      "flag": "🇭🇺",
+      "birthDate": "1999-10-08",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/fabian-marozsan.json"
   },
   {
@@ -741,6 +1351,16 @@
     "rankingDate": 20260608,
     "matches": 32,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2002-11-29",
+      "heightCm": 175,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q66391780"
+    },
     "profile": "data/players/zachary-svajda.json"
   },
   {
@@ -753,6 +1373,16 @@
     "rankingDate": 20260608,
     "matches": 25,
     "coverage": "Moderate",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2002-01-23",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/roman-andres-burruchaga.json"
   },
   {
@@ -765,6 +1395,16 @@
     "rankingDate": 20260608,
     "matches": 127,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "DEN",
+      "countryName": "Denmark",
+      "flag": "🇩🇰",
+      "birthDate": "2003-04-29",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/holger-rune.json"
   },
   {
@@ -777,6 +1417,16 @@
     "rankingDate": 20260608,
     "matches": 55,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CZE",
+      "countryName": "Czech Republic",
+      "flag": "🇨🇿",
+      "birthDate": "1997-06-15",
+      "heightCm": 178,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q102423530"
+    },
     "profile": "data/players/vit-kopriva.json"
   },
   {
@@ -789,6 +1439,16 @@
     "rankingDate": 20260608,
     "matches": 116,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "1995-05-11",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q24061220"
+    },
     "profile": "data/players/lorenzo-sonego.json"
   },
   {
@@ -801,6 +1461,16 @@
     "rankingDate": 20260608,
     "matches": 53,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2004-03-12",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/ethan-quinn.json"
   },
   {
@@ -813,6 +1483,16 @@
     "rankingDate": 20260608,
     "matches": 69,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "SRB",
+      "countryName": "Serbia",
+      "flag": "🇷🇸",
+      "birthDate": "2003-07-18",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q106962940"
+    },
     "profile": "data/players/hamad-medjedovic.json"
   },
   {
@@ -825,6 +1505,16 @@
     "rankingDate": 20260608,
     "matches": 92,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1998-08-29",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q108523625"
+    },
     "profile": "data/players/aleksandar-kovacevic.json"
   },
   {
@@ -837,6 +1527,16 @@
     "rankingDate": 20260608,
     "matches": 32,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "CRO",
+      "countryName": "Croatia",
+      "flag": "🇭🇷",
+      "birthDate": "2005-08-05",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q106102103"
+    },
     "profile": "data/players/dino-prizmic.json"
   },
   {
@@ -849,6 +1549,16 @@
     "rankingDate": 20260608,
     "matches": 54,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "1991-07-12",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q7121592"
+    },
     "profile": "data/players/pablo-carreno-busta.json"
   },
   {
@@ -861,6 +1571,16 @@
     "rankingDate": 20260608,
     "matches": 9,
     "coverage": "Limited",
+    "identity": {
+      "countryCode": "PAR",
+      "countryName": "Paraguay",
+      "flag": "🇵🇾",
+      "birthDate": "2004-04-28",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q107493222"
+    },
     "profile": "data/players/adolfo-daniel-vallejo.json"
   },
   {
@@ -873,6 +1593,16 @@
     "rankingDate": 20260608,
     "matches": 52,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2000-10-26",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q56073233"
+    },
     "profile": "data/players/jenson-brooksby.json"
   },
   {
@@ -885,6 +1615,16 @@
     "rankingDate": 20260608,
     "matches": 36,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2001-05-29",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/valentin-royer.json"
   },
   {
@@ -897,6 +1637,16 @@
     "rankingDate": 20260608,
     "matches": 80,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "HUN",
+      "countryName": "Hungary",
+      "flag": "🇭🇺",
+      "birthDate": "1992-02-08",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q649333"
+    },
     "profile": "data/players/marton-fucsovics.json"
   },
   {
@@ -909,6 +1659,16 @@
     "rankingDate": 20260608,
     "matches": 46,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "POL",
+      "countryName": "Poland",
+      "flag": "🇵🇱",
+      "birthDate": "1996-01-13",
+      "heightCm": 180,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q14840592"
+    },
     "profile": "data/players/kamil-majchrzak.json"
   },
   {
@@ -921,6 +1681,16 @@
     "rankingDate": 20260608,
     "matches": 106,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GER",
+      "countryName": "Germany",
+      "flag": "🇩🇪",
+      "birthDate": "1990-04-25",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q1681537"
+    },
     "profile": "data/players/jan-lennard-struff.json"
   },
   {
@@ -933,6 +1703,16 @@
     "rankingDate": 20260608,
     "matches": 58,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "flag": "🇮🇹",
+      "birthDate": "2001-06-01",
+      "heightCm": 175,
+      "hand": "L",
+      "handLabel": "Left-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/mattia-bellucci.json"
   },
   {
@@ -945,6 +1725,16 @@
     "rankingDate": 20260608,
     "matches": 56,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "flag": "🇦🇺",
+      "birthDate": "1992-01-21",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q1336011"
+    },
     "profile": "data/players/james-duckworth.json"
   },
   {
@@ -957,6 +1747,16 @@
     "rankingDate": 20260608,
     "matches": 22,
     "coverage": "Moderate",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "1990-01-31",
+      "heightCm": 178,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q3183203"
+    },
     "profile": "data/players/marco-trungelliti.json"
   },
   {
@@ -969,6 +1769,16 @@
     "rankingDate": 20260608,
     "matches": 57,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2002-08-23",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q85626140"
+    },
     "profile": "data/players/arthur-cazaux.json"
   },
   {
@@ -981,6 +1791,16 @@
     "rankingDate": 20260608,
     "matches": 11,
     "coverage": "Limited",
+    "identity": {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "flag": "🇪🇸",
+      "birthDate": "2004-09-26",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/daniel-merida-aguilar.json"
   },
   {
@@ -993,6 +1813,16 @@
     "rankingDate": 20260608,
     "matches": 51,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "NED",
+      "countryName": "Netherlands",
+      "flag": "🇳🇱",
+      "birthDate": "2000-05-31",
+      "heightCm": 180,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q60239470"
+    },
     "profile": "data/players/jesper-de-jong.json"
   },
   {
@@ -1005,6 +1835,16 @@
     "rankingDate": 20260608,
     "matches": 136,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GRE",
+      "countryName": "Greece",
+      "flag": "🇬🇷",
+      "birthDate": "1998-08-12",
+      "heightCm": 193,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q24450982"
+    },
     "profile": "data/players/stefanos-tsitsipas.json"
   },
   {
@@ -1017,6 +1857,16 @@
     "rankingDate": 20260608,
     "matches": 107,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "GER",
+      "countryName": "Germany",
+      "flag": "🇩🇪",
+      "birthDate": "1998-09-12",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q30005211"
+    },
     "profile": "data/players/daniel-altmaier.json"
   },
   {
@@ -1029,6 +1879,16 @@
     "rankingDate": 20260608,
     "matches": 78,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1997-08-28",
+      "heightCm": 211,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q20655502"
+    },
     "profile": "data/players/reilly-opelka.json"
   },
   {
@@ -1041,6 +1901,16 @@
     "rankingDate": 20260608,
     "matches": 35,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2001-12-02",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q60990844"
+    },
     "profile": "data/players/emilio-nava.json"
   },
   {
@@ -1053,6 +1923,16 @@
     "rankingDate": 20260608,
     "matches": 123,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "1993-07-24",
+      "heightCm": 180,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q17478053"
+    },
     "profile": "data/players/marcos-giron.json"
   },
   {
@@ -1065,6 +1945,16 @@
     "rankingDate": 20260608,
     "matches": 72,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "flag": "🇦🇷",
+      "birthDate": "2000-10-06",
+      "heightCm": 178,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/francisco-comesana.json"
   },
   {
@@ -1077,6 +1967,16 @@
     "rankingDate": 20260608,
     "matches": 112,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "flag": "🇦🇺",
+      "birthDate": "1999-08-05",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q30143529"
+    },
     "profile": "data/players/alexei-popyrin.json"
   },
   {
@@ -1089,6 +1989,16 @@
     "rankingDate": 20260608,
     "matches": 62,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "flag": "🇦🇺",
+      "birthDate": "1999-04-17",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/adam-walton.json"
   },
   {
@@ -1101,6 +2011,16 @@
     "rankingDate": 20260608,
     "matches": 76,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1996-10-26",
+      "heightCm": 191,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q18001228"
+    },
     "profile": "data/players/quentin-halys.json"
   },
   {
@@ -1113,6 +2033,16 @@
     "rankingDate": 20260608,
     "matches": 92,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2003-07-08",
+      "heightCm": 203,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q107207704"
+    },
     "profile": "data/players/giovanni-mpetshi-perricard.json"
   },
   {
@@ -1125,6 +2055,16 @@
     "rankingDate": 20260608,
     "matches": 28,
     "coverage": "Moderate",
+    "identity": {
+      "countryCode": "POR",
+      "countryName": "Portugal",
+      "flag": "🇵🇹",
+      "birthDate": "2003-08-06",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/jaime-faria.json"
   },
   {
@@ -1137,6 +2077,16 @@
     "rankingDate": 20260608,
     "matches": 21,
     "coverage": "Moderate",
+    "identity": {
+      "countryCode": "USA",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "birthDate": "2001-12-23",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q67186609"
+    },
     "profile": "data/players/eliot-spizzirri.json"
   },
   {
@@ -1149,6 +2099,16 @@
     "rankingDate": 20260608,
     "matches": 106,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "POL",
+      "countryName": "Poland",
+      "flag": "🇵🇱",
+      "birthDate": "1997-02-11",
+      "heightCm": 196,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q18927958"
+    },
     "profile": "data/players/hubert-hurkacz.json"
   },
   {
@@ -1161,6 +2121,16 @@
     "rankingDate": 20260608,
     "matches": 101,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "KAZ",
+      "countryName": "Kazakhstan",
+      "flag": "🇰🇿",
+      "birthDate": "2000-11-29",
+      "heightCm": 185,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": null
+    },
     "profile": "data/players/alexander-shevchenko.json"
   },
   {
@@ -1173,6 +2143,16 @@
     "rankingDate": 20260608,
     "matches": 37,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "2004-05-11",
+      "heightCm": 178,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q107205896"
+    },
     "profile": "data/players/luca-van-assche.json"
   },
   {
@@ -1185,6 +2165,16 @@
     "rankingDate": 20260608,
     "matches": 52,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "birthDate": "1996-06-09",
+      "heightCm": 183,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q18125349"
+    },
     "profile": "data/players/benjamin-bonzi.json"
   },
   {
@@ -1197,6 +2187,16 @@
     "rankingDate": 20260608,
     "matches": 101,
     "coverage": "Strong",
+    "identity": {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "flag": "🇦🇺",
+      "birthDate": "1996-04-06",
+      "heightCm": 188,
+      "hand": "R",
+      "handLabel": "Right-handed",
+      "wikidataId": "Q47090843"
+    },
     "profile": "data/players/aleksandar-vukic.json"
   }
 ]

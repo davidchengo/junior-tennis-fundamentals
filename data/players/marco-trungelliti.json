@@ -54,5 +54,32 @@
       "losses": 8,
       "winRate": 38.5
     }
+  },
+  "identity": {
+    "countryCode": "ARG",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "birthDate": "1990-01-31",
+    "heightCm": 178,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q3183203"
+  },
+  "ranking": {
+    "rank": 80,
+    "points": 758,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Marco Trungelliti.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Marco_Trungelliti.jpg/500px-Marco_Trungelliti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Marco_Trungelliti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Carine06",
+    "credit": "Flickr : Marco Trungelliti",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

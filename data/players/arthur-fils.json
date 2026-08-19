@@ -76,5 +76,29 @@
       "losses": 19,
       "winRate": 68.9
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "2004-06-12",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q107207693"
+  },
+  "ranking": {
+    "rank": 21,
+    "points": 1940,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Arthur Fils at EFG Swiss Open Gstaad 2023 Pic Gordon Simmonds.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Arthur_Fils_at_EFG_Swiss_Open_Gstaad_2023_Pic_Gordon_Simmonds.jpg/500px-Arthur_Fils_at_EFG_Swiss_Open_Gstaad_2023_Pic_Gordon_Simmonds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Arthur_Fils_at_EFG_Swiss_Open_Gstaad_2023_Pic_Gordon_Simmonds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,29 @@
       "losses": 28,
       "winRate": 56.2
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "1995-07-23",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q54007388"
+  },
+  "ranking": {
+    "rank": 24,
+    "points": 1776,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Rinderknech RG18 (42978781661).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Rinderknech_RG18_%2842978781661%29.jpg/500px-Rinderknech_RG18_%2842978781661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rinderknech_RG18_%2842978781661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

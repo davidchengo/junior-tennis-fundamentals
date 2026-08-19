@@ -60,5 +60,21 @@
       "losses": 10,
       "winRate": 41.2
     }
-  }
+  },
+  "identity": {
+    "countryCode": "ESP",
+    "countryName": "Spain",
+    "flag": "🇪🇸",
+    "birthDate": "2006-01-08",
+    "heightCm": 191,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 58,
+    "points": 919,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

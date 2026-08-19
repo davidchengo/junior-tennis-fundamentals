@@ -76,5 +76,32 @@
       "losses": 18,
       "winRate": 71.9
     }
+  },
+  "identity": {
+    "countryCode": "GRE",
+    "countryName": "Greece",
+    "flag": "🇬🇷",
+    "birthDate": "1998-08-12",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q24450982"
+  },
+  "ranking": {
+    "rank": 84,
+    "points": 740,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Tsitsipas S. MCM22 (20) (52036915350).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tsitsipas_S._MCM22_%2820%29_%2852036915350%29.jpg/500px-Tsitsipas_S._MCM22_%2820%29_%2852036915350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tsitsipas_S._MCM22_%2820%29_%2852036915350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Tsitsipas S. MCM22 (20)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

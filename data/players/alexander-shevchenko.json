@@ -76,5 +76,32 @@
       "losses": 24,
       "winRate": 56.4
     }
+  },
+  "identity": {
+    "countryCode": "KAZ",
+    "countryName": "Kazakhstan",
+    "flag": "🇰🇿",
+    "birthDate": "2000-11-29",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 97,
+    "points": 633,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Alexander Shevchenko (2023 DC Open) 01 (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Alexander_Shevchenko_%282023_DC_Open%29_01_%28cropped%29.jpg/500px-Alexander_Shevchenko_%282023_DC_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Alexander_Shevchenko_%282023_DC_Open%29_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

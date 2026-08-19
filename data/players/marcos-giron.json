@@ -76,5 +76,32 @@
       "losses": 22,
       "winRate": 64.5
     }
+  },
+  "identity": {
+    "countryCode": "USA",
+    "countryName": "United States",
+    "flag": "🇺🇸",
+    "birthDate": "1993-07-24",
+    "heightCm": 180,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q17478053"
+  },
+  "ranking": {
+    "rank": 88,
+    "points": 705,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Giron RG22 (4) (52144109873).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Giron_RG22_%284%29_%2852144109873%29.jpg/500px-Giron_RG22_%284%29_%2852144109873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Giron_RG22_%284%29_%2852144109873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Giron RG22 (4)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

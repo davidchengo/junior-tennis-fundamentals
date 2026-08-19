@@ -76,5 +76,32 @@
       "losses": 22,
       "winRate": 61.4
     }
+  },
+  "identity": {
+    "countryCode": "FRA",
+    "countryName": "France",
+    "flag": "🇫🇷",
+    "birthDate": "1999-04-19",
+    "heightCm": 180,
+    "hand": "L",
+    "handLabel": "Left-handed",
+    "wikidataId": "Q30078104"
+  },
+  "ranking": {
+    "rank": 36,
+    "points": 1283,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Corentin Moutet (45135594272) (cropped).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Corentin_Moutet_%2845135594272%29_%28cropped%29.jpg/500px-Corentin_Moutet_%2845135594272%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Corentin_Moutet_%2845135594272%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Carine06 from UK",
+    "credit": "Corentin Moutet",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

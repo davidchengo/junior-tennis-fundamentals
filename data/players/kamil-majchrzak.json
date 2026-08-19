@@ -76,5 +76,32 @@
       "losses": 13,
       "winRate": 55.2
     }
+  },
+  "identity": {
+    "countryCode": "POL",
+    "countryName": "Poland",
+    "flag": "🇵🇱",
+    "birthDate": "1996-01-13",
+    "heightCm": 180,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q14840592"
+  },
+  "ranking": {
+    "rank": 76,
+    "points": 782,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Majchrzak RG21 (2) (51376823294).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Majchrzak_RG21_%282%29_%2851376823294%29.jpg/500px-Majchrzak_RG21_%282%29_%2851376823294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Majchrzak_RG21_%282%29_%2851376823294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Majchrzak RG21 (2)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

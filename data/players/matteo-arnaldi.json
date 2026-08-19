@@ -76,5 +76,32 @@
       "losses": 23,
       "winRate": 59.6
     }
+  },
+  "identity": {
+    "countryCode": "ITA",
+    "countryName": "Italy",
+    "flag": "🇮🇹",
+    "birthDate": "2001-02-22",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 34,
+    "points": 1336,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Arnaldi WMQ23 (53061134932).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Arnaldi_WMQ23_%2853061134932%29.jpg/500px-Arnaldi_WMQ23_%2853061134932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Arnaldi_WMQ23_%2853061134932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Arnaldi WMQ23",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

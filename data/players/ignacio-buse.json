@@ -60,5 +60,21 @@
       "losses": 9,
       "winRate": 57.1
     }
-  }
+  },
+  "identity": {
+    "countryCode": "PER",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "birthDate": "2004-03-25",
+    "heightCm": 185,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 35,
+    "points": 1316,
+    "rankingDate": 20260608
+  },
+  "image": null
 }

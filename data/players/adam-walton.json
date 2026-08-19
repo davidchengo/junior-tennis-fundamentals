@@ -76,5 +76,32 @@
       "losses": 23,
       "winRate": 42.5
     }
+  },
+  "identity": {
+    "countryCode": "AUS",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "birthDate": "1999-04-17",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 91,
+    "points": 679,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Adam Walton at 2025 Miami Open 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Adam_Walton_at_2025_Miami_Open_01.jpg/500px-Adam_Walton_at_2025_Miami_Open_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Adam_Walton_at_2025_Miami_Open_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vbrunophotog",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 19,
       "winRate": 66.1
     }
+  },
+  "identity": {
+    "countryCode": "CZE",
+    "countryName": "Czech Republic",
+    "flag": "🇨🇿",
+    "birthDate": "2000-10-13",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q61594997"
+  },
+  "ranking": {
+    "rank": 43,
+    "points": 1120,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Machac MLC22.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Machac_MLC22.jpg/500px-Machac_MLC22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Machac_MLC22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "https://www.flickr.com/photos/16732597@N07/52423087119/",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

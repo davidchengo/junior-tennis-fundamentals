@@ -76,5 +76,32 @@
       "losses": 24,
       "winRate": 52.0
     }
+  },
+  "identity": {
+    "countryCode": "AUS",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "birthDate": "1999-08-05",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q30143529"
+  },
+  "ranking": {
+    "rank": 90,
+    "points": 680,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Popyrin RG19 (46) (48199101562).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Popyrin_RG19_%2846%29_%2848199101562%29.jpg/500px-Popyrin_RG19_%2846%29_%2848199101562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Popyrin_RG19_%2846%29_%2848199101562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Popyrin RG19 (46)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

@@ -76,5 +76,32 @@
       "losses": 20,
       "winRate": 37.5
     }
+  },
+  "identity": {
+    "countryCode": "AUS",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "birthDate": "1992-01-21",
+    "heightCm": 183,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q1336011"
+  },
+  "ranking": {
+    "rank": 79,
+    "points": 762,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Duckworth WMQ14 (3) (14420344920).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Duckworth_WMQ14_%283%29_%2814420344920%29.jpg/500px-Duckworth_WMQ14_%283%29_%2814420344920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Duckworth_WMQ14_%283%29_%2814420344920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Duckworth WMQ14 (3)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

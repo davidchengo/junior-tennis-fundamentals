@@ -76,5 +76,32 @@
       "losses": 12,
       "winRate": 74.5
     }
+  },
+  "identity": {
+    "countryCode": "POL",
+    "countryName": "Poland",
+    "flag": "🇵🇱",
+    "birthDate": "1997-02-11",
+    "heightCm": 196,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": "Q18927958"
+  },
+  "ranking": {
+    "rank": 96,
+    "points": 640,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Hurkacz RG19 (10) (48199235282).jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Hurkacz_RG19_%2810%29_%2848199235282%29.jpg/500px-Hurkacz_RG19_%2810%29_%2848199235282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Hurkacz_RG19_%2810%29_%2848199235282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "si.robi",
+    "credit": "Hurkacz RG19 (10)",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }

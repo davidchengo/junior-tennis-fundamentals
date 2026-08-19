@@ -76,5 +76,32 @@
       "losses": 25,
       "winRate": 57.6
     }
+  },
+  "identity": {
+    "countryCode": "HUN",
+    "countryName": "Hungary",
+    "flag": "🇭🇺",
+    "birthDate": "1999-10-08",
+    "heightCm": 193,
+    "hand": "R",
+    "handLabel": "Right-handed",
+    "wikidataId": null
+  },
+  "ranking": {
+    "rank": 61,
+    "points": 895,
+    "rankingDate": 20260608
+  },
+  "image": {
+    "file": "Fábián Marozsán (2024 US Open) 01.jpg",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/F%C3%A1bi%C3%A1n_Marozs%C3%A1n_%282024_US_Open%29_01.jpg/500px-F%C3%A1bi%C3%A1n_Marozs%C3%A1n_%282024_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/F%C3%A1bi%C3%A1n_Marozs%C3%A1n_%282024_US_Open%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Hameltion",
+    "credit": "Own work",
+    "attribution": null,
+    "attributionRequired": "true",
+    "source": "Wikimedia Commons"
   }
 }
