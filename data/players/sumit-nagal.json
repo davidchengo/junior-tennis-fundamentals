@@ -1,0 +1,74 @@
+{
+  "name": "Sumit Nagal",
+  "slug": "sumit-nagal",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 29,
+    "wins": 7,
+    "losses": 22,
+    "winRate": 24.1,
+    "firstServePct": 69.0,
+    "firstServeWonPct": 61.2,
+    "secondServeWonPct": 50.4,
+    "breakPointConversionPct": 30.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 15,
+      "wins": 3,
+      "losses": 12,
+      "winRate": 20.0,
+      "firstServePct": 67.7,
+      "firstServeWonPct": 59.9,
+      "secondServeWonPct": 49.8,
+      "breakPointConversionPct": 36.4
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 4,
+      "losses": 9,
+      "winRate": 30.8,
+      "firstServePct": 70.5,
+      "firstServeWonPct": 61.7,
+      "secondServeWonPct": 52.9,
+      "breakPointConversionPct": 27.2
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 65.3,
+      "firstServeWonPct": 65.8,
+      "secondServeWonPct": 35.7,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 5,
+      "losses": 12,
+      "winRate": 29.4
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Yoshihito Nishioka",
+  "slug": "yoshihito-nishioka",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 68,
+    "wins": 30,
+    "losses": 38,
+    "winRate": 44.1,
+    "firstServePct": 62.5,
+    "firstServeWonPct": 68.0,
+    "secondServeWonPct": 53.0,
+    "breakPointConversionPct": 40.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 50,
+      "wins": 23,
+      "losses": 27,
+      "winRate": 46.0,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 68.4,
+      "secondServeWonPct": 52.0,
+      "breakPointConversionPct": 39.7
+    },
+    "Clay": {
+      "matches": 11,
+      "wins": 4,
+      "losses": 7,
+      "winRate": 36.4,
+      "firstServePct": 62.2,
+      "firstServeWonPct": 64.6,
+      "secondServeWonPct": 52.7,
+      "breakPointConversionPct": 45.2
+    },
+    "Grass": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9,
+      "firstServePct": 63.9,
+      "firstServeWonPct": 70.4,
+      "secondServeWonPct": 58.9,
+      "breakPointConversionPct": 38.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 12,
+      "wins": 2,
+      "losses": 10,
+      "winRate": 16.7
+    },
+    "rank21to50": {
+      "matches": 16,
+      "wins": 7,
+      "losses": 9,
+      "winRate": 43.8
+    },
+    "rank51plus": {
+      "matches": 40,
+      "wins": 21,
+      "losses": 19,
+      "winRate": 52.5
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Milos Raonic",
+  "slug": "milos-raonic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 12,
+    "wins": 6,
+    "losses": 6,
+    "winRate": 50.0,
+    "firstServePct": 62.5,
+    "firstServeWonPct": 83.6,
+    "secondServeWonPct": 54.3,
+    "breakPointConversionPct": 23.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0,
+      "firstServePct": 58.6,
+      "firstServeWonPct": 82.7,
+      "secondServeWonPct": 57.4,
+      "breakPointConversionPct": 20.6
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 65.9,
+      "firstServeWonPct": 83.1,
+      "secondServeWonPct": 44.2,
+      "breakPointConversionPct": null
+    },
+    "Grass": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0,
+      "firstServePct": 64.5,
+      "firstServeWonPct": 84.4,
+      "secondServeWonPct": 54.8,
+      "breakPointConversionPct": 25.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 3,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 75.0
+    }
+  }
+}

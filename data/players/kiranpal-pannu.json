@@ -1,0 +1,42 @@
+{
+  "name": "Kiranpal Pannu",
+  "slug": "kiranpal-pannu",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 1,
+    "losses": 3,
+    "winRate": 25.0,
+    "firstServePct": 67.0,
+    "firstServeWonPct": 74.0,
+    "secondServeWonPct": 41.7,
+    "breakPointConversionPct": 26.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 67.0,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 41.7,
+      "breakPointConversionPct": 26.1
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

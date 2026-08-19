@@ -1,0 +1,36 @@
+{
+  "name": "Rigele Te",
+  "slug": "rigele-te",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 51.6,
+    "firstServeWonPct": 70.8,
+    "secondServeWonPct": 48.9,
+    "breakPointConversionPct": 22.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 51.6,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 48.9,
+      "breakPointConversionPct": 22.2
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

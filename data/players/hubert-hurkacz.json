@@ -1,0 +1,80 @@
+{
+  "name": "Hubert Hurkacz",
+  "slug": "hubert-hurkacz",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 106,
+    "wins": 64,
+    "losses": 42,
+    "winRate": 60.4,
+    "firstServePct": 63.6,
+    "firstServeWonPct": 78.0,
+    "secondServeWonPct": 53.7,
+    "breakPointConversionPct": 34.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 60,
+      "wins": 33,
+      "losses": 27,
+      "winRate": 55.0,
+      "firstServePct": 63.4,
+      "firstServeWonPct": 78.9,
+      "secondServeWonPct": 53.9,
+      "breakPointConversionPct": 32.6
+    },
+    "Clay": {
+      "matches": 37,
+      "wins": 25,
+      "losses": 12,
+      "winRate": 67.6,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 75.7,
+      "secondServeWonPct": 53.0,
+      "breakPointConversionPct": 38.6
+    },
+    "Grass": {
+      "matches": 9,
+      "wins": 6,
+      "losses": 3,
+      "winRate": 66.7,
+      "firstServePct": 67.9,
+      "firstServeWonPct": 80.9,
+      "secondServeWonPct": 55.2,
+      "breakPointConversionPct": 30.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9
+    },
+    "top10": {
+      "matches": 18,
+      "wins": 5,
+      "losses": 13,
+      "winRate": 27.8
+    },
+    "top20": {
+      "matches": 27,
+      "wins": 7,
+      "losses": 20,
+      "winRate": 25.9
+    },
+    "rank21to50": {
+      "matches": 32,
+      "wins": 22,
+      "losses": 10,
+      "winRate": 68.8
+    },
+    "rank51plus": {
+      "matches": 47,
+      "wins": 35,
+      "losses": 12,
+      "winRate": 74.5
+    }
+  }
+}

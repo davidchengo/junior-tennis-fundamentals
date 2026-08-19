@@ -1,0 +1,52 @@
+{
+  "name": "Abedallah Shelbayh",
+  "slug": "abedallah-shelbayh",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 0,
+    "losses": 4,
+    "winRate": 0.0,
+    "firstServePct": 59.5,
+    "firstServeWonPct": 61.8,
+    "secondServeWonPct": 46.7,
+    "breakPointConversionPct": 45.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0,
+      "firstServePct": 59.5,
+      "firstServeWonPct": 61.6,
+      "secondServeWonPct": 48.2,
+      "breakPointConversionPct": 45.5
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 59.3,
+      "firstServeWonPct": 62.5,
+      "secondServeWonPct": 40.9,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

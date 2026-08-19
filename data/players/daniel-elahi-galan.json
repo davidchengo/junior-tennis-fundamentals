@@ -1,0 +1,80 @@
+{
+  "name": "Daniel Elahi Galan",
+  "slug": "daniel-elahi-galan",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 31,
+    "wins": 9,
+    "losses": 22,
+    "winRate": 29.0,
+    "firstServePct": 61.3,
+    "firstServeWonPct": 66.8,
+    "secondServeWonPct": 45.8,
+    "breakPointConversionPct": 36.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 9,
+      "wins": 3,
+      "losses": 6,
+      "winRate": 33.3,
+      "firstServePct": 59.9,
+      "firstServeWonPct": 68.0,
+      "secondServeWonPct": 42.4,
+      "breakPointConversionPct": 40.6
+    },
+    "Clay": {
+      "matches": 21,
+      "wins": 6,
+      "losses": 15,
+      "winRate": 28.6,
+      "firstServePct": 61.7,
+      "firstServeWonPct": 65.7,
+      "secondServeWonPct": 47.0,
+      "breakPointConversionPct": 34.3
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 67.0,
+      "firstServeWonPct": 76.3,
+      "secondServeWonPct": 62.1,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 21,
+      "wins": 9,
+      "losses": 12,
+      "winRate": 42.9
+    }
+  }
+}

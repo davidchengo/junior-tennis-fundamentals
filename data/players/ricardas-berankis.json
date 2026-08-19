@@ -1,0 +1,36 @@
+{
+  "name": "Ricardas Berankis",
+  "slug": "ricardas-berankis",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 2,
+    "losses": 0,
+    "winRate": 100.0,
+    "firstServePct": 56.3,
+    "firstServeWonPct": 68.8,
+    "secondServeWonPct": 52.9,
+    "breakPointConversionPct": 28.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": 56.3,
+      "firstServeWonPct": 68.8,
+      "secondServeWonPct": 52.9,
+      "breakPointConversionPct": 28.6
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 100.0
+    }
+  }
+}

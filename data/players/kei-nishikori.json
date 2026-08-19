@@ -1,0 +1,68 @@
+{
+  "name": "Kei Nishikori",
+  "slug": "kei-nishikori",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 37,
+    "wins": 18,
+    "losses": 19,
+    "winRate": 48.6,
+    "firstServePct": 67.0,
+    "firstServeWonPct": 65.8,
+    "secondServeWonPct": 52.0,
+    "breakPointConversionPct": 37.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 27,
+      "wins": 14,
+      "losses": 13,
+      "winRate": 51.9,
+      "firstServePct": 66.2,
+      "firstServeWonPct": 67.9,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 39.0
+    },
+    "Clay": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4,
+      "firstServePct": 68.2,
+      "firstServeWonPct": 61.8,
+      "secondServeWonPct": 49.8,
+      "breakPointConversionPct": 32.8
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 70.9,
+      "firstServeWonPct": 61.3,
+      "secondServeWonPct": 60.8,
+      "breakPointConversionPct": 37.5
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "rank21to50": {
+      "matches": 12,
+      "wins": 5,
+      "losses": 7,
+      "winRate": 41.7
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 11,
+      "losses": 6,
+      "winRate": 64.7
+    }
+  }
+}

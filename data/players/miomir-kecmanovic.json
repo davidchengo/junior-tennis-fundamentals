@@ -1,0 +1,80 @@
+{
+  "name": "Miomir Kecmanovic",
+  "slug": "miomir-kecmanovic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 131,
+    "wins": 59,
+    "losses": 72,
+    "winRate": 45.0,
+    "firstServePct": 61.8,
+    "firstServeWonPct": 72.1,
+    "secondServeWonPct": 51.6,
+    "breakPointConversionPct": 38.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 90,
+      "wins": 43,
+      "losses": 47,
+      "winRate": 47.8,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 72.6,
+      "secondServeWonPct": 51.6,
+      "breakPointConversionPct": 39.7
+    },
+    "Clay": {
+      "matches": 28,
+      "wins": 10,
+      "losses": 18,
+      "winRate": 35.7,
+      "firstServePct": 61.8,
+      "firstServeWonPct": 69.0,
+      "secondServeWonPct": 50.5,
+      "breakPointConversionPct": 35.5
+    },
+    "Grass": {
+      "matches": 13,
+      "wins": 6,
+      "losses": 7,
+      "winRate": 46.2,
+      "firstServePct": 64.3,
+      "firstServeWonPct": 73.9,
+      "secondServeWonPct": 53.5,
+      "breakPointConversionPct": 36.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 12,
+      "wins": 2,
+      "losses": 10,
+      "winRate": 16.7
+    },
+    "top20": {
+      "matches": 25,
+      "wins": 5,
+      "losses": 20,
+      "winRate": 20.0
+    },
+    "rank21to50": {
+      "matches": 37,
+      "wins": 19,
+      "losses": 18,
+      "winRate": 51.4
+    },
+    "rank51plus": {
+      "matches": 69,
+      "wins": 35,
+      "losses": 34,
+      "winRate": 50.7
+    }
+  }
+}

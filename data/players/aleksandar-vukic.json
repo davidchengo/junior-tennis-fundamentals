@@ -1,0 +1,80 @@
+{
+  "name": "Aleksandar Vukic",
+  "slug": "aleksandar-vukic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 101,
+    "wins": 40,
+    "losses": 61,
+    "winRate": 39.6,
+    "firstServePct": 58.7,
+    "firstServeWonPct": 72.8,
+    "secondServeWonPct": 49.7,
+    "breakPointConversionPct": 35.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 64,
+      "wins": 25,
+      "losses": 39,
+      "winRate": 39.1,
+      "firstServePct": 58.3,
+      "firstServeWonPct": 72.7,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 36.1
+    },
+    "Clay": {
+      "matches": 20,
+      "wins": 6,
+      "losses": 14,
+      "winRate": 30.0,
+      "firstServePct": 58.3,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 46.5,
+      "breakPointConversionPct": 37.8
+    },
+    "Grass": {
+      "matches": 17,
+      "wins": 9,
+      "losses": 8,
+      "winRate": 52.9,
+      "firstServePct": 60.4,
+      "firstServeWonPct": 75.0,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 32.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 1,
+      "losses": 7,
+      "winRate": 12.5
+    },
+    "top20": {
+      "matches": 18,
+      "wins": 2,
+      "losses": 16,
+      "winRate": 11.1
+    },
+    "rank21to50": {
+      "matches": 26,
+      "wins": 12,
+      "losses": 14,
+      "winRate": 46.2
+    },
+    "rank51plus": {
+      "matches": 57,
+      "wins": 26,
+      "losses": 31,
+      "winRate": 45.6
+    }
+  }
+}

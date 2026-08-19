@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pro Lab | Rally School</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pro-lab.css">
+</head>
+
+<body>
+
+<main class="pro-lab">
+
+  <a class="back-link" href="index.html">← Rally School</a>
+
+  <section class="lab-hero">
+
+    <p class="eyebrow">RALLY SCHOOL PRO LAB</p>
+
+    <h1>Build Your Battle</h1>
+
+    <p class="hero-copy">
+      Choose two ATP players and discover how their games compare
+      using real match data.
+    </p>
+
+    <div class="battle-picker">
+
+      <div class="player-picker">
+        <label for="player1">PLAYER 1</label>
+        <select id="player1"></select>
+        <div id="player1-info" class="player-info"></div>
+      </div>
+
+      <div class="versus">VS</div>
+
+      <div class="player-picker">
+        <label for="player2">PLAYER 2</label>
+        <select id="player2"></select>
+        <div id="player2-info" class="player-info"></div>
+      </div>
+
+    </div>
+
+    <button id="start-battle" class="battle-button">
+      ⚔ Start Battle
+    </button>
+
+    <p id="battle-error" class="battle-error"></p>
+
+  </section>
+
+
+  <section id="battle-results" class="battle-results hidden">
+
+    <div class="battle-title">
+
+      <div>
+        <span id="p1-rank" class="ranking"></span>
+        <h2 id="p1-name"></h2>
+      </div>
+
+      <div class="battle-score">
+        <span>HEAD TO HEAD</span>
+        <strong>
+          <span id="p1-wins"></span>
+          —
+          <span id="p2-wins"></span>
+        </strong>
+        <small id="meeting-count"></small>
+      </div>
+
+      <div>
+        <span id="p2-rank" class="ranking"></span>
+        <h2 id="p2-name"></h2>
+      </div>
+
+    </div>
+
+
+    <section class="lab-panel">
+
+      <p class="eyebrow">OVERALL PERFORMANCE</p>
+      <h2>Who has the statistical edge?</h2>
+
+      <div id="overall-metrics" class="metric-grid"></div>
+
+    </section>
+
+
+    <section class="lab-panel">
+
+      <p class="eyebrow">SURFACE BATTLE</p>
+      <h2>Choose your battlefield</h2>
+
+      <div class="battlefield-picker" id="battlefield-picker">
+        <button class="battlefield-button active" data-surface="Overall">
+          Overall
+        </button>
+        <button class="battlefield-button" data-surface="Hard">
+          Hard
+        </button>
+        <button class="battlefield-button" data-surface="Clay">
+          Clay
+        </button>
+        <button class="battlefield-button" data-surface="Grass">
+          Grass
+        </button>
+      </div>
+
+      <p id="battlefield-summary" class="section-copy"></p>
+
+      <div id="surface-battle" class="surface-grid"></div>
+
+    </section>
+
+
+    <section id="matchup-section" class="lab-panel">
+
+      <p class="eyebrow">MATCHUP EFFECT</p>
+      <h2>What changes when they face each other?</h2>
+
+      <p id="matchup-message" class="section-copy"></p>
+
+      <div id="matchup-metrics" class="metric-grid"></div>
+
+    </section>
+
+
+    <section class="lab-panel">
+
+      <p class="eyebrow">PATH TO VICTORY</p>
+      <h2>What does the data suggest?</h2>
+
+      <div class="path-grid">
+
+        <article class="path-card">
+          <h3 id="p1-path-title"></h3>
+          <ul id="p1-path"></ul>
+        </article>
+
+        <article class="path-card">
+          <h3 id="p2-path-title"></h3>
+          <ul id="p2-path"></ul>
+        </article>
+
+      </div>
+
+      <p class="methodology">
+        Paths to victory are descriptive interpretations of historical
+        statistics, not predictions of future match outcomes.
+      </p>
+
+    </section>
+
+  </section>
+
+</main>
+
+<script src="pro-lab.js"></script>
+
+</body>
+</html>

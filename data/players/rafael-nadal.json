@@ -1,0 +1,70 @@
+{
+  "name": "Rafael Nadal",
+  "slug": "rafael-nadal",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 20,
+    "wins": 12,
+    "losses": 8,
+    "winRate": 60.0,
+    "firstServePct": 69.0,
+    "firstServeWonPct": 66.6,
+    "secondServeWonPct": 50.7,
+    "breakPointConversionPct": 45.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 66.9,
+      "firstServeWonPct": 75.8,
+      "secondServeWonPct": 53.3,
+      "breakPointConversionPct": 43.5
+    },
+    "Clay": {
+      "matches": 16,
+      "wins": 10,
+      "losses": 6,
+      "winRate": 62.5,
+      "firstServePct": 69.5,
+      "firstServeWonPct": 64.5,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 45.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 66.7
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 9,
+      "losses": 3,
+      "winRate": 75.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Steve Johnson",
+  "slug": "steve-johnson",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 52.4,
+    "firstServeWonPct": 60.6,
+    "secondServeWonPct": 46.7,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 52.4,
+      "firstServeWonPct": 60.6,
+      "secondServeWonPct": 46.7,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

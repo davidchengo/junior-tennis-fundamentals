@@ -1,0 +1,36 @@
+{
+  "name": "Giles Hussey",
+  "slug": "giles-hussey",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50.0,
+    "firstServePct": 65.3,
+    "firstServeWonPct": 77.8,
+    "secondServeWonPct": 48.8,
+    "breakPointConversionPct": 63.6
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 65.3,
+      "firstServeWonPct": 77.8,
+      "secondServeWonPct": 48.8,
+      "breakPointConversionPct": 63.6
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

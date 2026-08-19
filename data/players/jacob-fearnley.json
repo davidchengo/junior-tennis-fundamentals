@@ -1,0 +1,80 @@
+{
+  "name": "Jacob Fearnley",
+  "slug": "jacob-fearnley",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 50,
+    "wins": 20,
+    "losses": 30,
+    "winRate": 40.0,
+    "firstServePct": 61.6,
+    "firstServeWonPct": 70.5,
+    "secondServeWonPct": 47.0,
+    "breakPointConversionPct": 40.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 26,
+      "wins": 9,
+      "losses": 17,
+      "winRate": 34.6,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 68.6,
+      "secondServeWonPct": 46.7,
+      "breakPointConversionPct": 40.3
+    },
+    "Clay": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "winRate": 50.0,
+      "firstServePct": 59.4,
+      "firstServeWonPct": 72.8,
+      "secondServeWonPct": 44.8,
+      "breakPointConversionPct": 40.2
+    },
+    "Grass": {
+      "matches": 10,
+      "wins": 4,
+      "losses": 6,
+      "winRate": 40.0,
+      "firstServePct": 64.1,
+      "firstServeWonPct": 72.4,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 40.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 7,
+      "wins": 0,
+      "losses": 7,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 10,
+      "wins": 1,
+      "losses": 9,
+      "winRate": 10.0
+    },
+    "rank21to50": {
+      "matches": 10,
+      "wins": 4,
+      "losses": 6,
+      "winRate": 40.0
+    },
+    "rank51plus": {
+      "matches": 29,
+      "wins": 14,
+      "losses": 15,
+      "winRate": 48.3
+    }
+  }
+}

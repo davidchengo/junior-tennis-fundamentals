@@ -1,0 +1,36 @@
+{
+  "name": "Lucas Miedler",
+  "slug": "lucas-miedler",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 1,
+    "losses": 0,
+    "winRate": 100.0,
+    "firstServePct": 57.7,
+    "firstServeWonPct": 68.3,
+    "secondServeWonPct": 56.7,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": 57.7,
+      "firstServeWonPct": 68.3,
+      "secondServeWonPct": 56.7,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    }
+  }
+}

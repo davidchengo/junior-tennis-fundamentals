@@ -1,0 +1,74 @@
+{
+  "name": "Soon Woo Kwon",
+  "slug": "soon-woo-kwon",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 14,
+    "wins": 6,
+    "losses": 8,
+    "winRate": 42.9,
+    "firstServePct": 59.9,
+    "firstServeWonPct": 65.3,
+    "secondServeWonPct": 50.9,
+    "breakPointConversionPct": 32.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 50.0,
+      "firstServePct": 58.8,
+      "firstServeWonPct": 65.8,
+      "secondServeWonPct": 48.4,
+      "breakPointConversionPct": 36.0
+    },
+    "Clay": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3,
+      "firstServePct": 60.8,
+      "firstServeWonPct": 64.5,
+      "secondServeWonPct": 56.6,
+      "breakPointConversionPct": 30.0
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 66.0,
+      "secondServeWonPct": 42.4,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 62.5
+    }
+  }
+}

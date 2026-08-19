@@ -1,0 +1,80 @@
+{
+  "name": "Marton Fucsovics",
+  "slug": "marton-fucsovics",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 80,
+    "wins": 39,
+    "losses": 41,
+    "winRate": 48.8,
+    "firstServePct": 61.8,
+    "firstServeWonPct": 71.0,
+    "secondServeWonPct": 51.2,
+    "breakPointConversionPct": 40.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 47,
+      "wins": 22,
+      "losses": 25,
+      "winRate": 46.8,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 71.1,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 38.9
+    },
+    "Clay": {
+      "matches": 26,
+      "wins": 13,
+      "losses": 13,
+      "winRate": 50.0,
+      "firstServePct": 62.8,
+      "firstServeWonPct": 69.4,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 42.9
+    },
+    "Grass": {
+      "matches": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 57.1,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 74.8,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    },
+    "top10": {
+      "matches": 9,
+      "wins": 1,
+      "losses": 8,
+      "winRate": 11.1
+    },
+    "top20": {
+      "matches": 15,
+      "wins": 1,
+      "losses": 14,
+      "winRate": 6.7
+    },
+    "rank21to50": {
+      "matches": 23,
+      "wins": 11,
+      "losses": 12,
+      "winRate": 47.8
+    },
+    "rank51plus": {
+      "matches": 42,
+      "wins": 27,
+      "losses": 15,
+      "winRate": 64.3
+    }
+  }
+}

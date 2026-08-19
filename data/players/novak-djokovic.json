@@ -1,0 +1,80 @@
+{
+  "name": "Novak Djokovic",
+  "slug": "novak-djokovic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 112,
+    "wins": 87,
+    "losses": 25,
+    "winRate": 77.7,
+    "firstServePct": 65.7,
+    "firstServeWonPct": 75.8,
+    "secondServeWonPct": 55.6,
+    "breakPointConversionPct": 41.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 63,
+      "wins": 49,
+      "losses": 14,
+      "winRate": 77.8,
+      "firstServePct": 64.9,
+      "firstServeWonPct": 76.3,
+      "secondServeWonPct": 55.8,
+      "breakPointConversionPct": 41.0
+    },
+    "Clay": {
+      "matches": 36,
+      "wins": 27,
+      "losses": 9,
+      "winRate": 75.0,
+      "firstServePct": 65.9,
+      "firstServeWonPct": 73.4,
+      "secondServeWonPct": 56.2,
+      "breakPointConversionPct": 44.6
+    },
+    "Grass": {
+      "matches": 13,
+      "wins": 11,
+      "losses": 2,
+      "winRate": 84.6,
+      "firstServePct": 68.5,
+      "firstServeWonPct": 78.3,
+      "secondServeWonPct": 53.2,
+      "breakPointConversionPct": 37.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "winRate": 42.9
+    },
+    "top10": {
+      "matches": 19,
+      "wins": 9,
+      "losses": 10,
+      "winRate": 47.4
+    },
+    "top20": {
+      "matches": 31,
+      "wins": 19,
+      "losses": 12,
+      "winRate": 61.3
+    },
+    "rank21to50": {
+      "matches": 32,
+      "wins": 25,
+      "losses": 7,
+      "winRate": 78.1
+    },
+    "rank51plus": {
+      "matches": 48,
+      "wins": 42,
+      "losses": 6,
+      "winRate": 87.5
+    }
+  }
+}

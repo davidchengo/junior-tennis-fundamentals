@@ -1,0 +1,54 @@
+{
+  "name": "Roman Andres Burruchaga",
+  "slug": "roman-andres-burruchaga",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 25,
+    "wins": 11,
+    "losses": 14,
+    "winRate": 44.0,
+    "firstServePct": 66.3,
+    "firstServeWonPct": 65.4,
+    "secondServeWonPct": 48.5,
+    "breakPointConversionPct": 47.0
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 25,
+      "wins": 11,
+      "losses": 14,
+      "winRate": 44.0,
+      "firstServePct": 66.3,
+      "firstServeWonPct": 65.4,
+      "secondServeWonPct": 48.5,
+      "breakPointConversionPct": 47.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 15,
+      "wins": 7,
+      "losses": 8,
+      "winRate": 46.7
+    }
+  }
+}

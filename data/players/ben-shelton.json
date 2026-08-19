@@ -1,0 +1,80 @@
+{
+  "name": "Ben Shelton",
+  "slug": "ben-shelton",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 161,
+    "wins": 102,
+    "losses": 59,
+    "winRate": 63.4,
+    "firstServePct": 66.8,
+    "firstServeWonPct": 75.7,
+    "secondServeWonPct": 55.4,
+    "breakPointConversionPct": 37.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 105,
+      "wins": 68,
+      "losses": 37,
+      "winRate": 64.8,
+      "firstServePct": 67.7,
+      "firstServeWonPct": 76.1,
+      "secondServeWonPct": 55.7,
+      "breakPointConversionPct": 37.1
+    },
+    "Clay": {
+      "matches": 38,
+      "wins": 24,
+      "losses": 14,
+      "winRate": 63.2,
+      "firstServePct": 64.4,
+      "firstServeWonPct": 73.8,
+      "secondServeWonPct": 55.9,
+      "breakPointConversionPct": 37.4
+    },
+    "Grass": {
+      "matches": 18,
+      "wins": 10,
+      "losses": 8,
+      "winRate": 55.6,
+      "firstServePct": 66.2,
+      "firstServeWonPct": 77.0,
+      "secondServeWonPct": 53.4,
+      "breakPointConversionPct": 35.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 17,
+      "wins": 2,
+      "losses": 15,
+      "winRate": 11.8
+    },
+    "top10": {
+      "matches": 21,
+      "wins": 5,
+      "losses": 16,
+      "winRate": 23.8
+    },
+    "top20": {
+      "matches": 35,
+      "wins": 13,
+      "losses": 22,
+      "winRate": 37.1
+    },
+    "rank21to50": {
+      "matches": 45,
+      "wins": 32,
+      "losses": 13,
+      "winRate": 71.1
+    },
+    "rank51plus": {
+      "matches": 81,
+      "wins": 57,
+      "losses": 24,
+      "winRate": 70.4
+    }
+  }
+}

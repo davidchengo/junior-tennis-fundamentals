@@ -1,0 +1,70 @@
+{
+  "name": "Rafael Jodar",
+  "slug": "rafael-jodar",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 37,
+    "wins": 26,
+    "losses": 11,
+    "winRate": 70.3,
+    "firstServePct": 63.6,
+    "firstServeWonPct": 68.4,
+    "secondServeWonPct": 54.9,
+    "breakPointConversionPct": 45.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "winRate": 50.0,
+      "firstServePct": 64.3,
+      "firstServeWonPct": 66.3,
+      "secondServeWonPct": 53.9,
+      "breakPointConversionPct": 43.2
+    },
+    "Clay": {
+      "matches": 23,
+      "wins": 19,
+      "losses": 4,
+      "winRate": 82.6,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 70.1,
+      "secondServeWonPct": 55.6,
+      "breakPointConversionPct": 46.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "rank21to50": {
+      "matches": 11,
+      "wins": 7,
+      "losses": 4,
+      "winRate": 63.6
+    },
+    "rank51plus": {
+      "matches": 20,
+      "wins": 18,
+      "losses": 2,
+      "winRate": 90.0
+    }
+  }
+}

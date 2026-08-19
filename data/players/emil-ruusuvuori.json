@@ -1,0 +1,80 @@
+{
+  "name": "Emil Ruusuvuori",
+  "slug": "emil-ruusuvuori",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 34,
+    "wins": 17,
+    "losses": 17,
+    "winRate": 50.0,
+    "firstServePct": 63.2,
+    "firstServeWonPct": 70.3,
+    "secondServeWonPct": 56.2,
+    "breakPointConversionPct": 38.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 22,
+      "wins": 12,
+      "losses": 10,
+      "winRate": 54.5,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 72.5,
+      "secondServeWonPct": 56.0,
+      "breakPointConversionPct": 35.7
+    },
+    "Clay": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6,
+      "firstServePct": 65.2,
+      "firstServeWonPct": 55.5,
+      "secondServeWonPct": 55.6,
+      "breakPointConversionPct": 48.4
+    },
+    "Grass": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0,
+      "firstServePct": 67.9,
+      "firstServeWonPct": 72.8,
+      "secondServeWonPct": 57.5,
+      "breakPointConversionPct": 40.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0
+    },
+    "rank21to50": {
+      "matches": 11,
+      "wins": 4,
+      "losses": 7,
+      "winRate": 36.4
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 10,
+      "losses": 7,
+      "winRate": 58.8
+    }
+  }
+}

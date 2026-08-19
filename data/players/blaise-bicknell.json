@@ -1,0 +1,36 @@
+{
+  "name": "Blaise Bicknell",
+  "slug": "blaise-bicknell",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 6,
+    "wins": 4,
+    "losses": 2,
+    "winRate": 66.7,
+    "firstServePct": 62.4,
+    "firstServeWonPct": 67.1,
+    "secondServeWonPct": 61.4,
+    "breakPointConversionPct": 45.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 6,
+      "wins": 4,
+      "losses": 2,
+      "winRate": 66.7,
+      "firstServePct": 62.4,
+      "firstServeWonPct": 67.1,
+      "secondServeWonPct": 61.4,
+      "breakPointConversionPct": 45.8
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0
+    }
+  }
+}

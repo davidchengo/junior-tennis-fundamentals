@@ -1,0 +1,52 @@
+{
+  "name": "Maks Kasnikowski",
+  "slug": "maks-kasnikowski",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 3,
+    "losses": 2,
+    "winRate": 60.0,
+    "firstServePct": 59.9,
+    "firstServeWonPct": 63.3,
+    "secondServeWonPct": 48.4,
+    "breakPointConversionPct": 55.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 59.9,
+      "firstServeWonPct": 63.3,
+      "secondServeWonPct": 48.4,
+      "breakPointConversionPct": 55.6
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 75.0
+    }
+  }
+}

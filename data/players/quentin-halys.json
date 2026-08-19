@@ -1,0 +1,80 @@
+{
+  "name": "Quentin Halys",
+  "slug": "quentin-halys",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 76,
+    "wins": 33,
+    "losses": 43,
+    "winRate": 43.4,
+    "firstServePct": 59.2,
+    "firstServeWonPct": 78.0,
+    "secondServeWonPct": 49.6,
+    "breakPointConversionPct": 33.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 51,
+      "wins": 20,
+      "losses": 31,
+      "winRate": 39.2,
+      "firstServePct": 60.5,
+      "firstServeWonPct": 76.7,
+      "secondServeWonPct": 48.0,
+      "breakPointConversionPct": 33.6
+    },
+    "Clay": {
+      "matches": 16,
+      "wins": 9,
+      "losses": 7,
+      "winRate": 56.2,
+      "firstServePct": 52.6,
+      "firstServeWonPct": 78.5,
+      "secondServeWonPct": 54.1,
+      "breakPointConversionPct": 33.3
+    },
+    "Grass": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4,
+      "firstServePct": 61.1,
+      "firstServeWonPct": 84.1,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 34.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 1,
+      "losses": 7,
+      "winRate": 12.5
+    },
+    "top20": {
+      "matches": 16,
+      "wins": 2,
+      "losses": 14,
+      "winRate": 12.5
+    },
+    "rank21to50": {
+      "matches": 19,
+      "wins": 7,
+      "losses": 12,
+      "winRate": 36.8
+    },
+    "rank51plus": {
+      "matches": 40,
+      "wins": 24,
+      "losses": 16,
+      "winRate": 60.0
+    }
+  }
+}

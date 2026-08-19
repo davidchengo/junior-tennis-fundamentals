@@ -1,0 +1,52 @@
+{
+  "name": "Bernabe Zapata Miralles",
+  "slug": "bernabe-zapata-miralles",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 9,
+    "wins": 1,
+    "losses": 8,
+    "winRate": 11.1,
+    "firstServePct": 68.2,
+    "firstServeWonPct": 53.9,
+    "secondServeWonPct": 47.4,
+    "breakPointConversionPct": 38.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0,
+      "firstServePct": 67.8,
+      "firstServeWonPct": 54.3,
+      "secondServeWonPct": 46.2,
+      "breakPointConversionPct": 57.9
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 68.7,
+      "firstServeWonPct": 53.5,
+      "secondServeWonPct": 48.6,
+      "breakPointConversionPct": 24.0
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    }
+  }
+}

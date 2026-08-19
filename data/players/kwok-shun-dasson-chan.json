@@ -1,0 +1,29 @@
+{
+  "name": "Kwok Shun Dasson Chan",
+  "slug": "kwok-shun-dasson-chan",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 59.0,
+    "firstServeWonPct": 71.4,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 59.0,
+      "firstServeWonPct": 71.4,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {}
+}

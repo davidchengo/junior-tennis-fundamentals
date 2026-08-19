@@ -1,0 +1,80 @@
+{
+  "name": "Dusan Lajovic",
+  "slug": "dusan-lajovic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 60,
+    "wins": 23,
+    "losses": 37,
+    "winRate": 38.3,
+    "firstServePct": 69.2,
+    "firstServeWonPct": 66.0,
+    "secondServeWonPct": 49.4,
+    "breakPointConversionPct": 36.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 17,
+      "wins": 6,
+      "losses": 11,
+      "winRate": 35.3,
+      "firstServePct": 69.5,
+      "firstServeWonPct": 68.9,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 32.4
+    },
+    "Clay": {
+      "matches": 41,
+      "wins": 17,
+      "losses": 24,
+      "winRate": 41.5,
+      "firstServePct": 69.5,
+      "firstServeWonPct": 65.1,
+      "secondServeWonPct": 48.5,
+      "breakPointConversionPct": 39.2
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 62.4,
+      "firstServeWonPct": 62.2,
+      "secondServeWonPct": 50.8,
+      "breakPointConversionPct": 16.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 12,
+      "wins": 1,
+      "losses": 11,
+      "winRate": 8.3
+    },
+    "rank21to50": {
+      "matches": 17,
+      "wins": 10,
+      "losses": 7,
+      "winRate": 58.8
+    },
+    "rank51plus": {
+      "matches": 31,
+      "wins": 12,
+      "losses": 19,
+      "winRate": 38.7
+    }
+  }
+}

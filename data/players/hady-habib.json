@@ -1,0 +1,70 @@
+{
+  "name": "Hady Habib",
+  "slug": "hady-habib",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 12,
+    "wins": 3,
+    "losses": 9,
+    "winRate": 25.0,
+    "firstServePct": 61.0,
+    "firstServeWonPct": 72.5,
+    "secondServeWonPct": 50.2,
+    "breakPointConversionPct": 30.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 1,
+      "losses": 6,
+      "winRate": 14.3,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 74.8,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 40.0
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 67.9,
+      "secondServeWonPct": 47.1,
+      "breakPointConversionPct": 22.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    }
+  }
+}

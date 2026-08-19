@@ -1,0 +1,36 @@
+{
+  "name": "Johannus Monday",
+  "slug": "johannus-monday",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 58.5,
+    "firstServeWonPct": 72.9,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 58.5,
+      "firstServeWonPct": 72.9,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

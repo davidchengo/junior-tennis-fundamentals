@@ -1,0 +1,46 @@
+{
+  "name": "Iliyan Radulov",
+  "slug": "iliyan-radulov",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 2,
+    "losses": 1,
+    "winRate": 66.7,
+    "firstServePct": 59.5,
+    "firstServeWonPct": 80.0,
+    "secondServeWonPct": 47.1,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 59.5,
+      "firstServeWonPct": 80.0,
+      "secondServeWonPct": 47.1,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

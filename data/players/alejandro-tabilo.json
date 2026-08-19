@@ -1,0 +1,80 @@
+{
+  "name": "Alejandro Tabilo",
+  "slug": "alejandro-tabilo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 121,
+    "wins": 64,
+    "losses": 57,
+    "winRate": 52.9,
+    "firstServePct": 64.5,
+    "firstServeWonPct": 73.4,
+    "secondServeWonPct": 50.2,
+    "breakPointConversionPct": 38.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 59,
+      "wins": 28,
+      "losses": 31,
+      "winRate": 47.5,
+      "firstServePct": 65.3,
+      "firstServeWonPct": 73.9,
+      "secondServeWonPct": 49.8,
+      "breakPointConversionPct": 36.3
+    },
+    "Clay": {
+      "matches": 53,
+      "wins": 29,
+      "losses": 24,
+      "winRate": 54.7,
+      "firstServePct": 63.5,
+      "firstServeWonPct": 71.6,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 40.1
+    },
+    "Grass": {
+      "matches": 9,
+      "wins": 7,
+      "losses": 2,
+      "winRate": 77.8,
+      "firstServePct": 65.0,
+      "firstServeWonPct": 78.8,
+      "secondServeWonPct": 50.5,
+      "breakPointConversionPct": 39.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    },
+    "top10": {
+      "matches": 13,
+      "wins": 3,
+      "losses": 10,
+      "winRate": 23.1
+    },
+    "top20": {
+      "matches": 30,
+      "wins": 7,
+      "losses": 23,
+      "winRate": 23.3
+    },
+    "rank21to50": {
+      "matches": 21,
+      "wins": 11,
+      "losses": 10,
+      "winRate": 52.4
+    },
+    "rank51plus": {
+      "matches": 70,
+      "wins": 46,
+      "losses": 24,
+      "winRate": 65.7
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Taha Baadi",
+  "slug": "taha-baadi",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 7,
+    "wins": 4,
+    "losses": 3,
+    "winRate": 57.1,
+    "firstServePct": 65.5,
+    "firstServeWonPct": 61.4,
+    "secondServeWonPct": 53.7,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 3,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    },
+    "Clay": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 65.5,
+      "firstServeWonPct": 61.4,
+      "secondServeWonPct": 53.7,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 6,
+      "wins": 4,
+      "losses": 2,
+      "winRate": 66.7
+    }
+  }
+}

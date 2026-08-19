@@ -1,0 +1,48 @@
+{
+  "name": "Oscar Otte",
+  "slug": "oscar-otte",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 59.2,
+    "firstServeWonPct": 77.6,
+    "secondServeWonPct": 52.5,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 59.2,
+      "firstServeWonPct": 77.6,
+      "secondServeWonPct": 52.5,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

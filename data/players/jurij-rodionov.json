@@ -1,0 +1,70 @@
+{
+  "name": "Jurij Rodionov",
+  "slug": "jurij-rodionov",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 13,
+    "wins": 7,
+    "losses": 6,
+    "winRate": 53.8,
+    "firstServePct": 56.1,
+    "firstServeWonPct": 73.2,
+    "secondServeWonPct": 39.9,
+    "breakPointConversionPct": 19.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 57.1,
+      "firstServePct": 49.1,
+      "firstServeWonPct": 66.7,
+      "secondServeWonPct": 41.1,
+      "breakPointConversionPct": 10.0
+    },
+    "Clay": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0,
+      "firstServePct": 59.7,
+      "firstServeWonPct": 76.0,
+      "secondServeWonPct": 39.1,
+      "breakPointConversionPct": 23.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 10,
+      "wins": 7,
+      "losses": 3,
+      "winRate": 70.0
+    }
+  }
+}

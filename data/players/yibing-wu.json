@@ -1,0 +1,70 @@
+{
+  "name": "Yibing Wu",
+  "slug": "yibing-wu",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 27,
+    "wins": 13,
+    "losses": 14,
+    "winRate": 48.1,
+    "firstServePct": 63.7,
+    "firstServeWonPct": 70.2,
+    "secondServeWonPct": 51.9,
+    "breakPointConversionPct": 35.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 23,
+      "wins": 12,
+      "losses": 11,
+      "winRate": 52.2,
+      "firstServePct": 63.8,
+      "firstServeWonPct": 70.4,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 39.3
+    },
+    "Clay": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 67.6,
+      "secondServeWonPct": 55.6,
+      "breakPointConversionPct": 7.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "rank21to50": {
+      "matches": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 57.1
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 7,
+      "losses": 5,
+      "winRate": 58.3
+    }
+  }
+}

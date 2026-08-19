@@ -1,0 +1,80 @@
+{
+  "name": "Marin Cilic",
+  "slug": "marin-cilic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 58,
+    "wins": 25,
+    "losses": 33,
+    "winRate": 43.1,
+    "firstServePct": 56.8,
+    "firstServeWonPct": 77.7,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": 39.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 41,
+      "wins": 19,
+      "losses": 22,
+      "winRate": 46.3,
+      "firstServePct": 57.2,
+      "firstServeWonPct": 79.4,
+      "secondServeWonPct": 49.5,
+      "breakPointConversionPct": 41.6
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 3,
+      "losses": 10,
+      "winRate": 23.1,
+      "firstServePct": 51.6,
+      "firstServeWonPct": 69.8,
+      "secondServeWonPct": 49.5,
+      "breakPointConversionPct": 30.4
+    },
+    "Grass": {
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 75.0,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 75.3,
+      "secondServeWonPct": 54.8,
+      "breakPointConversionPct": 36.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 12,
+      "wins": 2,
+      "losses": 10,
+      "winRate": 16.7
+    },
+    "rank21to50": {
+      "matches": 21,
+      "wins": 9,
+      "losses": 12,
+      "winRate": 42.9
+    },
+    "rank51plus": {
+      "matches": 25,
+      "wins": 14,
+      "losses": 11,
+      "winRate": 56.0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Alexander Blockx",
+  "slug": "alexander-blockx",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 33,
+    "wins": 18,
+    "losses": 15,
+    "winRate": 54.5,
+    "firstServePct": 63.8,
+    "firstServeWonPct": 75.7,
+    "secondServeWonPct": 52.2,
+    "breakPointConversionPct": 31.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 15,
+      "wins": 6,
+      "losses": 9,
+      "winRate": 40.0,
+      "firstServePct": 65.6,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 27.3
+    },
+    "Clay": {
+      "matches": 17,
+      "wins": 12,
+      "losses": 5,
+      "winRate": 70.6,
+      "firstServePct": 61.7,
+      "firstServeWonPct": 78.3,
+      "secondServeWonPct": 53.7,
+      "breakPointConversionPct": 40.6
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 66.3,
+      "firstServeWonPct": 67.7,
+      "secondServeWonPct": 57.6,
+      "breakPointConversionPct": 18.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    },
+    "top10": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "top20": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4
+    },
+    "rank21to50": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 18,
+      "wins": 11,
+      "losses": 7,
+      "winRate": 61.1
+    }
+  }
+}

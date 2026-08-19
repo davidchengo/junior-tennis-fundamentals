@@ -1,0 +1,80 @@
+{
+  "name": "Flavio Cobolli",
+  "slug": "flavio-cobolli",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 160,
+    "wins": 93,
+    "losses": 67,
+    "winRate": 58.1,
+    "firstServePct": 55.3,
+    "firstServeWonPct": 71.3,
+    "secondServeWonPct": 52.3,
+    "breakPointConversionPct": 38.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 86,
+      "wins": 45,
+      "losses": 41,
+      "winRate": 52.3,
+      "firstServePct": 54.5,
+      "firstServeWonPct": 71.4,
+      "secondServeWonPct": 50.5,
+      "breakPointConversionPct": 38.4
+    },
+    "Clay": {
+      "matches": 58,
+      "wins": 39,
+      "losses": 19,
+      "winRate": 67.2,
+      "firstServePct": 56.0,
+      "firstServeWonPct": 70.0,
+      "secondServeWonPct": 53.8,
+      "breakPointConversionPct": 39.5
+    },
+    "Grass": {
+      "matches": 16,
+      "wins": 9,
+      "losses": 7,
+      "winRate": 56.2,
+      "firstServePct": 57.4,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 56.5,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 9,
+      "wins": 1,
+      "losses": 8,
+      "winRate": 11.1
+    },
+    "top10": {
+      "matches": 22,
+      "wins": 4,
+      "losses": 18,
+      "winRate": 18.2
+    },
+    "top20": {
+      "matches": 40,
+      "wins": 14,
+      "losses": 26,
+      "winRate": 35.0
+    },
+    "rank21to50": {
+      "matches": 34,
+      "wins": 18,
+      "losses": 16,
+      "winRate": 52.9
+    },
+    "rank51plus": {
+      "matches": 86,
+      "wins": 61,
+      "losses": 25,
+      "winRate": 70.9
+    }
+  }
+}

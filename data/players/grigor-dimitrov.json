@@ -1,0 +1,80 @@
+{
+  "name": "Grigor Dimitrov",
+  "slug": "grigor-dimitrov",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 104,
+    "wins": 66,
+    "losses": 38,
+    "winRate": 63.5,
+    "firstServePct": 60.8,
+    "firstServeWonPct": 78.6,
+    "secondServeWonPct": 51.8,
+    "breakPointConversionPct": 37.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 71,
+      "wins": 46,
+      "losses": 25,
+      "winRate": 64.8,
+      "firstServePct": 61.8,
+      "firstServeWonPct": 79.2,
+      "secondServeWonPct": 51.1,
+      "breakPointConversionPct": 34.2
+    },
+    "Clay": {
+      "matches": 23,
+      "wins": 13,
+      "losses": 10,
+      "winRate": 56.5,
+      "firstServePct": 58.6,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 51.9,
+      "breakPointConversionPct": 41.1
+    },
+    "Grass": {
+      "matches": 10,
+      "wins": 7,
+      "losses": 3,
+      "winRate": 70.0,
+      "firstServePct": 59.8,
+      "firstServeWonPct": 83.9,
+      "secondServeWonPct": 55.5,
+      "breakPointConversionPct": 48.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 10,
+      "wins": 2,
+      "losses": 8,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 16,
+      "wins": 6,
+      "losses": 10,
+      "winRate": 37.5
+    },
+    "top20": {
+      "matches": 22,
+      "wins": 7,
+      "losses": 15,
+      "winRate": 31.8
+    },
+    "rank21to50": {
+      "matches": 31,
+      "wins": 21,
+      "losses": 10,
+      "winRate": 67.7
+    },
+    "rank51plus": {
+      "matches": 51,
+      "wins": 38,
+      "losses": 13,
+      "winRate": 74.5
+    }
+  }
+}

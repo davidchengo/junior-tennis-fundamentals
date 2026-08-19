@@ -1,0 +1,80 @@
+{
+  "name": "Fabio Fognini",
+  "slug": "fabio-fognini",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 33,
+    "wins": 12,
+    "losses": 21,
+    "winRate": 36.4,
+    "firstServePct": 56.9,
+    "firstServeWonPct": 68.2,
+    "secondServeWonPct": 47.2,
+    "breakPointConversionPct": 40.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 9,
+      "wins": 2,
+      "losses": 7,
+      "winRate": 22.2,
+      "firstServePct": 56.2,
+      "firstServeWonPct": 66.3,
+      "secondServeWonPct": 46.8,
+      "breakPointConversionPct": 39.6
+    },
+    "Clay": {
+      "matches": 16,
+      "wins": 7,
+      "losses": 9,
+      "winRate": 43.8,
+      "firstServePct": 56.6,
+      "firstServeWonPct": 64.4,
+      "secondServeWonPct": 45.6,
+      "breakPointConversionPct": 46.6
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 3,
+      "losses": 5,
+      "winRate": 37.5,
+      "firstServePct": 57.7,
+      "firstServeWonPct": 73.5,
+      "secondServeWonPct": 49.4,
+      "breakPointConversionPct": 35.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    },
+    "top20": {
+      "matches": 7,
+      "wins": 1,
+      "losses": 6,
+      "winRate": 14.3
+    },
+    "rank21to50": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0
+    },
+    "rank51plus": {
+      "matches": 21,
+      "wins": 9,
+      "losses": 12,
+      "winRate": 42.9
+    }
+  }
+}

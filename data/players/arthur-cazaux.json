@@ -1,0 +1,80 @@
+{
+  "name": "Arthur Cazaux",
+  "slug": "arthur-cazaux",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 57,
+    "wins": 27,
+    "losses": 30,
+    "winRate": 47.4,
+    "firstServePct": 58.8,
+    "firstServeWonPct": 75.7,
+    "secondServeWonPct": 49.5,
+    "breakPointConversionPct": 36.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 39,
+      "wins": 18,
+      "losses": 21,
+      "winRate": 46.2,
+      "firstServePct": 58.5,
+      "firstServeWonPct": 76.0,
+      "secondServeWonPct": 49.7,
+      "breakPointConversionPct": 38.7
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 7,
+      "losses": 6,
+      "winRate": 53.8,
+      "firstServePct": 59.7,
+      "firstServeWonPct": 72.7,
+      "secondServeWonPct": 52.7,
+      "breakPointConversionPct": 31.5
+    },
+    "Grass": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0,
+      "firstServePct": 58.5,
+      "firstServeWonPct": 78.9,
+      "secondServeWonPct": 43.5,
+      "breakPointConversionPct": 27.3
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    },
+    "top20": {
+      "matches": 10,
+      "wins": 2,
+      "losses": 8,
+      "winRate": 20.0
+    },
+    "rank21to50": {
+      "matches": 20,
+      "wins": 5,
+      "losses": 15,
+      "winRate": 25.0
+    },
+    "rank51plus": {
+      "matches": 27,
+      "wins": 20,
+      "losses": 7,
+      "winRate": 74.1
+    }
+  }
+}

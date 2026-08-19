@@ -1,0 +1,46 @@
+{
+  "name": "Adria Soriano Barrera",
+  "slug": "adria-soriano-barrera",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 7,
+    "wins": 3,
+    "losses": 4,
+    "winRate": 42.9,
+    "firstServePct": 60.4,
+    "firstServeWonPct": 75.8,
+    "secondServeWonPct": 49.2,
+    "breakPointConversionPct": 35.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0,
+      "firstServePct": 60.4,
+      "firstServeWonPct": 75.8,
+      "secondServeWonPct": 49.2,
+      "breakPointConversionPct": 35.3
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3
+    }
+  }
+}

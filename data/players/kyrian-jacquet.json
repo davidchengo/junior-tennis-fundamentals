@@ -1,0 +1,64 @@
+{
+  "name": "Kyrian Jacquet",
+  "slug": "kyrian-jacquet",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 7,
+    "wins": 2,
+    "losses": 5,
+    "winRate": 28.6,
+    "firstServePct": 58.0,
+    "firstServeWonPct": 72.7,
+    "secondServeWonPct": 49.0,
+    "breakPointConversionPct": 36.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0,
+      "firstServePct": 59.8,
+      "firstServeWonPct": 72.7,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 36.1
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 53.0,
+      "firstServeWonPct": 72.4,
+      "secondServeWonPct": 42.5,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    }
+  }
+}

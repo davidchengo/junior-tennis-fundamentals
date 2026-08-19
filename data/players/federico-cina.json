@@ -1,0 +1,58 @@
+{
+  "name": "Federico Cina",
+  "slug": "federico-cina",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 11,
+    "wins": 3,
+    "losses": 8,
+    "winRate": 27.3,
+    "firstServePct": 65.4,
+    "firstServeWonPct": 67.1,
+    "secondServeWonPct": 44.3,
+    "breakPointConversionPct": 34.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3,
+      "firstServePct": 69.5,
+      "firstServeWonPct": 67.2,
+      "secondServeWonPct": 44.6,
+      "breakPointConversionPct": 33.3
+    },
+    "Clay": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0,
+      "firstServePct": 62.9,
+      "firstServeWonPct": 67.0,
+      "secondServeWonPct": 44.2,
+      "breakPointConversionPct": 34.6
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 8,
+      "wins": 3,
+      "losses": 5,
+      "winRate": 37.5
+    }
+  }
+}

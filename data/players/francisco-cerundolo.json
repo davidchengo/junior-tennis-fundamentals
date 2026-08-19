@@ -1,0 +1,80 @@
+{
+  "name": "Francisco Cerundolo",
+  "slug": "francisco-cerundolo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 163,
+    "wins": 95,
+    "losses": 68,
+    "winRate": 58.3,
+    "firstServePct": 62.5,
+    "firstServeWonPct": 68.3,
+    "secondServeWonPct": 52.2,
+    "breakPointConversionPct": 43.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 69,
+      "wins": 38,
+      "losses": 31,
+      "winRate": 55.1,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 69.3,
+      "secondServeWonPct": 51.5,
+      "breakPointConversionPct": 45.1
+    },
+    "Clay": {
+      "matches": 89,
+      "wins": 57,
+      "losses": 32,
+      "winRate": 64.0,
+      "firstServePct": 64.0,
+      "firstServeWonPct": 67.3,
+      "secondServeWonPct": 53.1,
+      "breakPointConversionPct": 42.7
+    },
+    "Grass": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 70.5,
+      "secondServeWonPct": 49.2,
+      "breakPointConversionPct": 34.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 15,
+      "wins": 3,
+      "losses": 12,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 25,
+      "wins": 9,
+      "losses": 16,
+      "winRate": 36.0
+    },
+    "top20": {
+      "matches": 46,
+      "wins": 18,
+      "losses": 28,
+      "winRate": 39.1
+    },
+    "rank21to50": {
+      "matches": 27,
+      "wins": 15,
+      "losses": 12,
+      "winRate": 55.6
+    },
+    "rank51plus": {
+      "matches": 90,
+      "wins": 62,
+      "losses": 28,
+      "winRate": 68.9
+    }
+  }
+}

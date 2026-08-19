@@ -1,0 +1,36 @@
+{
+  "name": "Martins Rocens",
+  "slug": "martins-rocens",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 53.7,
+    "firstServeWonPct": 68.2,
+    "secondServeWonPct": 15.8,
+    "breakPointConversionPct": null
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 53.7,
+      "firstServeWonPct": 68.2,
+      "secondServeWonPct": 15.8,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

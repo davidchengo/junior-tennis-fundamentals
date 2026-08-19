@@ -1,0 +1,80 @@
+{
+  "name": "Giulio Zeppieri",
+  "slug": "giulio-zeppieri",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 14,
+    "wins": 3,
+    "losses": 11,
+    "winRate": 21.4,
+    "firstServePct": 59.1,
+    "firstServeWonPct": 70.6,
+    "secondServeWonPct": 52.1,
+    "breakPointConversionPct": 33.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0,
+      "firstServePct": 59.6,
+      "firstServeWonPct": 72.5,
+      "secondServeWonPct": 52.4,
+      "breakPointConversionPct": 26.8
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 59.1,
+      "firstServeWonPct": 65.6,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 39.5
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 56.4,
+      "firstServeWonPct": 79.7,
+      "secondServeWonPct": 55.7,
+      "breakPointConversionPct": 35.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "rank51plus": {
+      "matches": 9,
+      "wins": 2,
+      "losses": 7,
+      "winRate": 22.2
+    }
+  }
+}

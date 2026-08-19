@@ -1,0 +1,52 @@
+{
+  "name": "Diego Schwartzman",
+  "slug": "diego-schwartzman",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 10,
+    "wins": 1,
+    "losses": 9,
+    "winRate": 10.0,
+    "firstServePct": 63.5,
+    "firstServeWonPct": 58.8,
+    "secondServeWonPct": 44.2,
+    "breakPointConversionPct": 28.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0,
+      "firstServePct": 62.1,
+      "firstServeWonPct": 56.6,
+      "secondServeWonPct": 44.0,
+      "breakPointConversionPct": 38.1
+    },
+    "Clay": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7,
+      "firstServePct": 64.6,
+      "firstServeWonPct": 60.6,
+      "secondServeWonPct": 44.4,
+      "breakPointConversionPct": 23.3
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "rank51plus": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    }
+  }
+}

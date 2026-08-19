@@ -1,0 +1,80 @@
+{
+  "name": "Tommy Paul",
+  "slug": "tommy-paul",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 144,
+    "wins": 100,
+    "losses": 44,
+    "winRate": 69.4,
+    "firstServePct": 61.5,
+    "firstServeWonPct": 72.5,
+    "secondServeWonPct": 54.4,
+    "breakPointConversionPct": 42.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 83,
+      "wins": 55,
+      "losses": 28,
+      "winRate": 66.3,
+      "firstServePct": 60.4,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 54.9,
+      "breakPointConversionPct": 40.9
+    },
+    "Clay": {
+      "matches": 46,
+      "wins": 34,
+      "losses": 12,
+      "winRate": 73.9,
+      "firstServePct": 63.4,
+      "firstServeWonPct": 68.7,
+      "secondServeWonPct": 53.0,
+      "breakPointConversionPct": 44.6
+    },
+    "Grass": {
+      "matches": 15,
+      "wins": 11,
+      "losses": 4,
+      "winRate": 73.3,
+      "firstServePct": 62.0,
+      "firstServeWonPct": 75.1,
+      "secondServeWonPct": 55.6,
+      "breakPointConversionPct": 44.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 9,
+      "wins": 1,
+      "losses": 8,
+      "winRate": 11.1
+    },
+    "top10": {
+      "matches": 18,
+      "wins": 7,
+      "losses": 11,
+      "winRate": 38.9
+    },
+    "top20": {
+      "matches": 27,
+      "wins": 14,
+      "losses": 13,
+      "winRate": 51.9
+    },
+    "rank21to50": {
+      "matches": 43,
+      "wins": 27,
+      "losses": 16,
+      "winRate": 62.8
+    },
+    "rank51plus": {
+      "matches": 74,
+      "wins": 59,
+      "losses": 15,
+      "winRate": 79.7
+    }
+  }
+}

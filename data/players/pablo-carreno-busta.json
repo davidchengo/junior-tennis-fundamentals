@@ -1,0 +1,80 @@
+{
+  "name": "Pablo Carreno Busta",
+  "slug": "pablo-carreno-busta",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 54,
+    "wins": 23,
+    "losses": 31,
+    "winRate": 42.6,
+    "firstServePct": 64.8,
+    "firstServeWonPct": 68.5,
+    "secondServeWonPct": 51.9,
+    "breakPointConversionPct": 41.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 36,
+      "wins": 16,
+      "losses": 20,
+      "winRate": 44.4,
+      "firstServePct": 64.4,
+      "firstServeWonPct": 69.0,
+      "secondServeWonPct": 51.9,
+      "breakPointConversionPct": 40.6
+    },
+    "Clay": {
+      "matches": 17,
+      "wins": 7,
+      "losses": 10,
+      "winRate": 41.2,
+      "firstServePct": 64.3,
+      "firstServeWonPct": 66.7,
+      "secondServeWonPct": 52.2,
+      "breakPointConversionPct": 44.4
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 75.4,
+      "firstServeWonPct": 73.0,
+      "secondServeWonPct": 48.3,
+      "breakPointConversionPct": 42.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 13,
+      "wins": 2,
+      "losses": 11,
+      "winRate": 15.4
+    },
+    "rank21to50": {
+      "matches": 15,
+      "wins": 3,
+      "losses": 12,
+      "winRate": 20.0
+    },
+    "rank51plus": {
+      "matches": 26,
+      "wins": 18,
+      "losses": 8,
+      "winRate": 69.2
+    }
+  }
+}

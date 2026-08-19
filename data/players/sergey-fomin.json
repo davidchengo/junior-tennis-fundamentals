@@ -1,0 +1,48 @@
+{
+  "name": "Sergey Fomin",
+  "slug": "sergey-fomin",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 0,
+    "losses": 4,
+    "winRate": 0.0,
+    "firstServePct": 61.0,
+    "firstServeWonPct": 62.3,
+    "secondServeWonPct": 47.4,
+    "breakPointConversionPct": 60.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 62.3,
+      "secondServeWonPct": 47.4,
+      "breakPointConversionPct": 60.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    }
+  }
+}

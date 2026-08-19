@@ -1,0 +1,68 @@
+{
+  "name": "Dominic Thiem",
+  "slug": "dominic-thiem",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 11,
+    "wins": 2,
+    "losses": 9,
+    "winRate": 18.2,
+    "firstServePct": 59.3,
+    "firstServeWonPct": 68.9,
+    "secondServeWonPct": 51.8,
+    "breakPointConversionPct": 39.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 70.1,
+      "secondServeWonPct": 48.3,
+      "breakPointConversionPct": 38.9
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 57.2,
+      "firstServeWonPct": 68.5,
+      "secondServeWonPct": 50.6,
+      "breakPointConversionPct": 39.4
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 59.6,
+      "firstServeWonPct": 61.8,
+      "secondServeWonPct": 87.0,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    }
+  }
+}

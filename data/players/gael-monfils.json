@@ -1,0 +1,80 @@
+{
+  "name": "Gael Monfils",
+  "slug": "gael-monfils",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 91,
+    "wins": 46,
+    "losses": 45,
+    "winRate": 50.5,
+    "firstServePct": 60.2,
+    "firstServeWonPct": 74.5,
+    "secondServeWonPct": 49.8,
+    "breakPointConversionPct": 37.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 60,
+      "wins": 33,
+      "losses": 27,
+      "winRate": 55.0,
+      "firstServePct": 60.2,
+      "firstServeWonPct": 75.8,
+      "secondServeWonPct": 51.1,
+      "breakPointConversionPct": 37.2
+    },
+    "Clay": {
+      "matches": 20,
+      "wins": 7,
+      "losses": 13,
+      "winRate": 35.0,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 68.5,
+      "secondServeWonPct": 45.4,
+      "breakPointConversionPct": 40.5
+    },
+    "Grass": {
+      "matches": 11,
+      "wins": 6,
+      "losses": 5,
+      "winRate": 54.5,
+      "firstServePct": 60.0,
+      "firstServeWonPct": 76.8,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 37.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "top10": {
+      "matches": 16,
+      "wins": 3,
+      "losses": 13,
+      "winRate": 18.8
+    },
+    "top20": {
+      "matches": 26,
+      "wins": 6,
+      "losses": 20,
+      "winRate": 23.1
+    },
+    "rank21to50": {
+      "matches": 21,
+      "wins": 13,
+      "losses": 8,
+      "winRate": 61.9
+    },
+    "rank51plus": {
+      "matches": 44,
+      "wins": 27,
+      "losses": 17,
+      "winRate": 61.4
+    }
+  }
+}

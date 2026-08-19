@@ -1,0 +1,36 @@
+{
+  "name": "George Loffhagen",
+  "slug": "george-loffhagen",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 59.0,
+    "firstServeWonPct": 73.4,
+    "secondServeWonPct": 44.2,
+    "breakPointConversionPct": 38.9
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 59.0,
+      "firstServeWonPct": 73.4,
+      "secondServeWonPct": 44.2,
+      "breakPointConversionPct": 38.9
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

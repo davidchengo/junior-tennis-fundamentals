@@ -1,0 +1,36 @@
+{
+  "name": "Wishaya Trongcharoenchaikul",
+  "slug": "wishaya-trongcharoenchaikul",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 66.7,
+    "firstServeWonPct": 57.7,
+    "secondServeWonPct": 15.4,
+    "breakPointConversionPct": null
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 66.7,
+      "firstServeWonPct": 57.7,
+      "secondServeWonPct": 15.4,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

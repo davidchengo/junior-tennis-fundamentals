@@ -1,0 +1,80 @@
+{
+  "name": "Cameron Norrie",
+  "slug": "cameron-norrie",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 127,
+    "wins": 69,
+    "losses": 58,
+    "winRate": 54.3,
+    "firstServePct": 64.9,
+    "firstServeWonPct": 70.8,
+    "secondServeWonPct": 52.1,
+    "breakPointConversionPct": 39.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 74,
+      "wins": 41,
+      "losses": 33,
+      "winRate": 55.4,
+      "firstServePct": 65.1,
+      "firstServeWonPct": 71.4,
+      "secondServeWonPct": 53.8,
+      "breakPointConversionPct": 36.6
+    },
+    "Clay": {
+      "matches": 41,
+      "wins": 22,
+      "losses": 19,
+      "winRate": 53.7,
+      "firstServePct": 62.7,
+      "firstServeWonPct": 68.6,
+      "secondServeWonPct": 48.7,
+      "breakPointConversionPct": 44.0
+    },
+    "Grass": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0,
+      "firstServePct": 69.3,
+      "firstServeWonPct": 73.3,
+      "secondServeWonPct": 53.5,
+      "breakPointConversionPct": 36.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 1,
+      "losses": 6,
+      "winRate": 14.3
+    },
+    "top10": {
+      "matches": 17,
+      "wins": 3,
+      "losses": 14,
+      "winRate": 17.6
+    },
+    "top20": {
+      "matches": 28,
+      "wins": 8,
+      "losses": 20,
+      "winRate": 28.6
+    },
+    "rank21to50": {
+      "matches": 22,
+      "wins": 12,
+      "losses": 10,
+      "winRate": 54.5
+    },
+    "rank51plus": {
+      "matches": 77,
+      "wins": 49,
+      "losses": 28,
+      "winRate": 63.6
+    }
+  }
+}

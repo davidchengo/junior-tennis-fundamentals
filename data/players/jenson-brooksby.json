@@ -1,0 +1,80 @@
+{
+  "name": "Jenson Brooksby",
+  "slug": "jenson-brooksby",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 52,
+    "wins": 25,
+    "losses": 27,
+    "winRate": 48.1,
+    "firstServePct": 63.5,
+    "firstServeWonPct": 67.1,
+    "secondServeWonPct": 51.0,
+    "breakPointConversionPct": 38.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 32,
+      "wins": 14,
+      "losses": 18,
+      "winRate": 43.8,
+      "firstServePct": 62.8,
+      "firstServeWonPct": 68.4,
+      "secondServeWonPct": 49.2,
+      "breakPointConversionPct": 38.4
+    },
+    "Clay": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0,
+      "firstServePct": 65.9,
+      "firstServeWonPct": 62.8,
+      "secondServeWonPct": 53.9,
+      "breakPointConversionPct": 43.6
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 62.5,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 68.0,
+      "secondServeWonPct": 54.1,
+      "breakPointConversionPct": 34.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 17,
+      "wins": 6,
+      "losses": 11,
+      "winRate": 35.3
+    },
+    "rank21to50": {
+      "matches": 19,
+      "wins": 9,
+      "losses": 10,
+      "winRate": 47.4
+    },
+    "rank51plus": {
+      "matches": 16,
+      "wins": 10,
+      "losses": 6,
+      "winRate": 62.5
+    }
+  }
+}

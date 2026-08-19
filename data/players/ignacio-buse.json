@@ -1,0 +1,64 @@
+{
+  "name": "Ignacio Buse",
+  "slug": "ignacio-buse",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 34,
+    "wins": 19,
+    "losses": 15,
+    "winRate": 55.9,
+    "firstServePct": 60.8,
+    "firstServeWonPct": 71.2,
+    "secondServeWonPct": 49.6,
+    "breakPointConversionPct": 43.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 63.7,
+      "firstServeWonPct": 71.1,
+      "secondServeWonPct": 44.4,
+      "breakPointConversionPct": 29.2
+    },
+    "Clay": {
+      "matches": 29,
+      "wins": 18,
+      "losses": 11,
+      "winRate": 62.1,
+      "firstServePct": 60.3,
+      "firstServeWonPct": 71.2,
+      "secondServeWonPct": 50.4,
+      "breakPointConversionPct": 45.1
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    },
+    "rank21to50": {
+      "matches": 9,
+      "wins": 5,
+      "losses": 4,
+      "winRate": 55.6
+    },
+    "rank51plus": {
+      "matches": 21,
+      "wins": 12,
+      "losses": 9,
+      "winRate": 57.1
+    }
+  }
+}

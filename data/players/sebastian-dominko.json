@@ -1,0 +1,52 @@
+{
+  "name": "Sebastian Dominko",
+  "slug": "sebastian-dominko",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 1,
+    "losses": 2,
+    "winRate": 33.3,
+    "firstServePct": 64.9,
+    "firstServeWonPct": 77.0,
+    "secondServeWonPct": 57.4,
+    "breakPointConversionPct": 26.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 64.9,
+      "firstServeWonPct": 77.0,
+      "secondServeWonPct": 57.4,
+      "breakPointConversionPct": 26.7
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

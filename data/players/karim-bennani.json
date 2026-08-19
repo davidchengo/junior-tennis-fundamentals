@@ -1,0 +1,46 @@
+{
+  "name": "Karim Bennani",
+  "slug": "karim-bennani",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 3,
+    "losses": 1,
+    "winRate": 75.0,
+    "firstServePct": 60.3,
+    "firstServeWonPct": 74.8,
+    "secondServeWonPct": 54.3,
+    "breakPointConversionPct": 33.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 60.3,
+      "firstServeWonPct": 74.8,
+      "secondServeWonPct": 54.3,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

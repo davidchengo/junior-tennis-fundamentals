@@ -1,0 +1,74 @@
+{
+  "name": "Shintaro Mochizuki",
+  "slug": "shintaro-mochizuki",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 23,
+    "wins": 4,
+    "losses": 19,
+    "winRate": 17.4,
+    "firstServePct": 51.1,
+    "firstServeWonPct": 69.2,
+    "secondServeWonPct": 46.5,
+    "breakPointConversionPct": 33.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 19,
+      "wins": 3,
+      "losses": 16,
+      "winRate": 15.8,
+      "firstServePct": 50.0,
+      "firstServeWonPct": 69.2,
+      "secondServeWonPct": 44.3,
+      "breakPointConversionPct": 31.5
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 52.7,
+      "firstServeWonPct": 65.4,
+      "secondServeWonPct": 47.1,
+      "breakPointConversionPct": 33.3
+    },
+    "Grass": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3,
+      "firstServePct": 54.2,
+      "firstServeWonPct": 70.7,
+      "secondServeWonPct": 54.0,
+      "breakPointConversionPct": 40.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "rank51plus": {
+      "matches": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.3
+    }
+  }
+}

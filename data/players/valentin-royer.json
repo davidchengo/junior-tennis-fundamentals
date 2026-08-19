@@ -1,0 +1,80 @@
+{
+  "name": "Valentin Royer",
+  "slug": "valentin-royer",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 36,
+    "wins": 12,
+    "losses": 24,
+    "winRate": 33.3,
+    "firstServePct": 63.2,
+    "firstServeWonPct": 70.5,
+    "secondServeWonPct": 51.9,
+    "breakPointConversionPct": 40.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 28,
+      "wins": 10,
+      "losses": 18,
+      "winRate": 35.7,
+      "firstServePct": 64.1,
+      "firstServeWonPct": 71.0,
+      "secondServeWonPct": 51.5,
+      "breakPointConversionPct": 40.3
+    },
+    "Clay": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7,
+      "firstServePct": 56.6,
+      "firstServeWonPct": 66.5,
+      "secondServeWonPct": 50.9,
+      "breakPointConversionPct": 37.0
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 64.8,
+      "firstServeWonPct": 70.9,
+      "secondServeWonPct": 59.4,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 9,
+      "wins": 1,
+      "losses": 8,
+      "winRate": 11.1
+    },
+    "rank21to50": {
+      "matches": 8,
+      "wins": 3,
+      "losses": 5,
+      "winRate": 37.5
+    },
+    "rank51plus": {
+      "matches": 19,
+      "wins": 8,
+      "losses": 11,
+      "winRate": 42.1
+    }
+  }
+}

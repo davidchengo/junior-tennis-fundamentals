@@ -1,0 +1,36 @@
+{
+  "name": "Rowland Phillips",
+  "slug": "rowland-phillips",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 1,
+    "losses": 4,
+    "winRate": 20.0,
+    "firstServePct": 64.2,
+    "firstServeWonPct": 56.7,
+    "secondServeWonPct": 41.8,
+    "breakPointConversionPct": 41.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 64.2,
+      "firstServeWonPct": 56.7,
+      "secondServeWonPct": 41.8,
+      "breakPointConversionPct": 41.4
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    }
+  }
+}

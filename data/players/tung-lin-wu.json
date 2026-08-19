@@ -1,0 +1,48 @@
+{
+  "name": "Tung Lin Wu",
+  "slug": "tung-lin-wu",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 8,
+    "wins": 4,
+    "losses": 4,
+    "winRate": 50.0,
+    "firstServePct": 61.0,
+    "firstServeWonPct": 63.9,
+    "secondServeWonPct": 34.8,
+    "breakPointConversionPct": 25.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 63.9,
+      "secondServeWonPct": 34.8,
+      "breakPointConversionPct": 25.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 6,
+      "wins": 4,
+      "losses": 2,
+      "winRate": 66.7
+    }
+  }
+}

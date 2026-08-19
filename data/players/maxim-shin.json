@@ -1,0 +1,36 @@
+{
+  "name": "Maxim Shin",
+  "slug": "maxim-shin",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 57.6,
+    "firstServeWonPct": 42.1,
+    "secondServeWonPct": 28.6,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 57.6,
+      "firstServeWonPct": 42.1,
+      "secondServeWonPct": 28.6,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

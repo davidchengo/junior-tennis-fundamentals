@@ -1,0 +1,58 @@
+{
+  "name": "Jozef Kovalik",
+  "slug": "jozef-kovalik",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 8,
+    "wins": 3,
+    "losses": 5,
+    "winRate": 37.5,
+    "firstServePct": 62.8,
+    "firstServeWonPct": 67.3,
+    "secondServeWonPct": 55.1,
+    "breakPointConversionPct": 38.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 61.8,
+      "firstServeWonPct": 74.7,
+      "secondServeWonPct": 52.6,
+      "breakPointConversionPct": 42.9
+    },
+    "Clay": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 63.2,
+      "firstServeWonPct": 63.6,
+      "secondServeWonPct": 56.4,
+      "breakPointConversionPct": 36.1
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

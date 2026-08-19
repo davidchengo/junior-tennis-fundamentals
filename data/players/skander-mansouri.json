@@ -1,0 +1,36 @@
+{
+  "name": "Skander Mansouri",
+  "slug": "skander-mansouri",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50.0,
+    "firstServePct": 69.3,
+    "firstServeWonPct": 70.0,
+    "secondServeWonPct": 51.6,
+    "breakPointConversionPct": 43.8
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 69.3,
+      "firstServeWonPct": 70.0,
+      "secondServeWonPct": 51.6,
+      "breakPointConversionPct": 43.8
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

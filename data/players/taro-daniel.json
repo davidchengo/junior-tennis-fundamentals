@@ -1,0 +1,80 @@
+{
+  "name": "Taro Daniel",
+  "slug": "taro-daniel",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 42,
+    "wins": 12,
+    "losses": 30,
+    "winRate": 28.6,
+    "firstServePct": 61.3,
+    "firstServeWonPct": 68.1,
+    "secondServeWonPct": 48.9,
+    "breakPointConversionPct": 38.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 30,
+      "wins": 10,
+      "losses": 20,
+      "winRate": 33.3,
+      "firstServePct": 61.8,
+      "firstServeWonPct": 69.7,
+      "secondServeWonPct": 48.5,
+      "breakPointConversionPct": 40.4
+    },
+    "Clay": {
+      "matches": 9,
+      "wins": 2,
+      "losses": 7,
+      "winRate": 22.2,
+      "firstServePct": 62.8,
+      "firstServeWonPct": 64.2,
+      "secondServeWonPct": 49.3,
+      "breakPointConversionPct": 37.0
+    },
+    "Grass": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0,
+      "firstServePct": 50.7,
+      "firstServeWonPct": 65.7,
+      "secondServeWonPct": 50.5,
+      "breakPointConversionPct": 10.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 10,
+      "wins": 1,
+      "losses": 9,
+      "winRate": 10.0
+    },
+    "rank21to50": {
+      "matches": 9,
+      "wins": 3,
+      "losses": 6,
+      "winRate": 33.3
+    },
+    "rank51plus": {
+      "matches": 23,
+      "wins": 8,
+      "losses": 15,
+      "winRate": 34.8
+    }
+  }
+}

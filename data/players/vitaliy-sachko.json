@@ -1,0 +1,58 @@
+{
+  "name": "Vitaliy Sachko",
+  "slug": "vitaliy-sachko",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 10,
+    "wins": 4,
+    "losses": 6,
+    "winRate": 40.0,
+    "firstServePct": 64.3,
+    "firstServeWonPct": 69.3,
+    "secondServeWonPct": 51.4,
+    "breakPointConversionPct": 28.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0,
+      "firstServePct": 68.4,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 58.8,
+      "breakPointConversionPct": 26.3
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 54.3,
+      "firstServeWonPct": 54.9,
+      "secondServeWonPct": 39.1,
+      "breakPointConversionPct": 31.2
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0
+    }
+  }
+}

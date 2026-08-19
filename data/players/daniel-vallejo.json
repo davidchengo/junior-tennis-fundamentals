@@ -1,0 +1,36 @@
+{
+  "name": "Daniel Vallejo",
+  "slug": "daniel-vallejo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 4,
+    "losses": 1,
+    "winRate": 80.0,
+    "firstServePct": 66.7,
+    "firstServeWonPct": 66.7,
+    "secondServeWonPct": 64.6,
+    "breakPointConversionPct": 54.5
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 5,
+      "wins": 4,
+      "losses": 1,
+      "winRate": 80.0,
+      "firstServePct": 66.7,
+      "firstServeWonPct": 66.7,
+      "secondServeWonPct": 64.6,
+      "breakPointConversionPct": 54.5
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 66.7
+    }
+  }
+}

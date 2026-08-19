@@ -1,0 +1,36 @@
+{
+  "name": "Jay Clarke",
+  "slug": "jay-clarke",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 57.3,
+    "firstServeWonPct": 70.2,
+    "secondServeWonPct": 34.3,
+    "breakPointConversionPct": 33.3
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 57.3,
+      "firstServeWonPct": 70.2,
+      "secondServeWonPct": 34.3,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Adam Neff",
+  "slug": "adam-neff",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 56.9,
+    "firstServeWonPct": 58.5,
+    "secondServeWonPct": 38.7,
+    "breakPointConversionPct": null
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 56.9,
+      "firstServeWonPct": 58.5,
+      "secondServeWonPct": 38.7,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

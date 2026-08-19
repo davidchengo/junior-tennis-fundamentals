@@ -1,0 +1,74 @@
+{
+  "name": "Stan Wawrinka",
+  "slug": "stan-wawrinka",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 63,
+    "wins": 21,
+    "losses": 42,
+    "winRate": 33.3,
+    "firstServePct": 55.5,
+    "firstServeWonPct": 74.2,
+    "secondServeWonPct": 51.9,
+    "breakPointConversionPct": 33.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 36,
+      "wins": 13,
+      "losses": 23,
+      "winRate": 36.1,
+      "firstServePct": 55.6,
+      "firstServeWonPct": 76.2,
+      "secondServeWonPct": 52.6,
+      "breakPointConversionPct": 28.9
+    },
+    "Clay": {
+      "matches": 25,
+      "wins": 7,
+      "losses": 18,
+      "winRate": 28.0,
+      "firstServePct": 55.3,
+      "firstServeWonPct": 71.0,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 38.7
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 57.1,
+      "firstServeWonPct": 75.0,
+      "secondServeWonPct": 59.8,
+      "breakPointConversionPct": 35.7
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "top20": {
+      "matches": 11,
+      "wins": 1,
+      "losses": 10,
+      "winRate": 9.1
+    },
+    "rank21to50": {
+      "matches": 16,
+      "wins": 3,
+      "losses": 13,
+      "winRate": 18.8
+    },
+    "rank51plus": {
+      "matches": 36,
+      "wins": 17,
+      "losses": 19,
+      "winRate": 47.2
+    }
+  }
+}

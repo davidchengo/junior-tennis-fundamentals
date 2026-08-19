@@ -1,0 +1,80 @@
+{
+  "name": "Joao Fonseca",
+  "slug": "joao-fonseca",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 87,
+    "wins": 54,
+    "losses": 33,
+    "winRate": 62.1,
+    "firstServePct": 66.3,
+    "firstServeWonPct": 72.1,
+    "secondServeWonPct": 54.1,
+    "breakPointConversionPct": 36.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 40,
+      "wins": 27,
+      "losses": 13,
+      "winRate": 67.5,
+      "firstServePct": 66.6,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 54.3,
+      "breakPointConversionPct": 35.9
+    },
+    "Clay": {
+      "matches": 40,
+      "wins": 24,
+      "losses": 16,
+      "winRate": 60.0,
+      "firstServePct": 65.1,
+      "firstServeWonPct": 69.6,
+      "secondServeWonPct": 54.1,
+      "breakPointConversionPct": 39.4
+    },
+    "Grass": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9,
+      "firstServePct": 69.5,
+      "firstServeWonPct": 73.8,
+      "secondServeWonPct": 53.6,
+      "breakPointConversionPct": 26.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 20,
+      "wins": 9,
+      "losses": 11,
+      "winRate": 45.0
+    },
+    "rank21to50": {
+      "matches": 27,
+      "wins": 20,
+      "losses": 7,
+      "winRate": 74.1
+    },
+    "rank51plus": {
+      "matches": 40,
+      "wins": 25,
+      "losses": 15,
+      "winRate": 62.5
+    }
+  }
+}

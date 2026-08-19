@@ -1,0 +1,52 @@
+{
+  "name": "Denis Yevseyev",
+  "slug": "denis-yevseyev",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 2,
+    "losses": 2,
+    "winRate": 50.0,
+    "firstServePct": 61.9,
+    "firstServeWonPct": 69.6,
+    "secondServeWonPct": 42.4,
+    "breakPointConversionPct": 40.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 70.2,
+      "secondServeWonPct": 36.1,
+      "breakPointConversionPct": 60.0
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 69.2,
+      "secondServeWonPct": 46.0,
+      "breakPointConversionPct": 35.3
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

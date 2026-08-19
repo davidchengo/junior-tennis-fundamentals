@@ -1,0 +1,80 @@
+{
+  "name": "Jesper De Jong",
+  "slug": "jesper-de-jong",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 51,
+    "wins": 23,
+    "losses": 28,
+    "winRate": 45.1,
+    "firstServePct": 58.4,
+    "firstServeWonPct": 72.3,
+    "secondServeWonPct": 50.4,
+    "breakPointConversionPct": 39.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 21,
+      "wins": 8,
+      "losses": 13,
+      "winRate": 38.1,
+      "firstServePct": 60.1,
+      "firstServeWonPct": 73.3,
+      "secondServeWonPct": 50.9,
+      "breakPointConversionPct": 37.8
+    },
+    "Clay": {
+      "matches": 26,
+      "wins": 14,
+      "losses": 12,
+      "winRate": 53.8,
+      "firstServePct": 57.9,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 49.2,
+      "breakPointConversionPct": 42.4
+    },
+    "Grass": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 55.2,
+      "firstServeWonPct": 74.7,
+      "secondServeWonPct": 53.1,
+      "breakPointConversionPct": 30.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 7,
+      "wins": 0,
+      "losses": 7,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 13,
+      "wins": 2,
+      "losses": 11,
+      "winRate": 15.4
+    },
+    "rank21to50": {
+      "matches": 11,
+      "wins": 5,
+      "losses": 6,
+      "winRate": 45.5
+    },
+    "rank51plus": {
+      "matches": 27,
+      "wins": 16,
+      "losses": 11,
+      "winRate": 59.3
+    }
+  }
+}

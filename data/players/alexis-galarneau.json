@@ -1,0 +1,42 @@
+{
+  "name": "Alexis Galarneau",
+  "slug": "alexis-galarneau",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 1,
+    "losses": 4,
+    "winRate": 20.0,
+    "firstServePct": 59.9,
+    "firstServeWonPct": 69.2,
+    "secondServeWonPct": 51.7,
+    "breakPointConversionPct": 34.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 59.9,
+      "firstServeWonPct": 69.2,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 34.8
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    }
+  }
+}

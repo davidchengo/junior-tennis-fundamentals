@@ -1,0 +1,80 @@
+{
+  "name": "Nicolas Jarry",
+  "slug": "nicolas-jarry",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 71,
+    "wins": 28,
+    "losses": 43,
+    "winRate": 39.4,
+    "firstServePct": 63.4,
+    "firstServeWonPct": 74.4,
+    "secondServeWonPct": 51.6,
+    "breakPointConversionPct": 31.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 31,
+      "wins": 12,
+      "losses": 19,
+      "winRate": 38.7,
+      "firstServePct": 63.1,
+      "firstServeWonPct": 77.3,
+      "secondServeWonPct": 49.4,
+      "breakPointConversionPct": 32.5
+    },
+    "Clay": {
+      "matches": 33,
+      "wins": 12,
+      "losses": 21,
+      "winRate": 36.4,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 52.8,
+      "breakPointConversionPct": 30.7
+    },
+    "Grass": {
+      "matches": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 57.1,
+      "firstServePct": 65.9,
+      "firstServeWonPct": 77.9,
+      "secondServeWonPct": 54.6,
+      "breakPointConversionPct": 29.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "top10": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4
+    },
+    "top20": {
+      "matches": 17,
+      "wins": 5,
+      "losses": 12,
+      "winRate": 29.4
+    },
+    "rank21to50": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 42,
+      "wins": 17,
+      "losses": 25,
+      "winRate": 40.5
+    }
+  }
+}

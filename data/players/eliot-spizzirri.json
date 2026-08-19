@@ -1,0 +1,80 @@
+{
+  "name": "Eliot Spizzirri",
+  "slug": "eliot-spizzirri",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 21,
+    "wins": 11,
+    "losses": 10,
+    "winRate": 52.4,
+    "firstServePct": 67.9,
+    "firstServeWonPct": 71.8,
+    "secondServeWonPct": 52.6,
+    "breakPointConversionPct": 43.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 18,
+      "wins": 10,
+      "losses": 8,
+      "winRate": 55.6,
+      "firstServePct": 68.4,
+      "firstServeWonPct": 71.6,
+      "secondServeWonPct": 53.2,
+      "breakPointConversionPct": 42.9
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": null,
+      "firstServeWonPct": null,
+      "secondServeWonPct": null,
+      "breakPointConversionPct": null
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 46.9,
+      "breakPointConversionPct": 45.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 9,
+      "losses": 3,
+      "winRate": 75.0
+    }
+  }
+}

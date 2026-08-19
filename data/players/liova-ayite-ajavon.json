@@ -1,0 +1,36 @@
+{
+  "name": "Liova Ayite Ajavon",
+  "slug": "liova-ayite-ajavon",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50.0,
+    "firstServePct": 61.3,
+    "firstServeWonPct": 76.3,
+    "secondServeWonPct": 58.3,
+    "breakPointConversionPct": 44.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 76.3,
+      "secondServeWonPct": 58.3,
+      "breakPointConversionPct": 44.4
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

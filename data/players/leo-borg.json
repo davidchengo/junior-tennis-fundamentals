@@ -1,0 +1,52 @@
+{
+  "name": "Leo Borg",
+  "slug": "leo-borg",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 9,
+    "wins": 4,
+    "losses": 5,
+    "winRate": 44.4,
+    "firstServePct": 63.1,
+    "firstServeWonPct": 66.8,
+    "secondServeWonPct": 45.9,
+    "breakPointConversionPct": 54.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0,
+      "firstServePct": 63.7,
+      "firstServeWonPct": 65.4,
+      "secondServeWonPct": 44.9,
+      "breakPointConversionPct": 54.5
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 73.5,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9
+    }
+  }
+}

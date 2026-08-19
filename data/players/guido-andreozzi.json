@@ -1,0 +1,36 @@
+{
+  "name": "Guido Andreozzi",
+  "slug": "guido-andreozzi",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 62.9,
+    "firstServeWonPct": 54.5,
+    "secondServeWonPct": 57.7,
+    "breakPointConversionPct": 33.3
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 62.9,
+      "firstServeWonPct": 54.5,
+      "secondServeWonPct": 57.7,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

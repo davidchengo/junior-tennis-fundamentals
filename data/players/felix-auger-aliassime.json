@@ -1,0 +1,80 @@
+{
+  "name": "Felix Auger Aliassime",
+  "slug": "felix-auger-aliassime",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 167,
+    "wins": 107,
+    "losses": 60,
+    "winRate": 64.1,
+    "firstServePct": 65.6,
+    "firstServeWonPct": 76.3,
+    "secondServeWonPct": 51.9,
+    "breakPointConversionPct": 36.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 108,
+      "wins": 72,
+      "losses": 36,
+      "winRate": 66.7,
+      "firstServePct": 66.2,
+      "firstServeWonPct": 76.3,
+      "secondServeWonPct": 52.0,
+      "breakPointConversionPct": 35.9
+    },
+    "Clay": {
+      "matches": 47,
+      "wins": 29,
+      "losses": 18,
+      "winRate": 61.7,
+      "firstServePct": 64.4,
+      "firstServeWonPct": 74.8,
+      "secondServeWonPct": 51.6,
+      "breakPointConversionPct": 38.7
+    },
+    "Grass": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0,
+      "firstServePct": 64.3,
+      "firstServeWonPct": 79.8,
+      "secondServeWonPct": 52.5,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 18,
+      "wins": 6,
+      "losses": 12,
+      "winRate": 33.3
+    },
+    "top10": {
+      "matches": 29,
+      "wins": 13,
+      "losses": 16,
+      "winRate": 44.8
+    },
+    "top20": {
+      "matches": 44,
+      "wins": 21,
+      "losses": 23,
+      "winRate": 47.7
+    },
+    "rank21to50": {
+      "matches": 36,
+      "wins": 22,
+      "losses": 14,
+      "winRate": 61.1
+    },
+    "rank51plus": {
+      "matches": 87,
+      "wins": 64,
+      "losses": 23,
+      "winRate": 73.6
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Anthony Susanto",
+  "slug": "anthony-susanto",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 1,
+    "losses": 2,
+    "winRate": 33.3,
+    "firstServePct": 69.3,
+    "firstServeWonPct": 54.3,
+    "secondServeWonPct": 38.7,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3,
+      "firstServePct": 69.3,
+      "firstServeWonPct": 54.3,
+      "secondServeWonPct": 38.7,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Jiri Lehecka",
+  "slug": "jiri-lehecka",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 140,
+    "wins": 88,
+    "losses": 52,
+    "winRate": 62.9,
+    "firstServePct": 62.6,
+    "firstServeWonPct": 75.3,
+    "secondServeWonPct": 52.6,
+    "breakPointConversionPct": 38.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 105,
+      "wins": 66,
+      "losses": 39,
+      "winRate": 62.9,
+      "firstServePct": 62.0,
+      "firstServeWonPct": 75.5,
+      "secondServeWonPct": 52.3,
+      "breakPointConversionPct": 37.0
+    },
+    "Clay": {
+      "matches": 25,
+      "wins": 15,
+      "losses": 10,
+      "winRate": 60.0,
+      "firstServePct": 65.4,
+      "firstServeWonPct": 72.3,
+      "secondServeWonPct": 52.3,
+      "breakPointConversionPct": 43.9
+    },
+    "Grass": {
+      "matches": 10,
+      "wins": 7,
+      "losses": 3,
+      "winRate": 70.0,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 80.7,
+      "secondServeWonPct": 56.7,
+      "breakPointConversionPct": 38.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.5
+    },
+    "top10": {
+      "matches": 22,
+      "wins": 9,
+      "losses": 13,
+      "winRate": 40.9
+    },
+    "top20": {
+      "matches": 39,
+      "wins": 17,
+      "losses": 22,
+      "winRate": 43.6
+    },
+    "rank21to50": {
+      "matches": 36,
+      "wins": 21,
+      "losses": 15,
+      "winRate": 58.3
+    },
+    "rank51plus": {
+      "matches": 65,
+      "wins": 50,
+      "losses": 15,
+      "winRate": 76.9
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Alexander Zverev",
+  "slug": "alexander-zverev",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 217,
+    "wins": 162,
+    "losses": 55,
+    "winRate": 74.7,
+    "firstServePct": 71.6,
+    "firstServeWonPct": 75.4,
+    "secondServeWonPct": 54.6,
+    "breakPointConversionPct": 39.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 122,
+      "wins": 89,
+      "losses": 33,
+      "winRate": 73.0,
+      "firstServePct": 71.6,
+      "firstServeWonPct": 75.7,
+      "secondServeWonPct": 55.0,
+      "breakPointConversionPct": 38.8
+    },
+    "Clay": {
+      "matches": 78,
+      "wins": 61,
+      "losses": 17,
+      "winRate": 78.2,
+      "firstServePct": 70.9,
+      "firstServeWonPct": 73.2,
+      "secondServeWonPct": 53.6,
+      "breakPointConversionPct": 41.1
+    },
+    "Grass": {
+      "matches": 17,
+      "wins": 12,
+      "losses": 5,
+      "winRate": 70.6,
+      "firstServePct": 74.4,
+      "firstServeWonPct": 80.6,
+      "secondServeWonPct": 55.7,
+      "breakPointConversionPct": 31.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 19,
+      "wins": 3,
+      "losses": 16,
+      "winRate": 15.8
+    },
+    "top10": {
+      "matches": 35,
+      "wins": 12,
+      "losses": 23,
+      "winRate": 34.3
+    },
+    "top20": {
+      "matches": 72,
+      "wins": 35,
+      "losses": 37,
+      "winRate": 48.6
+    },
+    "rank21to50": {
+      "matches": 76,
+      "wins": 67,
+      "losses": 9,
+      "winRate": 88.2
+    },
+    "rank51plus": {
+      "matches": 69,
+      "wins": 60,
+      "losses": 9,
+      "winRate": 87.0
+    }
+  }
+}

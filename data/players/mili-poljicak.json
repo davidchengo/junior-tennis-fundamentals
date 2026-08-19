@@ -1,0 +1,36 @@
+{
+  "name": "Mili Poljicak",
+  "slug": "mili-poljicak",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 47.7,
+    "firstServeWonPct": 72.3,
+    "secondServeWonPct": 53.8,
+    "breakPointConversionPct": 33.3
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 47.7,
+      "firstServeWonPct": 72.3,
+      "secondServeWonPct": 53.8,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

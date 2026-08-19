@@ -1,0 +1,74 @@
+{
+  "name": "Nikoloz Basilashvili",
+  "slug": "nikoloz-basilashvili",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 25,
+    "wins": 10,
+    "losses": 15,
+    "winRate": 40.0,
+    "firstServePct": 53.5,
+    "firstServeWonPct": 77.0,
+    "secondServeWonPct": 47.9,
+    "breakPointConversionPct": 32.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.5,
+      "firstServePct": 54.4,
+      "firstServeWonPct": 74.7,
+      "secondServeWonPct": 50.4,
+      "breakPointConversionPct": 30.2
+    },
+    "Clay": {
+      "matches": 10,
+      "wins": 4,
+      "losses": 6,
+      "winRate": 40.0,
+      "firstServePct": 52.9,
+      "firstServeWonPct": 78.7,
+      "secondServeWonPct": 45.3,
+      "breakPointConversionPct": 30.8
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 52.9,
+      "firstServeWonPct": 78.1,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 46.7
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    },
+    "top20": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0
+    },
+    "rank21to50": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0
+    },
+    "rank51plus": {
+      "matches": 15,
+      "wins": 7,
+      "losses": 8,
+      "winRate": 46.7
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Zhizhen Zhang",
+  "slug": "zhizhen-zhang",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 85,
+    "wins": 34,
+    "losses": 51,
+    "winRate": 40.0,
+    "firstServePct": 63.8,
+    "firstServeWonPct": 72.8,
+    "secondServeWonPct": 51.1,
+    "breakPointConversionPct": 37.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 55,
+      "wins": 20,
+      "losses": 35,
+      "winRate": 36.4,
+      "firstServePct": 63.9,
+      "firstServeWonPct": 72.7,
+      "secondServeWonPct": 51.0,
+      "breakPointConversionPct": 34.4
+    },
+    "Clay": {
+      "matches": 22,
+      "wins": 10,
+      "losses": 12,
+      "winRate": 45.5,
+      "firstServePct": 62.5,
+      "firstServeWonPct": 70.9,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 45.9
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0,
+      "firstServePct": 65.6,
+      "firstServeWonPct": 76.8,
+      "secondServeWonPct": 51.5,
+      "breakPointConversionPct": 34.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 8,
+      "wins": 1,
+      "losses": 7,
+      "winRate": 12.5
+    },
+    "top10": {
+      "matches": 15,
+      "wins": 1,
+      "losses": 14,
+      "winRate": 6.7
+    },
+    "top20": {
+      "matches": 22,
+      "wins": 3,
+      "losses": 19,
+      "winRate": 13.6
+    },
+    "rank21to50": {
+      "matches": 21,
+      "wins": 11,
+      "losses": 10,
+      "winRate": 52.4
+    },
+    "rank51plus": {
+      "matches": 41,
+      "wins": 19,
+      "losses": 22,
+      "winRate": 46.3
+    }
+  }
+}

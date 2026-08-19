@@ -1,0 +1,80 @@
+{
+  "name": "Zizou Bergs",
+  "slug": "zizou-bergs",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 115,
+    "wins": 58,
+    "losses": 57,
+    "winRate": 50.4,
+    "firstServePct": 59.1,
+    "firstServeWonPct": 72.3,
+    "secondServeWonPct": 51.8,
+    "breakPointConversionPct": 36.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 81,
+      "wins": 45,
+      "losses": 36,
+      "winRate": 55.6,
+      "firstServePct": 58.6,
+      "firstServeWonPct": 73.1,
+      "secondServeWonPct": 52.2,
+      "breakPointConversionPct": 37.5
+    },
+    "Clay": {
+      "matches": 23,
+      "wins": 8,
+      "losses": 15,
+      "winRate": 34.8,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 69.1,
+      "secondServeWonPct": 51.4,
+      "breakPointConversionPct": 39.2
+    },
+    "Grass": {
+      "matches": 11,
+      "wins": 5,
+      "losses": 6,
+      "winRate": 45.5,
+      "firstServePct": 56.8,
+      "firstServeWonPct": 73.6,
+      "secondServeWonPct": 50.2,
+      "breakPointConversionPct": 27.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    },
+    "top10": {
+      "matches": 14,
+      "wins": 3,
+      "losses": 11,
+      "winRate": 21.4
+    },
+    "top20": {
+      "matches": 23,
+      "wins": 6,
+      "losses": 17,
+      "winRate": 26.1
+    },
+    "rank21to50": {
+      "matches": 30,
+      "wins": 16,
+      "losses": 14,
+      "winRate": 53.3
+    },
+    "rank51plus": {
+      "matches": 61,
+      "wins": 35,
+      "losses": 26,
+      "winRate": 57.4
+    }
+  }
+}

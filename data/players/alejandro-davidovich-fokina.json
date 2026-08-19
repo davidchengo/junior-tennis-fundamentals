@@ -1,0 +1,80 @@
+{
+  "name": "Alejandro Davidovich Fokina",
+  "slug": "alejandro-davidovich-fokina",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 135,
+    "wins": 76,
+    "losses": 59,
+    "winRate": 56.3,
+    "firstServePct": 67.4,
+    "firstServeWonPct": 68.5,
+    "secondServeWonPct": 52.4,
+    "breakPointConversionPct": 42.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 96,
+      "wins": 55,
+      "losses": 41,
+      "winRate": 57.3,
+      "firstServePct": 66.9,
+      "firstServeWonPct": 69.7,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 43.3
+    },
+    "Clay": {
+      "matches": 31,
+      "wins": 16,
+      "losses": 15,
+      "winRate": 51.6,
+      "firstServePct": 69.3,
+      "firstServeWonPct": 63.9,
+      "secondServeWonPct": 52.0,
+      "breakPointConversionPct": 42.0
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 62.5,
+      "firstServePct": 66.8,
+      "firstServeWonPct": 71.3,
+      "secondServeWonPct": 55.8,
+      "breakPointConversionPct": 33.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 9,
+      "wins": 3,
+      "losses": 6,
+      "winRate": 33.3
+    },
+    "top10": {
+      "matches": 18,
+      "wins": 7,
+      "losses": 11,
+      "winRate": 38.9
+    },
+    "top20": {
+      "matches": 33,
+      "wins": 13,
+      "losses": 20,
+      "winRate": 39.4
+    },
+    "rank21to50": {
+      "matches": 42,
+      "wins": 20,
+      "losses": 22,
+      "winRate": 47.6
+    },
+    "rank51plus": {
+      "matches": 60,
+      "wins": 43,
+      "losses": 17,
+      "winRate": 71.7
+    }
+  }
+}

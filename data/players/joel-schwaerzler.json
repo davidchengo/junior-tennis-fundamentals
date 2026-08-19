@@ -1,0 +1,64 @@
+{
+  "name": "Joel Schwaerzler",
+  "slug": "joel-schwaerzler",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 0,
+    "losses": 3,
+    "winRate": 0.0,
+    "firstServePct": 64.6,
+    "firstServeWonPct": 63.5,
+    "secondServeWonPct": 44.9,
+    "breakPointConversionPct": 12.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 61.1,
+      "firstServeWonPct": 60.6,
+      "secondServeWonPct": 28.6,
+      "breakPointConversionPct": null
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 66.0,
+      "firstServeWonPct": 64.5,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 12.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

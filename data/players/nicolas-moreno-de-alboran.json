@@ -1,0 +1,52 @@
+{
+  "name": "Nicolas Moreno De Alboran",
+  "slug": "nicolas-moreno-de-alboran",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 16,
+    "wins": 6,
+    "losses": 10,
+    "winRate": 37.5,
+    "firstServePct": 62.6,
+    "firstServeWonPct": 71.5,
+    "secondServeWonPct": 56.1,
+    "breakPointConversionPct": 30.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 60.8,
+      "firstServeWonPct": 69.0,
+      "secondServeWonPct": 52.0,
+      "breakPointConversionPct": 21.4
+    },
+    "Clay": {
+      "matches": 12,
+      "wins": 5,
+      "losses": 7,
+      "winRate": 41.7,
+      "firstServePct": 63.1,
+      "firstServeWonPct": 72.1,
+      "secondServeWonPct": 57.2,
+      "breakPointConversionPct": 32.7
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 13,
+      "wins": 6,
+      "losses": 7,
+      "winRate": 46.2
+    }
+  }
+}

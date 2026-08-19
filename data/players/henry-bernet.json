@@ -1,0 +1,42 @@
+{
+  "name": "Henry Bernet",
+  "slug": "henry-bernet",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 56.2,
+    "firstServeWonPct": 74.6,
+    "secondServeWonPct": 60.9,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 56.2,
+      "firstServeWonPct": 74.6,
+      "secondServeWonPct": 60.9,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

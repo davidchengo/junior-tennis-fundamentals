@@ -1,0 +1,54 @@
+{
+  "name": "Oliver Tarvet",
+  "slug": "oliver-tarvet",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50.0,
+    "firstServePct": 60.6,
+    "firstServeWonPct": 72.3,
+    "secondServeWonPct": 52.5,
+    "breakPointConversionPct": 27.8
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 60.6,
+      "firstServeWonPct": 72.3,
+      "secondServeWonPct": 52.5,
+      "breakPointConversionPct": 27.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    }
+  }
+}

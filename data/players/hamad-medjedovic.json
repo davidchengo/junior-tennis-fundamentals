@@ -1,0 +1,80 @@
+{
+  "name": "Hamad Medjedovic",
+  "slug": "hamad-medjedovic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 69,
+    "wins": 36,
+    "losses": 33,
+    "winRate": 52.2,
+    "firstServePct": 65.0,
+    "firstServeWonPct": 72.7,
+    "secondServeWonPct": 51.1,
+    "breakPointConversionPct": 34.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 36,
+      "wins": 19,
+      "losses": 17,
+      "winRate": 52.8,
+      "firstServePct": 65.2,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 51.9,
+      "breakPointConversionPct": 37.0
+    },
+    "Clay": {
+      "matches": 27,
+      "wins": 14,
+      "losses": 13,
+      "winRate": 51.9,
+      "firstServePct": 64.4,
+      "firstServeWonPct": 70.5,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 32.3
+    },
+    "Grass": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0,
+      "firstServePct": 66.4,
+      "firstServeWonPct": 75.6,
+      "secondServeWonPct": 52.3,
+      "breakPointConversionPct": 40.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 17,
+      "wins": 4,
+      "losses": 13,
+      "winRate": 23.5
+    },
+    "rank21to50": {
+      "matches": 17,
+      "wins": 12,
+      "losses": 5,
+      "winRate": 70.6
+    },
+    "rank51plus": {
+      "matches": 35,
+      "wins": 20,
+      "losses": 15,
+      "winRate": 57.1
+    }
+  }
+}

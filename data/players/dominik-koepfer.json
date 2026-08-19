@@ -1,0 +1,80 @@
+{
+  "name": "Dominik Koepfer",
+  "slug": "dominik-koepfer",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 38,
+    "wins": 17,
+    "losses": 21,
+    "winRate": 44.7,
+    "firstServePct": 62.1,
+    "firstServeWonPct": 69.5,
+    "secondServeWonPct": 52.0,
+    "breakPointConversionPct": 35.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 19,
+      "wins": 9,
+      "losses": 10,
+      "winRate": 47.4,
+      "firstServePct": 63.5,
+      "firstServeWonPct": 70.6,
+      "secondServeWonPct": 49.3,
+      "breakPointConversionPct": 39.1
+    },
+    "Clay": {
+      "matches": 15,
+      "wins": 6,
+      "losses": 9,
+      "winRate": 40.0,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 67.8,
+      "secondServeWonPct": 53.2,
+      "breakPointConversionPct": 34.3
+    },
+    "Grass": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 60.5,
+      "firstServeWonPct": 70.1,
+      "secondServeWonPct": 59.5,
+      "breakPointConversionPct": 22.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.5
+    },
+    "rank21to50": {
+      "matches": 10,
+      "wins": 3,
+      "losses": 7,
+      "winRate": 30.0
+    },
+    "rank51plus": {
+      "matches": 15,
+      "wins": 9,
+      "losses": 6,
+      "winRate": 60.0
+    }
+  }
+}

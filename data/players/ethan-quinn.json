@@ -1,0 +1,80 @@
+{
+  "name": "Ethan Quinn",
+  "slug": "ethan-quinn",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 53,
+    "wins": 20,
+    "losses": 33,
+    "winRate": 37.7,
+    "firstServePct": 62.3,
+    "firstServeWonPct": 71.3,
+    "secondServeWonPct": 48.9,
+    "breakPointConversionPct": 38.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 31,
+      "wins": 11,
+      "losses": 20,
+      "winRate": 35.5,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 73.4,
+      "secondServeWonPct": 48.8,
+      "breakPointConversionPct": 37.5
+    },
+    "Clay": {
+      "matches": 16,
+      "wins": 6,
+      "losses": 10,
+      "winRate": 37.5,
+      "firstServePct": 62.8,
+      "firstServeWonPct": 68.6,
+      "secondServeWonPct": 47.6,
+      "breakPointConversionPct": 36.1
+    },
+    "Grass": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 50.0,
+      "firstServePct": 64.1,
+      "firstServeWonPct": 69.2,
+      "secondServeWonPct": 52.4,
+      "breakPointConversionPct": 46.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    },
+    "rank21to50": {
+      "matches": 17,
+      "wins": 5,
+      "losses": 12,
+      "winRate": 29.4
+    },
+    "rank51plus": {
+      "matches": 28,
+      "wins": 13,
+      "losses": 15,
+      "winRate": 46.4
+    }
+  }
+}

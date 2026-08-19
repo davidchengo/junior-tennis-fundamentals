@@ -1,0 +1,74 @@
+{
+  "name": "Facundo Diaz Acosta",
+  "slug": "facundo-diaz-acosta",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 44,
+    "wins": 20,
+    "losses": 24,
+    "winRate": 45.5,
+    "firstServePct": 64.0,
+    "firstServeWonPct": 67.3,
+    "secondServeWonPct": 51.3,
+    "breakPointConversionPct": 39.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 13,
+      "wins": 4,
+      "losses": 9,
+      "winRate": 30.8,
+      "firstServePct": 64.0,
+      "firstServeWonPct": 66.8,
+      "secondServeWonPct": 47.3,
+      "breakPointConversionPct": 29.9
+    },
+    "Clay": {
+      "matches": 30,
+      "wins": 16,
+      "losses": 14,
+      "winRate": 53.3,
+      "firstServePct": 64.0,
+      "firstServeWonPct": 68.3,
+      "secondServeWonPct": 53.6,
+      "breakPointConversionPct": 43.3
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 64.8,
+      "firstServeWonPct": 54.3,
+      "secondServeWonPct": 44.7,
+      "breakPointConversionPct": 80.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 15,
+      "wins": 7,
+      "losses": 8,
+      "winRate": 46.7
+    },
+    "rank51plus": {
+      "matches": 26,
+      "wins": 13,
+      "losses": 13,
+      "winRate": 50.0
+    }
+  }
+}

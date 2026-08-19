@@ -1,0 +1,52 @@
+{
+  "name": "Ernesto Escobedo",
+  "slug": "ernesto-escobedo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 0,
+    "losses": 4,
+    "winRate": 0.0,
+    "firstServePct": 62.2,
+    "firstServeWonPct": 67.9,
+    "secondServeWonPct": 47.3,
+    "breakPointConversionPct": 21.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 63.3,
+      "firstServeWonPct": 69.3,
+      "secondServeWonPct": 51.5,
+      "breakPointConversionPct": 8.3
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 60.9,
+      "firstServeWonPct": 66.3,
+      "secondServeWonPct": 42.9,
+      "breakPointConversionPct": 42.9
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

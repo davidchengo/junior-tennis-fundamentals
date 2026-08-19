@@ -1,0 +1,70 @@
+{
+  "name": "Federico Agustin Gomez",
+  "slug": "federico-agustin-gomez",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 8,
+    "wins": 2,
+    "losses": 6,
+    "winRate": 25.0,
+    "firstServePct": 59.4,
+    "firstServeWonPct": 68.5,
+    "secondServeWonPct": 50.2,
+    "breakPointConversionPct": 28.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 58.0,
+      "firstServeWonPct": 73.9,
+      "secondServeWonPct": 51.1,
+      "breakPointConversionPct": 30.0
+    },
+    "Clay": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 63.8,
+      "secondServeWonPct": 49.3,
+      "breakPointConversionPct": 27.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 40.0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Constant Lestienne",
+  "slug": "constant-lestienne",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 18,
+    "wins": 4,
+    "losses": 14,
+    "winRate": 22.2,
+    "firstServePct": 59.1,
+    "firstServeWonPct": 65.4,
+    "secondServeWonPct": 43.7,
+    "breakPointConversionPct": 42.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 10,
+      "winRate": 28.6,
+      "firstServePct": 58.1,
+      "firstServeWonPct": 64.6,
+      "secondServeWonPct": 44.7,
+      "breakPointConversionPct": 43.1
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 68.0,
+      "firstServeWonPct": 57.5,
+      "secondServeWonPct": 43.9,
+      "breakPointConversionPct": 50.0
+    },
+    "Grass": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0,
+      "firstServePct": 58.7,
+      "firstServeWonPct": 71.9,
+      "secondServeWonPct": 40.0,
+      "breakPointConversionPct": 36.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 13,
+      "wins": 4,
+      "losses": 9,
+      "winRate": 30.8
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Sebastian Korda",
+  "slug": "sebastian-korda",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 111,
+    "wins": 67,
+    "losses": 44,
+    "winRate": 60.4,
+    "firstServePct": 60.7,
+    "firstServeWonPct": 75.0,
+    "secondServeWonPct": 52.9,
+    "breakPointConversionPct": 38.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 81,
+      "wins": 50,
+      "losses": 31,
+      "winRate": 61.7,
+      "firstServePct": 60.7,
+      "firstServeWonPct": 76.0,
+      "secondServeWonPct": 52.0,
+      "breakPointConversionPct": 39.1
+    },
+    "Clay": {
+      "matches": 20,
+      "wins": 10,
+      "losses": 10,
+      "winRate": 50.0,
+      "firstServePct": 59.9,
+      "firstServeWonPct": 69.1,
+      "secondServeWonPct": 55.4,
+      "breakPointConversionPct": 40.5
+    },
+    "Grass": {
+      "matches": 10,
+      "wins": 7,
+      "losses": 3,
+      "winRate": 70.0,
+      "firstServePct": 62.2,
+      "firstServeWonPct": 79.6,
+      "secondServeWonPct": 54.5,
+      "breakPointConversionPct": 31.6
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 10,
+      "wins": 2,
+      "losses": 8,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 18,
+      "wins": 5,
+      "losses": 13,
+      "winRate": 27.8
+    },
+    "top20": {
+      "matches": 31,
+      "wins": 10,
+      "losses": 21,
+      "winRate": 32.3
+    },
+    "rank21to50": {
+      "matches": 28,
+      "wins": 18,
+      "losses": 10,
+      "winRate": 64.3
+    },
+    "rank51plus": {
+      "matches": 52,
+      "wins": 39,
+      "losses": 13,
+      "winRate": 75.0
+    }
+  }
+}

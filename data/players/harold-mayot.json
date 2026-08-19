@@ -1,0 +1,68 @@
+{
+  "name": "Harold Mayot",
+  "slug": "harold-mayot",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 18,
+    "wins": 5,
+    "losses": 13,
+    "winRate": 27.8,
+    "firstServePct": 63.3,
+    "firstServeWonPct": 68.1,
+    "secondServeWonPct": 49.8,
+    "breakPointConversionPct": 33.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.3,
+      "firstServePct": 61.7,
+      "firstServeWonPct": 69.2,
+      "secondServeWonPct": 47.6,
+      "breakPointConversionPct": 29.0
+    },
+    "Clay": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3,
+      "firstServePct": 66.5,
+      "firstServeWonPct": 66.2,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 41.9
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 58.0,
+      "firstServeWonPct": 70.0,
+      "secondServeWonPct": 58.6,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 7,
+      "wins": 0,
+      "losses": 7,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 50.0
+    }
+  }
+}

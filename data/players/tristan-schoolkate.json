@@ -1,0 +1,80 @@
+{
+  "name": "Tristan Schoolkate",
+  "slug": "tristan-schoolkate",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 23,
+    "wins": 7,
+    "losses": 16,
+    "winRate": 30.4,
+    "firstServePct": 58.8,
+    "firstServeWonPct": 75.9,
+    "secondServeWonPct": 47.3,
+    "breakPointConversionPct": 32.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 21,
+      "wins": 7,
+      "losses": 14,
+      "winRate": 33.3,
+      "firstServePct": 58.9,
+      "firstServeWonPct": 76.0,
+      "secondServeWonPct": 48.1,
+      "breakPointConversionPct": 33.9
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 60.4,
+      "firstServeWonPct": 65.6,
+      "secondServeWonPct": 32.5,
+      "breakPointConversionPct": 25.0
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 55.4,
+      "firstServeWonPct": 88.9,
+      "secondServeWonPct": 48.3,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 9,
+      "wins": 2,
+      "losses": 7,
+      "winRate": 22.2
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 5,
+      "losses": 7,
+      "winRate": 41.7
+    }
+  }
+}

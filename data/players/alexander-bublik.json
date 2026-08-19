@@ -1,0 +1,80 @@
+{
+  "name": "Alexander Bublik",
+  "slug": "alexander-bublik",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 139,
+    "wins": 80,
+    "losses": 59,
+    "winRate": 57.6,
+    "firstServePct": 61.8,
+    "firstServeWonPct": 76.9,
+    "secondServeWonPct": 46.8,
+    "breakPointConversionPct": 39.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 82,
+      "wins": 45,
+      "losses": 37,
+      "winRate": 54.9,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 77.8,
+      "secondServeWonPct": 46.0,
+      "breakPointConversionPct": 38.8
+    },
+    "Clay": {
+      "matches": 43,
+      "wins": 26,
+      "losses": 17,
+      "winRate": 60.5,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 73.7,
+      "secondServeWonPct": 47.4,
+      "breakPointConversionPct": 43.9
+    },
+    "Grass": {
+      "matches": 14,
+      "wins": 9,
+      "losses": 5,
+      "winRate": 64.3,
+      "firstServePct": 63.4,
+      "firstServeWonPct": 81.1,
+      "secondServeWonPct": 49.3,
+      "breakPointConversionPct": 30.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4
+    },
+    "top10": {
+      "matches": 19,
+      "wins": 8,
+      "losses": 11,
+      "winRate": 42.1
+    },
+    "top20": {
+      "matches": 31,
+      "wins": 12,
+      "losses": 19,
+      "winRate": 38.7
+    },
+    "rank21to50": {
+      "matches": 35,
+      "wins": 19,
+      "losses": 16,
+      "winRate": 54.3
+    },
+    "rank51plus": {
+      "matches": 72,
+      "wins": 48,
+      "losses": 24,
+      "winRate": 66.7
+    }
+  }
+}

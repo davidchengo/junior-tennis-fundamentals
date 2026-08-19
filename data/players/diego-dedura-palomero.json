@@ -1,0 +1,42 @@
+{
+  "name": "Diego Dedura Palomero",
+  "slug": "diego-dedura-palomero",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 1,
+    "losses": 4,
+    "winRate": 20.0,
+    "firstServePct": 68.5,
+    "firstServeWonPct": 63.3,
+    "secondServeWonPct": 53.3,
+    "breakPointConversionPct": 10.0
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 68.5,
+      "firstServeWonPct": 63.3,
+      "secondServeWonPct": 53.3,
+      "breakPointConversionPct": 10.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    }
+  }
+}

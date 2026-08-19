@@ -1175,3 +1175,127 @@ img { display: block; max-width: 100%; }
   .footer-inner { grid-template-columns: 1fr; }
   .hero h1 { font-size: 2.2rem; }
 }
+
+/* =========================================================
+   PRO LAB HOMEPAGE TEASER
+   ========================================================= */
+
+.pro-lab-teaser {
+  padding: 72px 0;
+}
+
+.pro-lab-teaser-inner {
+  display: grid;
+  grid-template-columns: 1.25fr .75fr;
+  gap: 40px;
+  align-items: center;
+
+  padding: 42px;
+
+  background:
+    radial-gradient(circle at 85% 20%, rgba(76,175,80,.14), transparent 35%),
+    #151922;
+
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 24px;
+}
+
+.pro-lab-teaser-badge {
+  display: inline-block;
+
+  margin-bottom: 12px;
+  padding: 5px 10px;
+
+  background: rgba(76,175,80,.14);
+  color: #7ce388;
+
+  border: 1px solid rgba(124,227,136,.3);
+  border-radius: 999px;
+
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.pro-lab-teaser-kicker {
+  margin: 0 0 8px;
+
+  color: #7ce388;
+
+  font-size: .78rem;
+  font-weight: 900;
+  letter-spacing: .15em;
+}
+
+.pro-lab-teaser h2 {
+  margin: 0 0 14px;
+
+  color: #fff;
+
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.pro-lab-teaser p {
+  max-width: 650px;
+
+  color: #aeb7c3;
+
+  line-height: 1.7;
+}
+
+.pro-lab-teaser-battle {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.teaser-player {
+  padding: 24px 18px;
+
+  text-align: center;
+
+  background: #1d232d;
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 16px;
+}
+
+.teaser-player-one {
+  border-top: 3px solid #58a6ff;
+}
+
+.teaser-player-two {
+  border-top: 3px solid #ffb84d;
+}
+
+.teaser-player strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #fff;
+
+  font-size: 1.2rem;
+}
+
+.teaser-rank {
+  color: #8f9aa7;
+
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.teaser-vs {
+  color: #7ce388;
+
+  font-weight: 1000;
+}
+
+@media (max-width: 760px) {
+
+  .pro-lab-teaser-inner {
+    grid-template-columns: 1fr;
+    padding: 28px;
+  }
+
+}

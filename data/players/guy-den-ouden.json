@@ -1,0 +1,42 @@
+{
+  "name": "Guy Den Ouden",
+  "slug": "guy-den-ouden",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 2,
+    "losses": 2,
+    "winRate": 50.0,
+    "firstServePct": 57.2,
+    "firstServeWonPct": 60.2,
+    "secondServeWonPct": 54.8,
+    "breakPointConversionPct": 62.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 57.2,
+      "firstServeWonPct": 60.2,
+      "secondServeWonPct": 54.8,
+      "breakPointConversionPct": 62.5
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    }
+  }
+}

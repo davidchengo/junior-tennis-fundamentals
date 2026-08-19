@@ -1,0 +1,42 @@
+{
+  "name": "Paul Jubb",
+  "slug": "paul-jubb",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 5,
+    "wins": 3,
+    "losses": 2,
+    "winRate": 60.0,
+    "firstServePct": 59.0,
+    "firstServeWonPct": 75.1,
+    "secondServeWonPct": 51.4,
+    "breakPointConversionPct": 37.3
+  },
+  "surfaces": {
+    "Grass": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0,
+      "firstServePct": 59.0,
+      "firstServeWonPct": 75.1,
+      "secondServeWonPct": 51.4,
+      "breakPointConversionPct": 37.3
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    }
+  }
+}

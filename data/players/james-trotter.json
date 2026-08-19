@@ -1,0 +1,42 @@
+{
+  "name": "James Trotter",
+  "slug": "james-trotter",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 59.2,
+    "firstServeWonPct": 65.5,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": null
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 59.2,
+      "firstServeWonPct": 65.5,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

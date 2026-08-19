@@ -1,0 +1,46 @@
+{
+  "name": "Aqeel Khan",
+  "slug": "aqeel-khan",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 2,
+    "losses": 1,
+    "winRate": 66.7,
+    "firstServePct": 53.7,
+    "firstServeWonPct": 72.6,
+    "secondServeWonPct": 61.9,
+    "breakPointConversionPct": 36.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": 56.8,
+      "firstServeWonPct": 65.2,
+      "secondServeWonPct": 65.7,
+      "breakPointConversionPct": 36.4
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 49.1,
+      "firstServeWonPct": 85.2,
+      "secondServeWonPct": 57.1,
+      "breakPointConversionPct": null
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    }
+  }
+}

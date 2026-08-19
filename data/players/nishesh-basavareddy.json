@@ -1,0 +1,80 @@
+{
+  "name": "Nishesh Basavareddy",
+  "slug": "nishesh-basavareddy",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 35,
+    "wins": 13,
+    "losses": 22,
+    "winRate": 37.1,
+    "firstServePct": 56.6,
+    "firstServeWonPct": 70.1,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": 34.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 26,
+      "wins": 11,
+      "losses": 15,
+      "winRate": 42.3,
+      "firstServePct": 57.4,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 36.0
+    },
+    "Clay": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3,
+      "firstServePct": 50.9,
+      "firstServeWonPct": 68.2,
+      "secondServeWonPct": 44.1,
+      "breakPointConversionPct": 31.6
+    },
+    "Grass": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0,
+      "firstServePct": 57.5,
+      "firstServeWonPct": 65.9,
+      "secondServeWonPct": 45.1,
+      "breakPointConversionPct": 22.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "rank21to50": {
+      "matches": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.3
+    },
+    "rank51plus": {
+      "matches": 18,
+      "wins": 9,
+      "losses": 9,
+      "winRate": 50.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Linh Giang Trinh",
+  "slug": "linh-giang-trinh",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 73.2,
+    "firstServeWonPct": 48.1,
+    "secondServeWonPct": 39.5,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 73.2,
+      "firstServeWonPct": 48.1,
+      "secondServeWonPct": 39.5,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

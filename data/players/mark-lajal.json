@@ -1,0 +1,70 @@
+{
+  "name": "Mark Lajal",
+  "slug": "mark-lajal",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 11,
+    "wins": 6,
+    "losses": 5,
+    "winRate": 54.5,
+    "firstServePct": 65.7,
+    "firstServeWonPct": 70.1,
+    "secondServeWonPct": 47.9,
+    "breakPointConversionPct": 31.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 57.1,
+      "firstServePct": 64.6,
+      "firstServeWonPct": 72.9,
+      "secondServeWonPct": 44.7,
+      "breakPointConversionPct": 25.9
+    },
+    "Grass": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 66.8,
+      "firstServeWonPct": 67.5,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 41.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank51plus": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9
+    }
+  }
+}

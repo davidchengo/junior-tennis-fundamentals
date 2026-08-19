@@ -1,0 +1,62 @@
+{
+  "name": "Alejandro Moro Canas",
+  "slug": "alejandro-moro-canas",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 1,
+    "losses": 3,
+    "winRate": 25.0,
+    "firstServePct": 70.6,
+    "firstServeWonPct": 64.4,
+    "secondServeWonPct": 44.7,
+    "breakPointConversionPct": 54.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 61.5,
+      "firstServeWonPct": 64.6,
+      "secondServeWonPct": 40.0,
+      "breakPointConversionPct": 50.0
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 75.5,
+      "firstServeWonPct": 58.3,
+      "secondServeWonPct": 42.9,
+      "breakPointConversionPct": 83.3
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 70.5,
+      "firstServeWonPct": 71.4,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Maximilian Marterer",
+  "slug": "maximilian-marterer",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 25,
+    "wins": 7,
+    "losses": 18,
+    "winRate": 28.0,
+    "firstServePct": 63.6,
+    "firstServeWonPct": 64.1,
+    "secondServeWonPct": 49.7,
+    "breakPointConversionPct": 33.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 13,
+      "wins": 4,
+      "losses": 9,
+      "winRate": 30.8,
+      "firstServePct": 62.3,
+      "firstServeWonPct": 65.3,
+      "secondServeWonPct": 49.0,
+      "breakPointConversionPct": 42.1
+    },
+    "Clay": {
+      "matches": 10,
+      "wins": 3,
+      "losses": 7,
+      "winRate": 30.0,
+      "firstServePct": 64.7,
+      "firstServeWonPct": 64.1,
+      "secondServeWonPct": 51.7,
+      "breakPointConversionPct": 33.8
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 63.2,
+      "firstServeWonPct": 57.1,
+      "secondServeWonPct": 41.5,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 6,
+      "losses": 11,
+      "winRate": 35.3
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Karen Khachanov",
+  "slug": "karen-khachanov",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 142,
+    "wins": 83,
+    "losses": 59,
+    "winRate": 58.5,
+    "firstServePct": 64.0,
+    "firstServeWonPct": 74.3,
+    "secondServeWonPct": 52.4,
+    "breakPointConversionPct": 40.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 87,
+      "wins": 50,
+      "losses": 37,
+      "winRate": 57.5,
+      "firstServePct": 63.8,
+      "firstServeWonPct": 75.6,
+      "secondServeWonPct": 52.2,
+      "breakPointConversionPct": 38.8
+    },
+    "Clay": {
+      "matches": 40,
+      "wins": 24,
+      "losses": 16,
+      "winRate": 60.0,
+      "firstServePct": 64.5,
+      "firstServeWonPct": 70.7,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 44.2
+    },
+    "Grass": {
+      "matches": 15,
+      "wins": 9,
+      "losses": 6,
+      "winRate": 60.0,
+      "firstServePct": 64.1,
+      "firstServeWonPct": 75.5,
+      "secondServeWonPct": 55.7,
+      "breakPointConversionPct": 37.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 11,
+      "wins": 2,
+      "losses": 9,
+      "winRate": 18.2
+    },
+    "top10": {
+      "matches": 16,
+      "wins": 4,
+      "losses": 12,
+      "winRate": 25.0
+    },
+    "top20": {
+      "matches": 28,
+      "wins": 5,
+      "losses": 23,
+      "winRate": 17.9
+    },
+    "rank21to50": {
+      "matches": 39,
+      "wins": 22,
+      "losses": 17,
+      "winRate": 56.4
+    },
+    "rank51plus": {
+      "matches": 75,
+      "wins": 56,
+      "losses": 19,
+      "winRate": 74.7
+    }
+  }
+}

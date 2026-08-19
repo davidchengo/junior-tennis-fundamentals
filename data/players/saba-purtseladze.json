@@ -1,0 +1,36 @@
+{
+  "name": "Saba Purtseladze",
+  "slug": "saba-purtseladze",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 7,
+    "wins": 3,
+    "losses": 4,
+    "winRate": 42.9,
+    "firstServePct": 57.7,
+    "firstServeWonPct": 71.5,
+    "secondServeWonPct": 50.8,
+    "breakPointConversionPct": 20.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9,
+      "firstServePct": 57.7,
+      "firstServeWonPct": 71.5,
+      "secondServeWonPct": 50.8,
+      "breakPointConversionPct": 20.6
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3
+    }
+  }
+}

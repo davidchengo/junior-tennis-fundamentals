@@ -1,0 +1,36 @@
+{
+  "name": "Antoine Escoffier",
+  "slug": "antoine-escoffier",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 61.6,
+    "firstServeWonPct": 57.8,
+    "secondServeWonPct": 42.9,
+    "breakPointConversionPct": 50.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 57.8,
+      "secondServeWonPct": 42.9,
+      "breakPointConversionPct": 50.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

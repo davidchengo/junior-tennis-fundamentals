@@ -1,0 +1,36 @@
+{
+  "name": "Osgar Ohoisin",
+  "slug": "osgar-ohoisin",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50.0,
+    "firstServePct": 53.7,
+    "firstServeWonPct": 82.8,
+    "secondServeWonPct": 48.0,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 53.7,
+      "firstServeWonPct": 82.8,
+      "secondServeWonPct": 48.0,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Thanasi Kokkinakis",
+  "slug": "thanasi-kokkinakis",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 39,
+    "wins": 19,
+    "losses": 20,
+    "winRate": 48.7,
+    "firstServePct": 63.1,
+    "firstServeWonPct": 75.0,
+    "secondServeWonPct": 51.0,
+    "breakPointConversionPct": 31.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 29,
+      "wins": 15,
+      "losses": 14,
+      "winRate": 51.7,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 74.7,
+      "secondServeWonPct": 50.7,
+      "breakPointConversionPct": 31.8
+    },
+    "Clay": {
+      "matches": 8,
+      "wins": 3,
+      "losses": 5,
+      "winRate": 37.5,
+      "firstServePct": 63.6,
+      "firstServeWonPct": 73.4,
+      "secondServeWonPct": 53.4,
+      "breakPointConversionPct": 31.1
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 63.2,
+      "firstServeWonPct": 82.4,
+      "secondServeWonPct": 47.2,
+      "breakPointConversionPct": 27.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 9,
+      "wins": 2,
+      "losses": 7,
+      "winRate": 22.2
+    },
+    "rank21to50": {
+      "matches": 13,
+      "wins": 7,
+      "losses": 6,
+      "winRate": 53.8
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 10,
+      "losses": 7,
+      "winRate": 58.8
+    }
+  }
+}

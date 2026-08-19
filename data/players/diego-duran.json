@@ -1,0 +1,29 @@
+{
+  "name": "Diego Duran",
+  "slug": "diego-duran",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 3,
+    "wins": 3,
+    "losses": 0,
+    "winRate": 100.0,
+    "firstServePct": 58.7,
+    "firstServeWonPct": 70.4,
+    "secondServeWonPct": 68.4,
+    "breakPointConversionPct": 55.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 3,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": 58.7,
+      "firstServeWonPct": 70.4,
+      "secondServeWonPct": 68.4,
+      "breakPointConversionPct": 55.6
+    }
+  },
+  "opponentStrength": {}
+}

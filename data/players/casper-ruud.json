@@ -1,0 +1,80 @@
+{
+  "name": "Casper Ruud",
+  "slug": "casper-ruud",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 169,
+    "wins": 114,
+    "losses": 55,
+    "winRate": 67.5,
+    "firstServePct": 66.1,
+    "firstServeWonPct": 72.8,
+    "secondServeWonPct": 54.5,
+    "breakPointConversionPct": 40.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 95,
+      "wins": 58,
+      "losses": 37,
+      "winRate": 61.1,
+      "firstServePct": 66.7,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 54.0,
+      "breakPointConversionPct": 38.8
+    },
+    "Clay": {
+      "matches": 72,
+      "wins": 55,
+      "losses": 17,
+      "winRate": 76.4,
+      "firstServePct": 65.3,
+      "firstServeWonPct": 70.6,
+      "secondServeWonPct": 55.2,
+      "breakPointConversionPct": 43.0
+    },
+    "Grass": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 61.6,
+      "firstServeWonPct": 77.6,
+      "secondServeWonPct": 55.1,
+      "breakPointConversionPct": 19.2
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 11,
+      "wins": 4,
+      "losses": 7,
+      "winRate": 36.4
+    },
+    "top10": {
+      "matches": 22,
+      "wins": 12,
+      "losses": 10,
+      "winRate": 54.5
+    },
+    "top20": {
+      "matches": 41,
+      "wins": 21,
+      "losses": 20,
+      "winRate": 51.2
+    },
+    "rank21to50": {
+      "matches": 58,
+      "wins": 39,
+      "losses": 19,
+      "winRate": 67.2
+    },
+    "rank51plus": {
+      "matches": 70,
+      "wins": 54,
+      "losses": 16,
+      "winRate": 77.1
+    }
+  }
+}

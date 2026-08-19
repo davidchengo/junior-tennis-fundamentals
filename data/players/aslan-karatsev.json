@@ -1,0 +1,68 @@
+{
+  "name": "Aslan Karatsev",
+  "slug": "aslan-karatsev",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 13,
+    "wins": 3,
+    "losses": 10,
+    "winRate": 23.1,
+    "firstServePct": 63.1,
+    "firstServeWonPct": 68.5,
+    "secondServeWonPct": 48.2,
+    "breakPointConversionPct": 34.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6,
+      "firstServePct": 63.5,
+      "firstServeWonPct": 70.8,
+      "secondServeWonPct": 52.6,
+      "breakPointConversionPct": 36.7
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0,
+      "firstServePct": 62.4,
+      "firstServeWonPct": 64.1,
+      "secondServeWonPct": 43.8,
+      "breakPointConversionPct": 37.2
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 63.8,
+      "firstServeWonPct": 75.3,
+      "secondServeWonPct": 47.8,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "rank51plus": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0
+    }
+  }
+}

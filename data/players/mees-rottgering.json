@@ -1,0 +1,36 @@
+{
+  "name": "Mees Rottgering",
+  "slug": "mees-rottgering",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 54.9,
+    "firstServeWonPct": 52.8,
+    "secondServeWonPct": 47.9,
+    "breakPointConversionPct": 23.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 54.9,
+      "firstServeWonPct": 52.8,
+      "secondServeWonPct": 47.9,
+      "breakPointConversionPct": 23.1
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  }
+}

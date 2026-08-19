@@ -1,0 +1,60 @@
+{
+  "name": "Andrea Pellegrino",
+  "slug": "andrea-pellegrino",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 12,
+    "wins": 6,
+    "losses": 6,
+    "winRate": 50.0,
+    "firstServePct": 58.4,
+    "firstServeWonPct": 66.2,
+    "secondServeWonPct": 54.0,
+    "breakPointConversionPct": 45.5
+  },
+  "surfaces": {
+    "Clay": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0,
+      "firstServePct": 58.4,
+      "firstServeWonPct": 66.2,
+      "secondServeWonPct": 54.0,
+      "breakPointConversionPct": 45.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3
+    },
+    "rank51plus": {
+      "matches": 6,
+      "wins": 4,
+      "losses": 2,
+      "winRate": 66.7
+    }
+  }
+}

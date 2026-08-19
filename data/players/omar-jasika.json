@@ -1,0 +1,48 @@
+{
+  "name": "Omar Jasika",
+  "slug": "omar-jasika",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 72.5,
+    "firstServeWonPct": 60.7,
+    "secondServeWonPct": 52.6,
+    "breakPointConversionPct": 20.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 72.5,
+      "firstServeWonPct": 60.7,
+      "secondServeWonPct": 52.6,
+      "breakPointConversionPct": 20.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

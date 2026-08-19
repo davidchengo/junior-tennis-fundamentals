@@ -1,0 +1,80 @@
+{
+  "name": "Daniel Altmaier",
+  "slug": "daniel-altmaier",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 107,
+    "wins": 41,
+    "losses": 66,
+    "winRate": 38.3,
+    "firstServePct": 61.6,
+    "firstServeWonPct": 71.0,
+    "secondServeWonPct": 47.6,
+    "breakPointConversionPct": 37.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 58,
+      "wins": 23,
+      "losses": 35,
+      "winRate": 39.7,
+      "firstServePct": 61.7,
+      "firstServeWonPct": 72.5,
+      "secondServeWonPct": 47.3,
+      "breakPointConversionPct": 33.3
+    },
+    "Clay": {
+      "matches": 43,
+      "wins": 16,
+      "losses": 27,
+      "winRate": 37.2,
+      "firstServePct": 62.1,
+      "firstServeWonPct": 68.7,
+      "secondServeWonPct": 48.3,
+      "breakPointConversionPct": 41.7
+    },
+    "Grass": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3,
+      "firstServePct": 58.1,
+      "firstServeWonPct": 74.0,
+      "secondServeWonPct": 46.7,
+      "breakPointConversionPct": 37.8
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "top10": {
+      "matches": 15,
+      "wins": 4,
+      "losses": 11,
+      "winRate": 26.7
+    },
+    "top20": {
+      "matches": 23,
+      "wins": 6,
+      "losses": 17,
+      "winRate": 26.1
+    },
+    "rank21to50": {
+      "matches": 25,
+      "wins": 9,
+      "losses": 16,
+      "winRate": 36.0
+    },
+    "rank51plus": {
+      "matches": 59,
+      "wins": 26,
+      "losses": 33,
+      "winRate": 44.1
+    }
+  }
+}

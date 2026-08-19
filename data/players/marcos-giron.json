@@ -1,0 +1,80 @@
+{
+  "name": "Marcos Giron",
+  "slug": "marcos-giron",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 123,
+    "wins": 59,
+    "losses": 64,
+    "winRate": 48.0,
+    "firstServePct": 60.7,
+    "firstServeWonPct": 71.7,
+    "secondServeWonPct": 51.7,
+    "breakPointConversionPct": 38.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 80,
+      "wins": 40,
+      "losses": 40,
+      "winRate": 50.0,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 72.0,
+      "secondServeWonPct": 51.6,
+      "breakPointConversionPct": 38.2
+    },
+    "Clay": {
+      "matches": 24,
+      "wins": 7,
+      "losses": 17,
+      "winRate": 29.2,
+      "firstServePct": 58.5,
+      "firstServeWonPct": 68.6,
+      "secondServeWonPct": 51.4,
+      "breakPointConversionPct": 40.2
+    },
+    "Grass": {
+      "matches": 19,
+      "wins": 12,
+      "losses": 7,
+      "winRate": 63.2,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 52.8,
+      "breakPointConversionPct": 36.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    },
+    "top10": {
+      "matches": 17,
+      "wins": 4,
+      "losses": 13,
+      "winRate": 23.5
+    },
+    "top20": {
+      "matches": 30,
+      "wins": 7,
+      "losses": 23,
+      "winRate": 23.3
+    },
+    "rank21to50": {
+      "matches": 31,
+      "wins": 12,
+      "losses": 19,
+      "winRate": 38.7
+    },
+    "rank51plus": {
+      "matches": 62,
+      "wins": 40,
+      "losses": 22,
+      "winRate": 64.5
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Gonzalo Escobar",
+  "slug": "gonzalo-escobar",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 1,
+    "losses": 0,
+    "winRate": 100.0,
+    "firstServePct": 61.4,
+    "firstServeWonPct": 74.1,
+    "secondServeWonPct": 64.7,
+    "breakPointConversionPct": 45.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "firstServePct": 61.4,
+      "firstServeWonPct": 74.1,
+      "secondServeWonPct": 64.7,
+      "breakPointConversionPct": 45.5
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Matavao Fanguna",
+  "slug": "matavao-fanguna",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 62.1,
+    "firstServeWonPct": 52.8,
+    "secondServeWonPct": 36.4,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 62.1,
+      "firstServeWonPct": 52.8,
+      "secondServeWonPct": 36.4,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {}
+}

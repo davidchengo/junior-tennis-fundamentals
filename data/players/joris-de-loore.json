@@ -1,0 +1,36 @@
+{
+  "name": "Joris De Loore",
+  "slug": "joris-de-loore",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 1,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "firstServePct": 67.3,
+    "firstServeWonPct": 54.1,
+    "secondServeWonPct": 33.3,
+    "breakPointConversionPct": 25.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 67.3,
+      "firstServeWonPct": 54.1,
+      "secondServeWonPct": 33.3,
+      "breakPointConversionPct": 25.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Giovanni Mpetshi Perricard",
+  "slug": "giovanni-mpetshi-perricard",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 92,
+    "wins": 42,
+    "losses": 50,
+    "winRate": 45.7,
+    "firstServePct": 67.2,
+    "firstServeWonPct": 78.2,
+    "secondServeWonPct": 52.1,
+    "breakPointConversionPct": 34.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 63,
+      "wins": 29,
+      "losses": 34,
+      "winRate": 46.0,
+      "firstServePct": 67.0,
+      "firstServeWonPct": 79.4,
+      "secondServeWonPct": 53.1,
+      "breakPointConversionPct": 31.5
+    },
+    "Clay": {
+      "matches": 18,
+      "wins": 8,
+      "losses": 10,
+      "winRate": 44.4,
+      "firstServePct": 66.8,
+      "firstServeWonPct": 71.6,
+      "secondServeWonPct": 50.2,
+      "breakPointConversionPct": 38.8
+    },
+    "Grass": {
+      "matches": 11,
+      "wins": 5,
+      "losses": 6,
+      "winRate": 45.5,
+      "firstServePct": 68.2,
+      "firstServeWonPct": 81.2,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 41.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "top10": {
+      "matches": 11,
+      "wins": 2,
+      "losses": 9,
+      "winRate": 18.2
+    },
+    "top20": {
+      "matches": 21,
+      "wins": 9,
+      "losses": 12,
+      "winRate": 42.9
+    },
+    "rank21to50": {
+      "matches": 28,
+      "wins": 9,
+      "losses": 19,
+      "winRate": 32.1
+    },
+    "rank51plus": {
+      "matches": 42,
+      "wins": 23,
+      "losses": 19,
+      "winRate": 54.8
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Nicolai Budkov Kjaer",
+  "slug": "nicolai-budkov-kjaer",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 21,
+    "wins": 9,
+    "losses": 12,
+    "winRate": 42.9,
+    "firstServePct": 65.4,
+    "firstServeWonPct": 69.9,
+    "secondServeWonPct": 45.6,
+    "breakPointConversionPct": 56.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 16,
+      "wins": 6,
+      "losses": 10,
+      "winRate": 37.5,
+      "firstServePct": 65.4,
+      "firstServeWonPct": 71.1,
+      "secondServeWonPct": 44.4,
+      "breakPointConversionPct": 51.6
+    },
+    "Clay": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0,
+      "firstServePct": 65.5,
+      "firstServeWonPct": 67.8,
+      "secondServeWonPct": 47.7,
+      "breakPointConversionPct": 63.6
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 7,
+      "wins": 1,
+      "losses": 6,
+      "winRate": 14.3
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 7,
+      "losses": 5,
+      "winRate": 58.3
+    }
+  }
+}

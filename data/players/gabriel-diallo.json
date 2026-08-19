@@ -1,0 +1,80 @@
+{
+  "name": "Gabriel Diallo",
+  "slug": "gabriel-diallo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 89,
+    "wins": 44,
+    "losses": 45,
+    "winRate": 49.4,
+    "firstServePct": 67.7,
+    "firstServeWonPct": 72.1,
+    "secondServeWonPct": 48.4,
+    "breakPointConversionPct": 37.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 59,
+      "wins": 28,
+      "losses": 31,
+      "winRate": 47.5,
+      "firstServePct": 68.0,
+      "firstServeWonPct": 72.6,
+      "secondServeWonPct": 46.1,
+      "breakPointConversionPct": 36.0
+    },
+    "Clay": {
+      "matches": 17,
+      "wins": 7,
+      "losses": 10,
+      "winRate": 41.2,
+      "firstServePct": 67.6,
+      "firstServeWonPct": 67.1,
+      "secondServeWonPct": 51.1,
+      "breakPointConversionPct": 37.8
+    },
+    "Grass": {
+      "matches": 13,
+      "wins": 9,
+      "losses": 4,
+      "winRate": 69.2,
+      "firstServePct": 66.2,
+      "firstServeWonPct": 76.2,
+      "secondServeWonPct": 54.4,
+      "breakPointConversionPct": 42.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 11,
+      "wins": 0,
+      "losses": 11,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 21,
+      "wins": 4,
+      "losses": 17,
+      "winRate": 19.0
+    },
+    "rank21to50": {
+      "matches": 23,
+      "wins": 10,
+      "losses": 13,
+      "winRate": 43.5
+    },
+    "rank51plus": {
+      "matches": 45,
+      "wins": 30,
+      "losses": 15,
+      "winRate": 66.7
+    }
+  }
+}

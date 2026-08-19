@@ -1,0 +1,80 @@
+{
+  "name": "Andrey Rublev",
+  "slug": "andrey-rublev",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 163,
+    "wins": 100,
+    "losses": 63,
+    "winRate": 61.3,
+    "firstServePct": 61.2,
+    "firstServeWonPct": 76.3,
+    "secondServeWonPct": 52.5,
+    "breakPointConversionPct": 36.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 106,
+      "wins": 64,
+      "losses": 42,
+      "winRate": 60.4,
+      "firstServePct": 61.7,
+      "firstServeWonPct": 77.2,
+      "secondServeWonPct": 53.0,
+      "breakPointConversionPct": 35.9
+    },
+    "Clay": {
+      "matches": 49,
+      "wins": 32,
+      "losses": 17,
+      "winRate": 65.3,
+      "firstServePct": 59.8,
+      "firstServeWonPct": 73.1,
+      "secondServeWonPct": 50.8,
+      "breakPointConversionPct": 38.8
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50.0,
+      "firstServePct": 60.9,
+      "firstServeWonPct": 79.2,
+      "secondServeWonPct": 53.3,
+      "breakPointConversionPct": 36.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 12,
+      "wins": 2,
+      "losses": 10,
+      "winRate": 16.7
+    },
+    "top10": {
+      "matches": 18,
+      "wins": 4,
+      "losses": 14,
+      "winRate": 22.2
+    },
+    "top20": {
+      "matches": 25,
+      "wins": 9,
+      "losses": 16,
+      "winRate": 36.0
+    },
+    "rank21to50": {
+      "matches": 61,
+      "wins": 39,
+      "losses": 22,
+      "winRate": 63.9
+    },
+    "rank51plus": {
+      "matches": 77,
+      "wins": 52,
+      "losses": 25,
+      "winRate": 67.5
+    }
+  }
+}

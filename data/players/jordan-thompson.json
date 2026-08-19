@@ -1,0 +1,80 @@
+{
+  "name": "Jordan Thompson",
+  "slug": "jordan-thompson",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 93,
+    "wins": 50,
+    "losses": 43,
+    "winRate": 53.8,
+    "firstServePct": 59.9,
+    "firstServeWonPct": 72.2,
+    "secondServeWonPct": 53.8,
+    "breakPointConversionPct": 34.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 65,
+      "wins": 37,
+      "losses": 28,
+      "winRate": 56.9,
+      "firstServePct": 59.8,
+      "firstServeWonPct": 73.2,
+      "secondServeWonPct": 54.1,
+      "breakPointConversionPct": 38.3
+    },
+    "Clay": {
+      "matches": 14,
+      "wins": 5,
+      "losses": 9,
+      "winRate": 35.7,
+      "firstServePct": 60.2,
+      "firstServeWonPct": 65.5,
+      "secondServeWonPct": 52.3,
+      "breakPointConversionPct": 28.3
+    },
+    "Grass": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 6,
+      "winRate": 57.1,
+      "firstServePct": 60.3,
+      "firstServeWonPct": 74.4,
+      "secondServeWonPct": 54.0,
+      "breakPointConversionPct": 26.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 13,
+      "wins": 4,
+      "losses": 9,
+      "winRate": 30.8
+    },
+    "top20": {
+      "matches": 23,
+      "wins": 10,
+      "losses": 13,
+      "winRate": 43.5
+    },
+    "rank21to50": {
+      "matches": 26,
+      "wins": 13,
+      "losses": 13,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 44,
+      "wins": 27,
+      "losses": 17,
+      "winRate": 61.4
+    }
+  }
+}

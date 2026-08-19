@@ -1,0 +1,80 @@
+{
+  "name": "Taylor Fritz",
+  "slug": "taylor-fritz",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 174,
+    "wins": 118,
+    "losses": 56,
+    "winRate": 67.8,
+    "firstServePct": 64.1,
+    "firstServeWonPct": 78.9,
+    "secondServeWonPct": 54.7,
+    "breakPointConversionPct": 37.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 116,
+      "wins": 77,
+      "losses": 39,
+      "winRate": 66.4,
+      "firstServePct": 63.9,
+      "firstServeWonPct": 78.3,
+      "secondServeWonPct": 53.9,
+      "breakPointConversionPct": 36.0
+    },
+    "Clay": {
+      "matches": 31,
+      "wins": 18,
+      "losses": 13,
+      "winRate": 58.1,
+      "firstServePct": 63.3,
+      "firstServeWonPct": 77.3,
+      "secondServeWonPct": 51.9,
+      "breakPointConversionPct": 39.6
+    },
+    "Grass": {
+      "matches": 27,
+      "wins": 23,
+      "losses": 4,
+      "winRate": 85.2,
+      "firstServePct": 65.4,
+      "firstServeWonPct": 82.5,
+      "secondServeWonPct": 60.9,
+      "breakPointConversionPct": 40.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 19,
+      "wins": 8,
+      "losses": 11,
+      "winRate": 42.1
+    },
+    "top10": {
+      "matches": 33,
+      "wins": 15,
+      "losses": 18,
+      "winRate": 45.5
+    },
+    "top20": {
+      "matches": 52,
+      "wins": 26,
+      "losses": 26,
+      "winRate": 50.0
+    },
+    "rank21to50": {
+      "matches": 52,
+      "wins": 33,
+      "losses": 19,
+      "winRate": 63.5
+    },
+    "rank51plus": {
+      "matches": 69,
+      "wins": 58,
+      "losses": 11,
+      "winRate": 84.1
+    }
+  }
+}

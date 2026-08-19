@@ -1,0 +1,36 @@
+{
+  "name": "Dhakshineswar Suresh",
+  "slug": "dhakshineswar-suresh",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 4,
+    "wins": 3,
+    "losses": 1,
+    "winRate": 75.0,
+    "firstServePct": 60.0,
+    "firstServeWonPct": 64.1,
+    "secondServeWonPct": 42.3,
+    "breakPointConversionPct": 0.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 75.0,
+      "firstServePct": 60.0,
+      "firstServeWonPct": 64.1,
+      "secondServeWonPct": 42.3,
+      "breakPointConversionPct": 0.0
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 75.0
+    }
+  }
+}

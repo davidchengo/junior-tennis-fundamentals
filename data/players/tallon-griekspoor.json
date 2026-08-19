@@ -1,0 +1,80 @@
+{
+  "name": "Tallon Griekspoor",
+  "slug": "tallon-griekspoor",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 138,
+    "wins": 71,
+    "losses": 67,
+    "winRate": 51.4,
+    "firstServePct": 64.5,
+    "firstServeWonPct": 74.8,
+    "secondServeWonPct": 51.7,
+    "breakPointConversionPct": 35.7
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 85,
+      "wins": 43,
+      "losses": 42,
+      "winRate": 50.6,
+      "firstServePct": 65.7,
+      "firstServeWonPct": 75.5,
+      "secondServeWonPct": 51.6,
+      "breakPointConversionPct": 35.7
+    },
+    "Clay": {
+      "matches": 41,
+      "wins": 20,
+      "losses": 21,
+      "winRate": 48.8,
+      "firstServePct": 63.2,
+      "firstServeWonPct": 73.1,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 37.9
+    },
+    "Grass": {
+      "matches": 12,
+      "wins": 8,
+      "losses": 4,
+      "winRate": 66.7,
+      "firstServePct": 61.3,
+      "firstServeWonPct": 75.5,
+      "secondServeWonPct": 54.2,
+      "breakPointConversionPct": 27.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 17,
+      "wins": 2,
+      "losses": 15,
+      "winRate": 11.8
+    },
+    "top10": {
+      "matches": 28,
+      "wins": 6,
+      "losses": 22,
+      "winRate": 21.4
+    },
+    "top20": {
+      "matches": 42,
+      "wins": 11,
+      "losses": 31,
+      "winRate": 26.2
+    },
+    "rank21to50": {
+      "matches": 28,
+      "wins": 18,
+      "losses": 10,
+      "winRate": 64.3
+    },
+    "rank51plus": {
+      "matches": 67,
+      "wins": 41,
+      "losses": 26,
+      "winRate": 61.2
+    }
+  }
+}

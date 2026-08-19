@@ -1,0 +1,42 @@
+{
+  "name": "Matic Kriznik",
+  "slug": "matic-kriznik",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 2,
+    "wins": 0,
+    "losses": 2,
+    "winRate": 0.0,
+    "firstServePct": 45.7,
+    "firstServeWonPct": 62.1,
+    "secondServeWonPct": 36.2,
+    "breakPointConversionPct": 30.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0,
+      "firstServePct": 45.7,
+      "firstServeWonPct": 62.1,
+      "secondServeWonPct": 36.2,
+      "breakPointConversionPct": 30.0
+    }
+  },
+  "opponentStrength": {
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  }
+}

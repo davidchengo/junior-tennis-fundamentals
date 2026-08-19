@@ -1,0 +1,74 @@
+{
+  "name": "Luca Van Assche",
+  "slug": "luca-van-assche",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 37,
+    "wins": 14,
+    "losses": 23,
+    "winRate": 37.8,
+    "firstServePct": 62.6,
+    "firstServeWonPct": 68.9,
+    "secondServeWonPct": 50.4,
+    "breakPointConversionPct": 36.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 23,
+      "wins": 9,
+      "losses": 14,
+      "winRate": 39.1,
+      "firstServePct": 60.2,
+      "firstServeWonPct": 72.2,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 36.2
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.5,
+      "firstServePct": 66.5,
+      "firstServeWonPct": 64.3,
+      "secondServeWonPct": 46.8,
+      "breakPointConversionPct": 41.1
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 69.0,
+      "firstServeWonPct": 59.4,
+      "secondServeWonPct": 45.2,
+      "breakPointConversionPct": 9.1
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 10,
+      "wins": 4,
+      "losses": 6,
+      "winRate": 40.0
+    },
+    "rank51plus": {
+      "matches": 21,
+      "wins": 10,
+      "losses": 11,
+      "winRate": 47.6
+    }
+  }
+}

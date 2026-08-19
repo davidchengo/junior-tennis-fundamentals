@@ -1,0 +1,70 @@
+{
+  "name": "Dino Prizmic",
+  "slug": "dino-prizmic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 32,
+    "wins": 16,
+    "losses": 16,
+    "winRate": 50.0,
+    "firstServePct": 59.8,
+    "firstServeWonPct": 70.4,
+    "secondServeWonPct": 52.9,
+    "breakPointConversionPct": 38.0
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "winRate": 42.9,
+      "firstServePct": 61.2,
+      "firstServeWonPct": 69.4,
+      "secondServeWonPct": 51.1,
+      "breakPointConversionPct": 31.2
+    },
+    "Clay": {
+      "matches": 18,
+      "wins": 10,
+      "losses": 8,
+      "winRate": 55.6,
+      "firstServePct": 58.6,
+      "firstServeWonPct": 71.2,
+      "secondServeWonPct": 54.3,
+      "breakPointConversionPct": 43.0
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0
+    },
+    "top10": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3
+    },
+    "rank21to50": {
+      "matches": 6,
+      "wins": 1,
+      "losses": 5,
+      "winRate": 16.7
+    },
+    "rank51plus": {
+      "matches": 20,
+      "wins": 13,
+      "losses": 7,
+      "winRate": 65.0
+    }
+  }
+}

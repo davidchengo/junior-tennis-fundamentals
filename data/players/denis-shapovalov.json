@@ -1,0 +1,80 @@
+{
+  "name": "Denis Shapovalov",
+  "slug": "denis-shapovalov",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 116,
+    "wins": 60,
+    "losses": 56,
+    "winRate": 51.7,
+    "firstServePct": 59.2,
+    "firstServeWonPct": 74.2,
+    "secondServeWonPct": 50.0,
+    "breakPointConversionPct": 41.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 82,
+      "wins": 47,
+      "losses": 35,
+      "winRate": 57.3,
+      "firstServePct": 59.7,
+      "firstServeWonPct": 75.3,
+      "secondServeWonPct": 49.8,
+      "breakPointConversionPct": 40.9
+    },
+    "Clay": {
+      "matches": 25,
+      "wins": 9,
+      "losses": 16,
+      "winRate": 36.0,
+      "firstServePct": 57.8,
+      "firstServeWonPct": 70.9,
+      "secondServeWonPct": 49.8,
+      "breakPointConversionPct": 41.4
+    },
+    "Grass": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4,
+      "firstServePct": 58.8,
+      "firstServeWonPct": 73.2,
+      "secondServeWonPct": 51.4,
+      "breakPointConversionPct": 42.9
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "winRate": 28.6
+    },
+    "top10": {
+      "matches": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.3
+    },
+    "top20": {
+      "matches": 21,
+      "wins": 7,
+      "losses": 14,
+      "winRate": 33.3
+    },
+    "rank21to50": {
+      "matches": 33,
+      "wins": 18,
+      "losses": 15,
+      "winRate": 54.5
+    },
+    "rank51plus": {
+      "matches": 62,
+      "wins": 35,
+      "losses": 27,
+      "winRate": 56.5
+    }
+  }
+}

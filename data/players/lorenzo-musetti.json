@@ -1,0 +1,80 @@
+{
+  "name": "Lorenzo Musetti",
+  "slug": "lorenzo-musetti",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 157,
+    "wins": 99,
+    "losses": 58,
+    "winRate": 63.1,
+    "firstServePct": 65.2,
+    "firstServeWonPct": 70.7,
+    "secondServeWonPct": 53.8,
+    "breakPointConversionPct": 38.3
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 87,
+      "wins": 50,
+      "losses": 37,
+      "winRate": 57.5,
+      "firstServePct": 64.0,
+      "firstServeWonPct": 71.2,
+      "secondServeWonPct": 54.0,
+      "breakPointConversionPct": 35.7
+    },
+    "Clay": {
+      "matches": 54,
+      "wins": 37,
+      "losses": 17,
+      "winRate": 68.5,
+      "firstServePct": 66.6,
+      "firstServeWonPct": 69.4,
+      "secondServeWonPct": 52.4,
+      "breakPointConversionPct": 43.6
+    },
+    "Grass": {
+      "matches": 16,
+      "wins": 12,
+      "losses": 4,
+      "winRate": 75.0,
+      "firstServePct": 67.0,
+      "firstServeWonPct": 71.7,
+      "secondServeWonPct": 56.4,
+      "breakPointConversionPct": 36.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 17,
+      "wins": 3,
+      "losses": 14,
+      "winRate": 17.6
+    },
+    "top10": {
+      "matches": 27,
+      "wins": 10,
+      "losses": 17,
+      "winRate": 37.0
+    },
+    "top20": {
+      "matches": 44,
+      "wins": 21,
+      "losses": 23,
+      "winRate": 47.7
+    },
+    "rank21to50": {
+      "matches": 44,
+      "wins": 27,
+      "losses": 17,
+      "winRate": 61.4
+    },
+    "rank51plus": {
+      "matches": 68,
+      "wins": 50,
+      "losses": 18,
+      "winRate": 73.5
+    }
+  }
+}

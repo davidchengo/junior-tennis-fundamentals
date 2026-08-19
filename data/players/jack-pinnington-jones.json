@@ -1,0 +1,68 @@
+{
+  "name": "Jack Pinnington Jones",
+  "slug": "jack-pinnington-jones",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 7,
+    "wins": 3,
+    "losses": 4,
+    "winRate": 42.9,
+    "firstServePct": 64.1,
+    "firstServeWonPct": 72.5,
+    "secondServeWonPct": 43.7,
+    "breakPointConversionPct": 34.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 66.7,
+      "firstServePct": 67.1,
+      "firstServeWonPct": 78.7,
+      "secondServeWonPct": 46.4,
+      "breakPointConversionPct": 57.1
+    },
+    "Clay": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 71.4,
+      "firstServeWonPct": 60.0,
+      "secondServeWonPct": 33.3,
+      "breakPointConversionPct": 0.0
+    },
+    "Grass": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.3,
+      "firstServePct": 61.1,
+      "firstServeWonPct": 69.7,
+      "secondServeWonPct": 43.2,
+      "breakPointConversionPct": 29.2
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0
+    },
+    "rank21to50": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    }
+  }
+}

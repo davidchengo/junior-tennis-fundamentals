@@ -1,0 +1,70 @@
+{
+  "name": "Terence Atmane",
+  "slug": "terence-atmane",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 50,
+    "wins": 20,
+    "losses": 30,
+    "winRate": 40.0,
+    "firstServePct": 59.9,
+    "firstServeWonPct": 74.2,
+    "secondServeWonPct": 47.4,
+    "breakPointConversionPct": 37.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 32,
+      "wins": 13,
+      "losses": 19,
+      "winRate": 40.6,
+      "firstServePct": 59.3,
+      "firstServeWonPct": 73.9,
+      "secondServeWonPct": 48.1,
+      "breakPointConversionPct": 36.6
+    },
+    "Clay": {
+      "matches": 18,
+      "wins": 7,
+      "losses": 11,
+      "winRate": 38.9,
+      "firstServePct": 61.0,
+      "firstServeWonPct": 74.7,
+      "secondServeWonPct": 46.1,
+      "breakPointConversionPct": 40.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 5,
+      "wins": 1,
+      "losses": 4,
+      "winRate": 20.0
+    },
+    "top10": {
+      "matches": 9,
+      "wins": 3,
+      "losses": 6,
+      "winRate": 33.3
+    },
+    "top20": {
+      "matches": 12,
+      "wins": 3,
+      "losses": 9,
+      "winRate": 25.0
+    },
+    "rank21to50": {
+      "matches": 16,
+      "wins": 7,
+      "losses": 9,
+      "winRate": 43.8
+    },
+    "rank51plus": {
+      "matches": 22,
+      "wins": 10,
+      "losses": 12,
+      "winRate": 45.5
+    }
+  }
+}

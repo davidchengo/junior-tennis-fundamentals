@@ -1,0 +1,74 @@
+{
+  "name": "Filip Misolic",
+  "slug": "filip-misolic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 23,
+    "wins": 10,
+    "losses": 13,
+    "winRate": 43.5,
+    "firstServePct": 63.3,
+    "firstServeWonPct": 68.2,
+    "secondServeWonPct": 45.9,
+    "breakPointConversionPct": 40.9
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 7,
+      "wins": 1,
+      "losses": 6,
+      "winRate": 14.3,
+      "firstServePct": 62.6,
+      "firstServeWonPct": 69.1,
+      "secondServeWonPct": 42.5,
+      "breakPointConversionPct": 13.8
+    },
+    "Clay": {
+      "matches": 15,
+      "wins": 9,
+      "losses": 6,
+      "winRate": 60.0,
+      "firstServePct": 63.6,
+      "firstServeWonPct": 68.1,
+      "secondServeWonPct": 47.0,
+      "breakPointConversionPct": 48.0
+    },
+    "Grass": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 66.2,
+      "secondServeWonPct": 46.8,
+      "breakPointConversionPct": 100.0
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "winRate": 42.9
+    },
+    "rank51plus": {
+      "matches": 13,
+      "wins": 7,
+      "losses": 6,
+      "winRate": 53.8
+    }
+  }
+}

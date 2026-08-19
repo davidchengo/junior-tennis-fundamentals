@@ -1,0 +1,46 @@
+{
+  "name": "Marcelo Arevalo",
+  "slug": "marcelo-arevalo",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 6,
+    "wins": 3,
+    "losses": 3,
+    "winRate": 50.0,
+    "firstServePct": 60.2,
+    "firstServeWonPct": 71.7,
+    "secondServeWonPct": 44.3,
+    "breakPointConversionPct": 58.6
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0,
+      "firstServePct": 81.8,
+      "firstServeWonPct": 92.6,
+      "secondServeWonPct": 50.0,
+      "breakPointConversionPct": 83.3
+    },
+    "Clay": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "firstServePct": 55.2,
+      "firstServeWonPct": 64.6,
+      "secondServeWonPct": 43.8,
+      "breakPointConversionPct": 52.2
+    }
+  },
+  "opponentStrength": {
+    "rank51plus": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    }
+  }
+}

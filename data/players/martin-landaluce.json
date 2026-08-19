@@ -1,0 +1,64 @@
+{
+  "name": "Martin Landaluce",
+  "slug": "martin-landaluce",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 27,
+    "wins": 11,
+    "losses": 16,
+    "winRate": 40.7,
+    "firstServePct": 61.2,
+    "firstServeWonPct": 72.0,
+    "secondServeWonPct": 48.2,
+    "breakPointConversionPct": 34.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "winRate": 42.9,
+      "firstServePct": 62.0,
+      "firstServeWonPct": 74.6,
+      "secondServeWonPct": 48.2,
+      "breakPointConversionPct": 35.6
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.5,
+      "firstServePct": 60.1,
+      "firstServeWonPct": 68.3,
+      "secondServeWonPct": 48.2,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3
+    },
+    "rank21to50": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 50.0
+    },
+    "rank51plus": {
+      "matches": 17,
+      "wins": 7,
+      "losses": 10,
+      "winRate": 41.2
+    }
+  }
+}

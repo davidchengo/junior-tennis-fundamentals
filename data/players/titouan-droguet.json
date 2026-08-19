@@ -1,0 +1,64 @@
+{
+  "name": "Titouan Droguet",
+  "slug": "titouan-droguet",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 14,
+    "wins": 7,
+    "losses": 7,
+    "winRate": 50.0,
+    "firstServePct": 61.4,
+    "firstServeWonPct": 73.2,
+    "secondServeWonPct": 54.1,
+    "breakPointConversionPct": 40.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60.0,
+      "firstServePct": 63.0,
+      "firstServeWonPct": 77.6,
+      "secondServeWonPct": 55.2,
+      "breakPointConversionPct": 33.3
+    },
+    "Clay": {
+      "matches": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 44.4,
+      "firstServePct": 60.3,
+      "firstServeWonPct": 69.8,
+      "secondServeWonPct": 53.3,
+      "breakPointConversionPct": 43.4
+    }
+  },
+  "opponentStrength": {
+    "top10": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 66.7
+    },
+    "rank51plus": {
+      "matches": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 50.0
+    }
+  }
+}

@@ -4,3 +4,9 @@ CLAUDE.md
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+
+# Third-party tennis source data
+data/tennis-sackmann-archive/
+data/raw/
+data/generated/
+data/generated/

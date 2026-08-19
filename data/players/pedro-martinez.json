@@ -1,0 +1,80 @@
+{
+  "name": "Pedro Martinez",
+  "slug": "pedro-martinez",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 94,
+    "wins": 37,
+    "losses": 57,
+    "winRate": 39.4,
+    "firstServePct": 68.4,
+    "firstServeWonPct": 64.2,
+    "secondServeWonPct": 46.0,
+    "breakPointConversionPct": 39.1
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 37,
+      "wins": 11,
+      "losses": 26,
+      "winRate": 29.7,
+      "firstServePct": 64.3,
+      "firstServeWonPct": 64.9,
+      "secondServeWonPct": 47.4,
+      "breakPointConversionPct": 38.4
+    },
+    "Clay": {
+      "matches": 49,
+      "wins": 24,
+      "losses": 25,
+      "winRate": 49.0,
+      "firstServePct": 71.2,
+      "firstServeWonPct": 64.1,
+      "secondServeWonPct": 45.8,
+      "breakPointConversionPct": 39.7
+    },
+    "Grass": {
+      "matches": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 25.0,
+      "firstServePct": 68.1,
+      "firstServeWonPct": 62.2,
+      "secondServeWonPct": 41.4,
+      "breakPointConversionPct": 37.5
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 1,
+      "losses": 7,
+      "winRate": 12.5
+    },
+    "top20": {
+      "matches": 16,
+      "wins": 4,
+      "losses": 12,
+      "winRate": 25.0
+    },
+    "rank21to50": {
+      "matches": 22,
+      "wins": 7,
+      "losses": 15,
+      "winRate": 31.8
+    },
+    "rank51plus": {
+      "matches": 56,
+      "wins": 26,
+      "losses": 30,
+      "winRate": 46.4
+    }
+  }
+}

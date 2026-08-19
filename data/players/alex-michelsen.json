@@ -1,0 +1,80 @@
+{
+  "name": "Alex Michelsen",
+  "slug": "alex-michelsen",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 147,
+    "wins": 77,
+    "losses": 70,
+    "winRate": 52.4,
+    "firstServePct": 66.9,
+    "firstServeWonPct": 70.0,
+    "secondServeWonPct": 50.4,
+    "breakPointConversionPct": 37.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 100,
+      "wins": 56,
+      "losses": 44,
+      "winRate": 56.0,
+      "firstServePct": 66.3,
+      "firstServeWonPct": 71.1,
+      "secondServeWonPct": 50.4,
+      "breakPointConversionPct": 38.2
+    },
+    "Clay": {
+      "matches": 28,
+      "wins": 11,
+      "losses": 17,
+      "winRate": 39.3,
+      "firstServePct": 67.5,
+      "firstServeWonPct": 63.8,
+      "secondServeWonPct": 47.2,
+      "breakPointConversionPct": 38.0
+    },
+    "Grass": {
+      "matches": 19,
+      "wins": 10,
+      "losses": 9,
+      "winRate": 52.6,
+      "firstServePct": 68.9,
+      "firstServeWonPct": 72.4,
+      "secondServeWonPct": 54.3,
+      "breakPointConversionPct": 35.4
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 4,
+      "wins": 0,
+      "losses": 4,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.3
+    },
+    "top20": {
+      "matches": 32,
+      "wins": 9,
+      "losses": 23,
+      "winRate": 28.1
+    },
+    "rank21to50": {
+      "matches": 33,
+      "wins": 15,
+      "losses": 18,
+      "winRate": 45.5
+    },
+    "rank51plus": {
+      "matches": 82,
+      "wins": 53,
+      "losses": 29,
+      "winRate": 64.6
+    }
+  }
+}

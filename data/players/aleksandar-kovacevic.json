@@ -1,0 +1,80 @@
+{
+  "name": "Aleksandar Kovacevic",
+  "slug": "aleksandar-kovacevic",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 92,
+    "wins": 34,
+    "losses": 58,
+    "winRate": 37.0,
+    "firstServePct": 59.4,
+    "firstServeWonPct": 76.2,
+    "secondServeWonPct": 50.3,
+    "breakPointConversionPct": 32.4
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 66,
+      "wins": 26,
+      "losses": 40,
+      "winRate": 39.4,
+      "firstServePct": 59.8,
+      "firstServeWonPct": 77.2,
+      "secondServeWonPct": 50.1,
+      "breakPointConversionPct": 32.0
+    },
+    "Clay": {
+      "matches": 20,
+      "wins": 6,
+      "losses": 14,
+      "winRate": 30.0,
+      "firstServePct": 58.0,
+      "firstServeWonPct": 73.5,
+      "secondServeWonPct": 50.4,
+      "breakPointConversionPct": 35.7
+    },
+    "Grass": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "winRate": 33.3,
+      "firstServePct": 60.6,
+      "firstServeWonPct": 74.2,
+      "secondServeWonPct": 52.3,
+      "breakPointConversionPct": 23.1
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0
+    },
+    "top10": {
+      "matches": 8,
+      "wins": 3,
+      "losses": 5,
+      "winRate": 37.5
+    },
+    "top20": {
+      "matches": 14,
+      "wins": 3,
+      "losses": 11,
+      "winRate": 21.4
+    },
+    "rank21to50": {
+      "matches": 22,
+      "wins": 8,
+      "losses": 14,
+      "winRate": 36.4
+    },
+    "rank51plus": {
+      "matches": 56,
+      "wins": 23,
+      "losses": 33,
+      "winRate": 41.1
+    }
+  }
+}

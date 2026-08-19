@@ -1,0 +1,80 @@
+{
+  "name": "Jan Lennard Struff",
+  "slug": "jan-lennard-struff",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 106,
+    "wins": 51,
+    "losses": 55,
+    "winRate": 48.1,
+    "firstServePct": 58.5,
+    "firstServeWonPct": 75.7,
+    "secondServeWonPct": 50.3,
+    "breakPointConversionPct": 31.8
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 53,
+      "wins": 20,
+      "losses": 33,
+      "winRate": 37.7,
+      "firstServePct": 60.0,
+      "firstServeWonPct": 75.2,
+      "secondServeWonPct": 47.7,
+      "breakPointConversionPct": 30.3
+    },
+    "Clay": {
+      "matches": 38,
+      "wins": 22,
+      "losses": 16,
+      "winRate": 57.9,
+      "firstServePct": 56.4,
+      "firstServeWonPct": 74.6,
+      "secondServeWonPct": 52.1,
+      "breakPointConversionPct": 33.2
+    },
+    "Grass": {
+      "matches": 15,
+      "wins": 9,
+      "losses": 6,
+      "winRate": 60.0,
+      "firstServePct": 57.6,
+      "firstServeWonPct": 79.4,
+      "secondServeWonPct": 55.5,
+      "breakPointConversionPct": 33.3
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 6,
+      "wins": 0,
+      "losses": 6,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 17,
+      "wins": 2,
+      "losses": 15,
+      "winRate": 11.8
+    },
+    "top20": {
+      "matches": 31,
+      "wins": 11,
+      "losses": 20,
+      "winRate": 35.5
+    },
+    "rank21to50": {
+      "matches": 24,
+      "wins": 11,
+      "losses": 13,
+      "winRate": 45.8
+    },
+    "rank51plus": {
+      "matches": 50,
+      "wins": 28,
+      "losses": 22,
+      "winRate": 56.0
+    }
+  }
+}

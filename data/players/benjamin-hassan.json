@@ -1,0 +1,58 @@
+{
+  "name": "Benjamin Hassan",
+  "slug": "benjamin-hassan",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 14,
+    "wins": 6,
+    "losses": 8,
+    "winRate": 42.9,
+    "firstServePct": 61.0,
+    "firstServeWonPct": 72.1,
+    "secondServeWonPct": 48.0,
+    "breakPointConversionPct": 44.2
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25.0,
+      "firstServePct": 62.4,
+      "firstServeWonPct": 72.1,
+      "secondServeWonPct": 43.9,
+      "breakPointConversionPct": 0.0
+    },
+    "Clay": {
+      "matches": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 50.0,
+      "firstServePct": 60.8,
+      "firstServeWonPct": 72.1,
+      "secondServeWonPct": 48.6,
+      "breakPointConversionPct": 47.5
+    }
+  },
+  "opponentStrength": {
+    "top20": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank21to50": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    "rank51plus": {
+      "matches": 12,
+      "wins": 6,
+      "losses": 6,
+      "winRate": 50.0
+    }
+  }
+}

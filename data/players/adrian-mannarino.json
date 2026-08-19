@@ -1,0 +1,80 @@
+{
+  "name": "Adrian Mannarino",
+  "slug": "adrian-mannarino",
+  "tour": "ATP",
+  "period": "2024-2026",
+  "overall": {
+    "matches": 96,
+    "wins": 35,
+    "losses": 61,
+    "winRate": 36.5,
+    "firstServePct": 60.0,
+    "firstServeWonPct": 69.3,
+    "secondServeWonPct": 50.9,
+    "breakPointConversionPct": 38.5
+  },
+  "surfaces": {
+    "Hard": {
+      "matches": 72,
+      "wins": 30,
+      "losses": 42,
+      "winRate": 41.7,
+      "firstServePct": 59.7,
+      "firstServeWonPct": 70.7,
+      "secondServeWonPct": 51.2,
+      "breakPointConversionPct": 39.9
+    },
+    "Clay": {
+      "matches": 13,
+      "wins": 1,
+      "losses": 12,
+      "winRate": 7.7,
+      "firstServePct": 61.8,
+      "firstServeWonPct": 59.8,
+      "secondServeWonPct": 43.9,
+      "breakPointConversionPct": 33.3
+    },
+    "Grass": {
+      "matches": 11,
+      "wins": 4,
+      "losses": 7,
+      "winRate": 36.4,
+      "firstServePct": 60.1,
+      "firstServeWonPct": 69.4,
+      "secondServeWonPct": 54.5,
+      "breakPointConversionPct": 34.7
+    }
+  },
+  "opponentStrength": {
+    "top5": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    "top10": {
+      "matches": 11,
+      "wins": 1,
+      "losses": 10,
+      "winRate": 9.1
+    },
+    "top20": {
+      "matches": 21,
+      "wins": 5,
+      "losses": 16,
+      "winRate": 23.8
+    },
+    "rank21to50": {
+      "matches": 18,
+      "wins": 6,
+      "losses": 12,
+      "winRate": 33.3
+    },
+    "rank51plus": {
+      "matches": 57,
+      "wins": 24,
+      "losses": 33,
+      "winRate": 42.1
+    }
+  }
+}
