@@ -768,3 +768,266 @@ body {
   }
 
 }
+
+/* =========================================================
+   VISUAL METRIC COMPARISON BARS
+   ========================================================= */
+
+.metric-visual,
+.surface-visual {
+  display: flex;
+  flex-direction: column;
+}
+
+.comparison-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.comparison-row {
+  min-width: 0;
+}
+
+.comparison-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 7px;
+}
+
+.comparison-label span {
+  min-width: 0;
+  color: var(--lab-muted) !important;
+  font-size: .78rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comparison-label strong {
+  flex-shrink: 0;
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
+.player-one-row .comparison-label strong {
+  color: var(--player-1) !important;
+}
+
+.player-two-row .comparison-label strong {
+  color: var(--player-2) !important;
+}
+
+.comparison-track {
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+
+  background: rgba(255,255,255,.075);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 999px;
+}
+
+.comparison-fill {
+  height: 100%;
+  border-radius: inherit;
+  transition: width .4s ease;
+}
+
+.player-one-fill {
+  background: linear-gradient(
+    90deg,
+    rgba(88,166,255,.6),
+    var(--player-1)
+  );
+}
+
+.player-two-fill {
+  background: linear-gradient(
+    90deg,
+    rgba(255,184,77,.6),
+    var(--player-2)
+  );
+}
+
+.metric-edge {
+  margin-top: 16px;
+  padding-top: 12px;
+
+  border-top: 1px solid var(--lab-border);
+
+  color: var(--lab-green) !important;
+
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.metric-grid .metric-card,
+.surface-grid .surface-card {
+  min-height: 0;
+}
+
+.surface-visual small {
+  display: block;
+  margin-top: 8px;
+
+  color: var(--lab-muted) !important;
+}
+
+@media (max-width: 700px) {
+
+  .comparison-track {
+    height: 10px;
+  }
+
+  .comparison-label strong {
+    font-size: 1.05rem;
+  }
+
+}
+
+/* =========================================================
+   BEHIND THE PROJECT — FINAL SECTION
+   ========================================================= */
+
+.pro-story-cta {
+  margin-top: 34px;
+  margin-bottom: 64px;
+}
+
+.pro-story-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+
+  padding: 44px 46px;
+
+  background: var(--lab-surface);
+  border: 1px solid var(--lab-border);
+  border-radius: var(--radius-lg);
+
+  box-shadow: 0 24px 60px rgba(0,0,0,.16);
+}
+
+.pro-story-copy {
+  max-width: 760px;
+}
+
+.pro-story-label {
+  display: block;
+  margin-bottom: 15px;
+
+  color: var(--lab-green) !important;
+
+  font-size: .76rem;
+  font-weight: 900;
+  letter-spacing: .15em;
+}
+
+.pro-story-cta h2 {
+  margin: 0 0 14px;
+
+  color: white !important;
+
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+.pro-story-cta p {
+  max-width: 700px;
+  margin: 0 0 23px;
+
+  color: var(--lab-muted) !important;
+
+  line-height: 1.65;
+}
+
+.pro-story-link {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 11px 18px;
+
+  background: var(--lab-green-soft);
+  color: var(--lab-green) !important;
+
+  border: 1px solid rgba(103,223,122,.28);
+  border-radius: 999px;
+
+  font-size: .86rem;
+  font-weight: 850;
+  text-decoration: none;
+
+  transition:
+    transform .18s ease,
+    background .18s ease,
+    border-color .18s ease;
+}
+
+.pro-story-link:hover {
+  transform: translateY(-1px);
+
+  background: rgba(103,223,122,.16);
+  border-color: var(--lab-green);
+}
+
+.pro-story-journey {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 18px 20px;
+
+  background: var(--lab-surface-2);
+  border: 1px solid var(--lab-border);
+  border-radius: 18px;
+
+  font-size: 1.25rem;
+}
+
+.pro-story-journey b {
+  color: var(--lab-green) !important;
+  font-size: .85rem;
+}
+
+@media (max-width: 850px) {
+
+  .pro-story-cta {
+    margin-top: 28px;
+  }
+
+  .pro-story-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 26px;
+    padding: 34px 30px;
+  }
+
+  .pro-story-journey {
+    width: 100%;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 520px) {
+
+  .pro-story-cta-inner {
+    padding: 28px 22px;
+  }
+
+  .pro-story-journey {
+    gap: 7px;
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+}

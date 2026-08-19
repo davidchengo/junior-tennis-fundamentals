@@ -138,27 +138,71 @@ function updatePlayerInfo(selectId, infoId) {
 
 function metricCard(label, a, b, p1, p2) {
 
+  const valueA = Number(a) || 0;
+  const valueB = Number(b) || 0;
+
+  const difference =
+    Math.abs(valueA - valueB).toFixed(1);
+
+  let edgeText = "Even";
+
+  if (valueA > valueB) {
+    edgeText = `${p1.name} +${difference} pts`;
+  } else if (valueB > valueA) {
+    edgeText = `${p2.name} +${difference} pts`;
+  }
+
   return `
-    <article class="metric-card">
+    <article class="metric-card metric-visual">
 
       <h3>${label}</h3>
 
-      <div class="metric-values">
+      <div class="comparison-bars">
 
-        <div>
-          <span>${p1.name}</span>
-          <strong class="${a > b ? "edge" : ""}">
-            ${pct(a)}
-          </strong>
+        <div class="comparison-row player-one-row">
+
+          <div class="comparison-label">
+            <span>${p1.name}</span>
+            <strong>${pct(a)}</strong>
+          </div>
+
+          <div
+            class="comparison-track"
+            role="img"
+            aria-label="${p1.name}: ${pct(a)}"
+          >
+            <div
+              class="comparison-fill player-one-fill"
+              style="width: ${Math.max(0, Math.min(100, valueA))}%"
+            ></div>
+          </div>
+
         </div>
 
-        <div>
-          <span>${p2.name}</span>
-          <strong class="${b > a ? "edge" : ""}">
-            ${pct(b)}
-          </strong>
+        <div class="comparison-row player-two-row">
+
+          <div class="comparison-label">
+            <span>${p2.name}</span>
+            <strong>${pct(b)}</strong>
+          </div>
+
+          <div
+            class="comparison-track"
+            role="img"
+            aria-label="${p2.name}: ${pct(b)}"
+          >
+            <div
+              class="comparison-fill player-two-fill"
+              style="width: ${Math.max(0, Math.min(100, valueB))}%"
+            ></div>
+          </div>
+
         </div>
 
+      </div>
+
+      <div class="metric-edge">
+        ${edgeText}
       </div>
 
     </article>
@@ -172,27 +216,66 @@ function surfaceCard(surface, p1Profile, p2Profile) {
 
   if (!a || !b) return "";
 
+  const p1Name = p1Profile.name;
+  const p2Name = p2Profile.name;
+
+  const valueA = Number(a.winRate) || 0;
+  const valueB = Number(b.winRate) || 0;
+
+  const difference =
+    Math.abs(valueA - valueB).toFixed(1);
+
+  let edgeText = "Even";
+
+  if (valueA > valueB) {
+    edgeText = `${p1Name} +${difference} pts`;
+  } else if (valueB > valueA) {
+    edgeText = `${p2Name} +${difference} pts`;
+  }
+
   return `
-    <article class="surface-card">
+    <article class="surface-card surface-visual">
 
       <h3>${surface}</h3>
 
-      <div class="metric-values">
+      <div class="comparison-bars">
 
-        <div>
-          <span>${p1Profile.name}</span>
-          <strong class="${a.winRate > b.winRate ? "edge" : ""}">
-            ${pct(a.winRate)}
-          </strong>
+        <div class="comparison-row">
+
+          <div class="comparison-label">
+            <span>${p1Name}</span>
+            <strong>${pct(a.winRate)}</strong>
+          </div>
+
+          <div class="comparison-track">
+            <div
+              class="comparison-fill player-one-fill"
+              style="width: ${Math.max(0, Math.min(100, valueA))}%"
+            ></div>
+          </div>
+
         </div>
 
-        <div>
-          <span>${p2Profile.name}</span>
-          <strong class="${b.winRate > a.winRate ? "edge" : ""}">
-            ${pct(b.winRate)}
-          </strong>
+        <div class="comparison-row">
+
+          <div class="comparison-label">
+            <span>${p2Name}</span>
+            <strong>${pct(b.winRate)}</strong>
+          </div>
+
+          <div class="comparison-track">
+            <div
+              class="comparison-fill player-two-fill"
+              style="width: ${Math.max(0, Math.min(100, valueB))}%"
+            ></div>
+          </div>
+
         </div>
 
+      </div>
+
+      <div class="metric-edge">
+        ${edgeText}
       </div>
 
       <small>Surface win rate</small>
