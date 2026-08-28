@@ -1,0 +1,1042 @@
+:root {
+  --green-ball: #8ee654;
+  --green-ball-soft: rgba(142,230,84,.12);
+  --green-panel: #121922;
+  --green-panel-2: #18212c;
+  --green-border: rgba(255,255,255,.10);
+  --green-muted: #9eabb8;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(142,230,84,.08), transparent 30%),
+    #0c1118;
+  color: #f4f7f5;
+}
+
+.green-back-link {
+  color: #aeb7c3;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.green-back-link:hover {
+  color: var(--green-ball);
+}
+
+.green-hero {
+  padding: 92px 0 64px;
+  text-align: center;
+}
+
+.green-kicker {
+  display: block;
+  margin-bottom: 10px;
+
+  color: var(--green-ball);
+  font-size: .76rem;
+  font-weight: 900;
+  letter-spacing: .14em;
+}
+
+.green-hero h1 {
+  max-width: 850px;
+  margin: 0 auto 18px;
+
+  font-size: clamp(2.4rem, 5vw, 4.3rem);
+  line-height: 1.05;
+}
+
+.green-hero p {
+  max-width: 720px;
+  margin: 0 auto;
+
+  color: var(--green-muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.session-meta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-top: 28px;
+}
+
+.session-meta span {
+  padding: 8px 12px;
+
+  background: var(--green-panel);
+  border: 1px solid var(--green-border);
+  border-radius: 999px;
+
+  color: #d6dee6;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+
+/* Stage selector */
+
+.stage-section {
+  padding: 34px 0 20px;
+}
+
+.stage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.stage-header h2 {
+  margin: 0;
+}
+
+.ball-stage-picker {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.ball-stage {
+  min-height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  padding: 14px;
+
+  background: var(--green-panel);
+  border: 1px solid var(--green-border);
+  border-radius: 14px;
+
+  color: #dce3ea;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.ball-stage.active {
+  background: var(--green-ball-soft);
+  border-color: var(--green-ball);
+  color: var(--green-ball);
+}
+
+.ball-stage small {
+  color: #71808d;
+  font-size: .62rem;
+}
+
+.coming-soon {
+  opacity: .55;
+}
+
+.coach-mode-button {
+  padding: 10px 16px;
+
+  background: var(--green-panel);
+  color: #dfe7ee;
+
+  border: 1px solid var(--green-border);
+  border-radius: 999px;
+
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.coach-mode-button.active {
+  background: var(--green-ball);
+  color: #10160c;
+}
+
+
+/* Overview */
+
+.session-overview {
+  padding: 36px 0;
+}
+
+.overview-card {
+  padding: 36px;
+
+  background: var(--green-panel);
+  border: 1px solid var(--green-border);
+  border-radius: 22px;
+}
+
+.overview-card h2 {
+  margin: 0 0 12px;
+}
+
+.overview-card p {
+  color: var(--green-muted);
+}
+
+.core-cues,
+.challenge-steps,
+.pattern-display,
+.serve-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-top: 24px;
+  padding: 16px;
+
+  background: #0e151d;
+  border-radius: 14px;
+
+  color: var(--green-ball);
+  font-weight: 850;
+}
+
+.core-cues b,
+.challenge-steps b,
+.pattern-display b,
+.serve-flow b {
+  color: #657380;
+}
+
+.tactical-cue {
+  margin-top: 12px;
+  text-align: center;
+
+  color: #fff;
+  font-weight: 900;
+}
+
+
+/* Quick overview */
+
+.quick-plan {
+  padding: 35px 0 55px;
+}
+
+.section-heading h2 {
+  margin-top: 0;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.quick-card {
+  padding: 15px 12px;
+
+  background: var(--green-panel);
+  border: 1px solid var(--green-border);
+  border-radius: 13px;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.quick-card strong {
+  display: block;
+
+  color: var(--green-ball);
+  font-size: 1.1rem;
+}
+
+.quick-card span {
+  display: block;
+  margin-top: 5px;
+
+  color: var(--green-muted);
+  font-size: .73rem;
+  line-height: 1.3;
+}
+
+
+/* Drills */
+
+.drills {
+  padding-bottom: 40px;
+}
+
+.drill-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+
+  margin-bottom: 28px;
+
+  overflow: hidden;
+
+  background: var(--green-panel);
+  border: 1px solid var(--green-border);
+  border-radius: 22px;
+}
+
+.drill-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--green-ball-soft);
+  border-right: 1px solid rgba(142,230,84,.18);
+
+  color: var(--green-ball);
+}
+
+.drill-time span {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.drill-time small {
+  margin-top: 3px;
+  letter-spacing: .12em;
+}
+
+.drill-content {
+  padding: 32px 36px;
+}
+
+.drill-category {
+  color: var(--green-ball);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .13em;
+}
+
+.drill-content h2 {
+  margin: 5px 0 8px;
+
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+.drill-purpose {
+  max-width: 800px;
+
+  color: var(--green-muted);
+  line-height: 1.65;
+}
+
+.drill-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+
+  margin-top: 22px;
+}
+
+.drill-columns h3 {
+  margin-bottom: 8px;
+
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.drill-columns ul,
+.drill-columns ol {
+  margin: 0;
+  padding-left: 20px;
+
+  color: var(--green-muted);
+  line-height: 1.7;
+}
+
+.cue-box {
+  margin-top: 22px;
+  padding: 14px 16px;
+
+  background: rgba(142,230,84,.08);
+  border: 1px solid rgba(142,230,84,.16);
+  border-radius: 12px;
+
+  color: #eaf4e4;
+}
+
+.cue-box strong {
+  margin-right: 8px;
+  color: var(--green-ball);
+}
+
+.major-cue {
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+.secondary-cue {
+  margin-top: 9px;
+}
+
+.adjustments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+
+  margin-top: 16px;
+}
+
+.adjustments div {
+  padding: 13px;
+
+  background: var(--green-panel-2);
+  border-radius: 10px;
+
+  color: var(--green-muted);
+  font-size: .85rem;
+}
+
+.adjustments strong {
+  display: block;
+  margin-bottom: 3px;
+
+  color: #fff;
+}
+
+.point-games {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+
+  margin-top: 22px;
+}
+
+.point-game {
+  padding: 18px;
+
+  background: var(--green-panel-2);
+  border-radius: 13px;
+}
+
+.point-game > strong {
+  color: var(--green-ball);
+  font-size: .7rem;
+}
+
+.point-game h3 {
+  margin: 6px 0;
+}
+
+.point-game p {
+  margin: 0;
+
+  color: var(--green-muted);
+  font-size: .85rem;
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+
+  margin-top: 22px;
+}
+
+.record-grid div {
+  padding: 18px;
+
+  text-align: center;
+
+  background: var(--green-panel-2);
+  border-radius: 13px;
+}
+
+.record-grid span {
+  display: block;
+
+  color: var(--green-muted);
+  font-size: .75rem;
+}
+
+.record-grid strong {
+  display: block;
+  margin-top: 8px;
+
+  font-size: 1.3rem;
+}
+
+.best-record {
+  border: 1px solid var(--green-ball);
+}
+
+.finish-note {
+  margin-top: 20px;
+  color: var(--green-muted);
+}
+
+
+/* Coach principle */
+
+.coach-principle {
+  padding: 35px 0 75px;
+}
+
+.principle-card {
+  padding: 40px;
+
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(142,230,84,.09),
+      transparent 40%
+    ),
+    var(--green-panel);
+
+  border: 1px solid var(--green-border);
+  border-radius: 22px;
+}
+
+.principle-card h2 {
+  margin: 0 0 25px;
+}
+
+.activity-ratio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.activity-ratio div {
+  padding: 20px;
+
+  background: var(--green-panel-2);
+  border-radius: 13px;
+}
+
+.activity-ratio strong {
+  display: block;
+
+  color: var(--green-ball);
+  font-size: 1.55rem;
+}
+
+.activity-ratio span {
+  color: var(--green-muted);
+  font-size: .85rem;
+}
+
+.principle-card p {
+  max-width: 800px;
+  margin-top: 24px;
+
+  color: var(--green-muted);
+}
+
+
+/* Coach mode */
+
+body.coach-mode .coach-detail {
+  display: none !important;
+}
+
+body.coach-mode .drill-card {
+  margin-bottom: 16px;
+}
+
+body.coach-mode .drill-content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .quick-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .point-games {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  .green-hero {
+    padding-top: 65px;
+  }
+
+  .stage-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ball-stage-picker {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .drill-card {
+    grid-template-columns: 1fr;
+  }
+
+  .drill-time {
+    min-height: 62px;
+    flex-direction: row;
+    gap: 7px;
+
+    border-right: 0;
+    border-bottom: 1px solid rgba(142,230,84,.18);
+  }
+
+  .drill-content {
+    padding: 25px 22px;
+  }
+
+  .drill-columns,
+  .adjustments,
+  .activity-ratio,
+  .record-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* =========================================================
+   DRILL VIDEO
+   ========================================================= */
+
+.drill-video {
+  margin-top: 22px;
+  overflow: hidden;
+
+  background: #0e151d;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 16px;
+}
+
+.drill-video-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  padding: 14px 16px;
+}
+
+.drill-video-header strong {
+  color: #f2f6f3;
+  font-size: .85rem;
+}
+
+.drill-video-header span {
+  color: #8ee654;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.drill-video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background: #000;
+}
+
+.drill-video-frame iframe {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+}
+
+body.coach-mode .drill-video {
+  margin-top: 14px;
+}
+
+
+/* =========================================================
+   COACH MODE — COMPACT ALL DRILL DETAILS
+   ========================================================= */
+
+body.coach-mode .drill-purpose,
+body.coach-mode .drill-columns,
+body.coach-mode .adjustments,
+body.coach-mode .point-games,
+body.coach-mode .finish-note,
+body.coach-mode .principle-card p {
+  display: none !important;
+}
+
+body.coach-mode .drill-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body.coach-mode .court-diagram {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+body.coach-mode .cue-box {
+  margin-top: 12px;
+}
+
+body.coach-mode .drill-video {
+  margin-top: 12px;
+}
+
+
+/* =========================================================
+   COLLAPSIBLE DRILL VIDEOS
+   ========================================================= */
+
+.drill-video-toggle {
+  width: 100%;
+  min-height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  padding: 13px 16px;
+
+  background: #0e151d;
+  border: 0;
+
+  color: #f4f7f5;
+  cursor: pointer;
+  text-align: left;
+}
+
+.drill-video-toggle span {
+  font-weight: 850;
+}
+
+.drill-video-toggle small {
+  color: var(--green-ball);
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.drill-video-frame.drill-video-collapsed {
+  display: none;
+}
+
+.drill-video-frame.drill-video-open {
+  display: block;
+}
+
+body.coach-mode .drill-video {
+  margin-top: 10px;
+}
+
+
+/* =========================================================
+   COURTSIDE NAVIGATION + TIMER
+   ========================================================= */
+
+.quick-plan {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  background: rgba(12,17,24,.96);
+  backdrop-filter: blur(12px);
+
+  border-top: 1px solid rgba(255,255,255,.05);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.quick-plan .section-heading {
+  display: none;
+}
+
+.quick-grid {
+  margin-top: 0;
+}
+
+.drill-card {
+  scroll-margin-top: 130px;
+}
+
+.drill-actions {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 24px;
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.drill-nav-button,
+.drill-timer-button {
+  min-height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+
+  border-radius: 12px;
+
+  font-size: .82rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.drill-nav-button {
+  background: #18212c;
+  border: 1px solid rgba(255,255,255,.10);
+  color: #dce4eb;
+}
+
+.drill-nav-button.next {
+  background: rgba(142,230,84,.10);
+  border-color: rgba(142,230,84,.28);
+  color: var(--green-ball);
+}
+
+.drill-nav-button.disabled {
+  opacity: .3;
+  cursor: default;
+}
+
+.drill-timer-button {
+  min-width: 140px;
+
+  background: var(--green-ball);
+  border: 1px solid var(--green-ball);
+
+  color: #10160c;
+  cursor: pointer;
+}
+
+.drill-timer-button.running {
+  background: #18212c;
+  color: var(--green-ball);
+}
+
+.drill-timer-button.finished {
+  background: var(--green-ball);
+  color: #10160c;
+}
+
+body.coach-mode .drill-actions {
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+
+/* Mobile courtside mode */
+
+@media (max-width: 680px) {
+
+  .quick-plan {
+    overflow-x: auto;
+  }
+
+  .quick-grid {
+    width: max-content;
+    min-width: 100%;
+
+    display: flex;
+    gap: 8px;
+  }
+
+  .quick-card {
+    min-width: 130px;
+  }
+
+  .drill-card {
+    scroll-margin-top: 105px;
+  }
+
+  .drill-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .drill-timer-button {
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+    width: 100%;
+  }
+
+}
+
+/* =========================================================
+   WHO DOES WHAT
+   ========================================================= */
+
+.role-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+  margin: 18px 0 20px;
+}
+
+.role-strip > div:not(.rotation-note) {
+  min-width: 0;
+  padding: 12px 14px;
+
+  background: #18212c;
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 11px;
+}
+
+.role-strip strong {
+  display: block;
+  margin-bottom: 4px;
+
+  color: var(--green-ball);
+  font-size: .69rem;
+  letter-spacing: .07em;
+}
+
+.role-strip span {
+  color: #cbd4dc;
+  font-size: .78rem;
+  line-height: 1.35;
+}
+
+.role-strip .rotation-note {
+  grid-column: 1 / -1;
+
+  padding: 9px 12px;
+
+  background: rgba(142,230,84,.07);
+  border: 1px solid rgba(142,230,84,.15);
+  border-radius: 9px;
+
+  color: var(--green-ball);
+  font-size: .7rem;
+  font-weight: 850;
+  letter-spacing: .05em;
+  text-align: center;
+}
+
+
+/* =========================================================
+   SESSION COMPLETE
+   ========================================================= */
+
+.session-complete {
+  padding: 40px 0 20px;
+}
+
+.session-complete-card {
+  padding: 36px;
+
+  background:
+    radial-gradient(
+      circle at 85% 10%,
+      rgba(142,230,84,.10),
+      transparent 40%
+    ),
+    var(--green-panel);
+
+  border: 1px solid rgba(142,230,84,.20);
+  border-radius: 22px;
+}
+
+.session-complete-card h2 {
+  margin: 0 0 24px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+.session-checklist {
+  display: grid;
+  gap: 11px;
+}
+
+.session-checklist > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  padding: 14px 16px;
+
+  background: #18212c;
+  border-radius: 11px;
+}
+
+.session-checklist > div > span {
+  color: var(--green-ball);
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.session-checklist p {
+  margin: 0;
+
+  color: var(--green-muted);
+  line-height: 1.5;
+}
+
+.session-checklist strong {
+  display: block;
+  margin-bottom: 2px;
+
+  color: #f4f7f5;
+  font-size: .8rem;
+}
+
+.session-top-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 46px;
+  margin-top: 22px;
+  padding: 10px 16px;
+
+  background: var(--green-ball);
+  border-radius: 11px;
+
+  color: #10160c;
+  font-size: .8rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+
+/* Coach Mode keeps roles visible */
+
+body.coach-mode .role-strip {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+body.coach-mode .role-strip > div:not(.rotation-note) {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+@media (max-width: 680px) {
+
+  .role-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .role-strip .rotation-note {
+    grid-column: 1;
+  }
+
+  .session-complete-card {
+    padding: 26px 20px;
+  }
+
+}
