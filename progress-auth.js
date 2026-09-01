@@ -14,10 +14,4 @@
     if (error) { app.setStatus(error.message, 'error'); return; }
     location.replace(safeNext);
   });
-  document.getElementById('googleSignIn').addEventListener('click', async () => {
-    app.setStatus('Opening Google sign-in…');
-    const redirectTo = new URL(`progress-login.html?next=${encodeURIComponent(safeNext)}`, location.href).href;
-    const { error } = await app.client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo } });
-    if (error) app.setStatus(error.message, 'error');
-  });
 })();
