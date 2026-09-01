@@ -71,3 +71,137 @@ input:focus,select:focus,textarea:focus { outline:2px solid rgba(76,175,80,.35);
 .chart-point { flex:1; min-width:26px; text-align:center; color:var(--muted); font-size:.68rem; }
 .chart-bar { min-height:4px; margin-bottom:6px; border-radius:5px 5px 2px 2px; background:var(--green); }
 @media (max-width:760px) { .grid.two,.grid.three,.form-grid { grid-template-columns:1fr; } .form-field.full { grid-column:auto; } .page-heading { align-items:flex-start; flex-direction:column; } .progress-nav-inner { flex-wrap:wrap; } }
+
+
+/* === Rally School 54-session progress matrix === */
+
+.progress-matrix-description {
+  margin-bottom: 14px;
+}
+
+.progress-matrix-wrap {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.progress-matrix {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13px;
+}
+
+.progress-matrix th,
+.progress-matrix td {
+  border-right: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  padding: 10px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.progress-matrix thead th {
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.progress-matrix-metric {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 190px;
+  max-width: 190px;
+  text-align: left !important;
+  background: #111923;
+}
+
+.progress-matrix thead .progress-matrix-metric {
+  z-index: 3;
+}
+
+.progress-matrix-session {
+  min-width: 82px;
+  white-space: nowrap;
+}
+
+.progress-matrix-session strong,
+.progress-matrix-session span,
+.progress-matrix-session small {
+  display: block;
+}
+
+.progress-matrix-session span,
+.progress-matrix-session small {
+  margin-top: 3px;
+  opacity: .68;
+  font-weight: 400;
+}
+
+.progress-matrix-cell {
+  min-width: 82px;
+}
+
+.progress-matrix-cell.empty {
+  opacity: .35;
+}
+
+.matrix-value {
+  min-height: 19px;
+  font-weight: 700;
+}
+
+.matrix-mini-track {
+  width: 100%;
+  height: 4px;
+  margin-top: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+}
+
+.matrix-mini-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: .72;
+}
+
+.progress-scale {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: .68;
+}
+
+/* Make the progress panel full-width if it is left
+   inside the previous two-column grid. */
+.grid.two:has(#assessmentChart) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (max-width: 640px) {
+  .progress-matrix-metric {
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  .progress-matrix-session,
+  .progress-matrix-cell {
+    min-width: 72px;
+  }
+}
+
+
+
+/* === top stats cards: uniform height === */
+#profileStats {
+  align-items: stretch;
+}
+
+#profileStats > * {
+  min-height: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
