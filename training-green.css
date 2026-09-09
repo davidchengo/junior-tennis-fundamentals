@@ -373,6 +373,82 @@ body {
   margin-top: 9px;
 }
 
+.green-skill-focus {
+  margin-top: 20px;
+  padding: 24px;
+
+  background: linear-gradient(135deg, rgba(142,230,84,.12), rgba(142,230,84,.035));
+  border: 1px solid rgba(142,230,84,.28);
+  border-radius: 14px;
+}
+
+.green-skill-focus-heading > span {
+  color: var(--green-ball);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.green-skill-focus h3 {
+  margin: 5px 0 6px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.green-skill-focus-heading > p,
+.green-skill-grid p,
+.green-skill-grid li,
+.green-skill-note {
+  color: var(--green-muted);
+  font-size: .84rem;
+  line-height: 1.6;
+}
+
+.green-skill-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+  margin-top: 18px;
+}
+
+.green-skill-grid > div {
+  padding: 15px;
+
+  background: rgba(8,13,18,.26);
+  border-radius: 10px;
+}
+
+.green-skill-grid h4 {
+  margin: 0 0 6px;
+  color: #fff;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.green-skill-grid ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.green-skill-grid p + p {
+  margin-top: 9px;
+}
+
+.green-skill-grid strong,
+.green-skill-note strong {
+  color: var(--green-ball);
+}
+
+.green-skill-note {
+  margin: 15px 0 0;
+  padding-top: 13px;
+
+  border-top: 1px solid rgba(142,230,84,.16);
+}
+
 .adjustments {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1028,6 +1104,14 @@ body.coach-mode .role-strip > div:not(.rotation-note) {
 @media (max-width: 680px) {
 
   .role-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .green-skill-focus {
+    padding: 20px;
+  }
+
+  .green-skill-grid {
     grid-template-columns: 1fr;
   }
 
