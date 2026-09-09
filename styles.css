@@ -359,6 +359,37 @@ img { display: block; max-width: 100%; }
 .teaching-cues div { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; color: var(--green-light); text-transform: uppercase; letter-spacing: 0.08em; }
 .teaching-cues div b { color: var(--text-muted); }
 .teaching-cues p { color: var(--text-muted); font-size: 0.8rem; margin-top: 8px; }
+.forehand-cheat-sheet { padding: 38px 40px 42px; border-bottom: 1px solid var(--border); background: linear-gradient(180deg, rgba(76,175,80,0.055), transparent); }
+.cheat-sheet-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+.cheat-sheet-label { color: var(--green-light); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.cheat-sheet-header h3 { color: #fff; font-size: clamp(1.35rem, 3vw, 1.8rem); margin: 4px 0 5px; }
+.cheat-sheet-header p { color: var(--text-muted); font-size: 0.84rem; max-width: 490px; }
+.cheat-sheet-sequence { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 5px; color: #fff; font-size: 0.66rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; }
+.cheat-sheet-sequence span { padding: 5px 7px; border-radius: 5px; background: var(--bg3); }
+.cheat-sheet-sequence b { color: var(--green-light); }
+.forehand-card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.forehand-card { min-width: 0; padding: 15px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg2); }
+.forehand-card h4 { color: #fff; font-size: 0.94rem; margin: 4px 0 7px; }
+.forehand-card p { color: var(--text-muted); font-size: 0.76rem; line-height: 1.55; }
+.forehand-step { color: var(--green-light); font-size: 0.65rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.say-this { display: block; color: var(--yellow); font-size: 0.71rem; margin-top: 10px; }
+.stroke-graphic { position: relative; height: 104px; margin-bottom: 13px; overflow: hidden; border-radius: 8px; background: linear-gradient(180deg, #17351c 0 67%, #23552b 67%); border: 1px solid rgba(102,187,106,0.18); }
+.stroke-graphic::after { content: ''; position: absolute; left: 8%; right: 8%; bottom: 19px; height: 1px; background: rgba(255,255,255,0.2); }
+.player-head { position: absolute; z-index: 2; width: 15px; height: 15px; left: calc(50% - 7px); top: 18px; border-radius: 50%; background: #dce4dc; }
+.player-body { position: absolute; z-index: 2; width: 6px; height: 35px; left: calc(50% - 3px); top: 32px; border-radius: 6px; background: #dce4dc; }
+.player-arm,.player-leg { position: absolute; z-index: 2; width: 4px; border-radius: 5px; background: #dce4dc; transform-origin: top center; }
+.player-arm { height: 29px; top: 37px; left: calc(50% - 1px); }.arm-left { transform: rotate(48deg); }.arm-right { transform: rotate(-48deg); }
+.player-leg { height: 31px; top: 63px; left: calc(50% - 2px); }.leg-left { transform: rotate(23deg); }.leg-right { transform: rotate(-23deg); }
+.mini-racquet { position: absolute; z-index: 3; width: 15px; height: 21px; border: 2px solid var(--yellow); border-radius: 50%; }
+.mini-racquet::after { content: ''; position: absolute; width: 3px; height: 17px; left: 5px; top: 18px; border-radius: 3px; background: var(--yellow); }
+.graphic-ready .mini-racquet { left: calc(50% - 8px); top: 39px; }.graphic-ready .arm-left { transform: rotate(68deg); }.graphic-ready .arm-right { transform: rotate(-68deg); }
+.graphic-turn .player-head,.graphic-turn .player-body { left: 43%; }.graphic-turn .player-arm { left: 44%; transform: rotate(-103deg); }.graphic-turn .player-leg { left: 43%; }.graphic-turn .mini-racquet { left: 69%; top: 40px; transform: rotate(-18deg); }.turn-arrow { position: absolute; left: 17px; top: 8px; color: var(--green-light); font-size: 1.7rem; }
+.graphic-contact .player-head,.graphic-contact .player-body { left: 38%; }.graphic-contact .player-arm { left: 40%; top: 39px; transform: rotate(-74deg); }.graphic-contact .player-leg { left: 39%; }.graphic-contact .mini-racquet { left: 67%; top: 38px; transform: rotate(-15deg); }.contact-ball { position: absolute; width: 11px; height: 11px; left: 83%; top: 38px; border-radius: 50%; background: var(--yellow); }.contact-mark { position: absolute; left: 77%; top: 31px; color: #fff; font-size: 1.3rem; }.swing-arrow { position: absolute; left: 12px; top: 42px; color: var(--green-light); font-size: 2rem; transform: rotate(-12deg); }
+.graphic-finish .player-head,.graphic-finish .player-body { left: 45%; }.graphic-finish .player-arm { left: 46%; top: 38px; transform: rotate(137deg); }.graphic-finish .player-leg { left: 46%; }.graphic-finish .mini-racquet { left: 24%; top: 26px; transform: rotate(105deg); }.finish-arrow { position: absolute; right: 15px; top: 10px; color: var(--green-light); font-size: 1.8rem; }
+.forehand-coach-note { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; padding: 15px 17px; border-radius: 9px; background: rgba(255,214,0,0.055); border: 1px solid rgba(255,214,0,0.15); }
+.forehand-coach-note strong { color: var(--yellow); font-size: 0.76rem; margin-right: 3px; }
+.forehand-coach-note span { color: #fff; padding: 4px 8px; border-radius: 100px; background: rgba(255,255,255,0.06); font-size: 0.68rem; }
+.forehand-coach-note p { flex-basis: 100%; color: var(--text-muted); font-size: 0.75rem; margin-top: 2px; }
 .lesson-timeline { padding: 14px 40px 30px; }
 .lesson-step { display: grid; grid-template-columns: 95px 1fr; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--border); }
 .lesson-step:last-child { border-bottom: none; }
@@ -1145,6 +1176,9 @@ img { display: block; max-width: 100%; }
   .hero-content { max-width: 100%; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
+  .cheat-sheet-header { align-items: flex-start; flex-direction: column; }
+  .cheat-sheet-sequence { justify-content: flex-start; }
+  .forehand-card-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 680px) {
   .pathways, .beginner-start, .beginner-training, .parents { padding: 64px 0; }
@@ -1158,6 +1192,9 @@ img { display: block; max-width: 100%; }
   .lesson-flow { gap: 6px; }
   .lesson-flow span { padding: 6px 7px; font-size: 0.68rem; }
   .teaching-cues { padding: 20px 18px; }
+  .forehand-cheat-sheet { padding: 30px 22px 34px; }
+  .forehand-card-grid { grid-template-columns: 1fr; }
+  .stroke-graphic { height: 120px; }
   .lesson-timeline { padding: 4px 22px 22px; }
   .lesson-step { display: block; padding: 26px 0; }
   .lesson-time { display: inline-block; margin-bottom: 10px; padding: 4px 9px; background: rgba(76,175,80,0.1); border-radius: 100px; }
@@ -1781,4 +1818,3 @@ img { display: block; max-width: 100%; }
 .nav-dropdown-menu::before {
   display: none;
 }
-
