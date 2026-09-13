@@ -1,0 +1,41 @@
+.next-learning-note {
+  display: block;
+  margin-top: 18px;
+  padding: 22px;
+  border: 1px solid rgba(142, 230, 84, 0.3);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(142, 230, 84, 0.12), rgba(142, 230, 84, 0.025));
+  text-decoration: none;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.next-learning-note:hover { transform: translateY(-2px); border-color: var(--note-green); }
+.next-learning-note span { display: block; color: var(--note-green); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.next-learning-note strong { display: block; margin-top: 4px; color: #fff; font-size: 1.25rem; }
+.next-learning-note strong b { padding-left: 5px; color: var(--note-green); }
+.next-learning-note p { margin: 5px 0 0; color: var(--note-muted); font-size: 0.86rem; }
+
+.bullet-hero { background: radial-gradient(circle at 75% 15%, rgba(142, 230, 84, 0.2), transparent 28%), linear-gradient(145deg, #14200a, #0c1118 72%); }
+.bullet-note .note-columns strong { color: #fff; }
+
+.backhand-drill {
+  margin-top: 16px;
+  padding: 24px;
+  border: 1px solid rgba(142, 230, 84, 0.24);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(142, 230, 84, 0.1), rgba(142, 230, 84, 0.025));
+}
+
+.backhand-drill header h3 { margin: 0; color: #fff; font-size: 1.25rem; }
+.backhand-drill header > p:last-child { margin: 5px 0 0; color: var(--note-muted); font-size: 0.86rem; }
+.backhand-drill-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
+.backhand-drill-grid > div { padding: 14px; border-radius: 10px; background: rgba(0, 0, 0, 0.16); }
+.backhand-drill-grid strong { color: var(--note-green); font-size: 0.76rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.backhand-drill-grid p { margin: 5px 0 0; color: var(--note-muted); font-size: 0.8rem; line-height: 1.55; }
+.backhand-drill-cue { margin: 16px 0 0; color: #fff; text-align: center; }
+.backhand-drill-cue strong { color: var(--note-green); }
+
+@media (max-width: 680px) {
+  .backhand-drill { padding: 18px; }
+  .backhand-drill-grid { grid-template-columns: 1fr; }
+}
