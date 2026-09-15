@@ -4,28 +4,19 @@
   if (!playerId) { app.setStatus('Missing player ID.', 'error'); return; }
   const user = await app.requireUser(); if (!user) return;
   document.getElementById('signOut').addEventListener('click', async () => { await app.client.auth.signOut(); location.replace('progress-login.html'); });
-  let role; let player; let sessions = []; let assessments = []; let goals = []; let reports = [];
+  let role; let player; let assessments = [];
   try {
     role = await app.getRole();
-    const [playerResult, sessionResult, assessmentResult, goalResult, reportResult] = await Promise.all([
+    const [playerResult, assessmentResult] = await Promise.all([
       app.client.from('players').select('*').eq('id', playerId).single(),
-      app.client.from('training_sessions').select('*').eq('player_id', playerId).order('session_started_at', { ascending:false }),
-      app.client.from('assessments').select('*').eq('player_id', playerId).order('evaluated_at', { ascending:false }),
-      app.client.from('goals').select('*').eq('player_id', playerId).order('created_at', { ascending:false }),
-      app.client.from('training_report_snapshots').select('id,session_id,published_at,parent_summary,session_snapshot').eq('player_id', playerId).order('published_at', { ascending:false })
+      app.client.from('assessments').select('*').eq('player_id', playerId).order('evaluated_at', { ascending:false })
     ]);
     if (playerResult.error) throw playerResult.error;
-    for (const result of [sessionResult, assessmentResult, goalResult, reportResult]) if (result.error) throw result.error;
-    player = playerResult.data; sessions = sessionResult.data || []; assessments = assessmentResult.data || []; goals = goalResult.data || []; reports = reportResult.data || [];
+    if (assessmentResult.error) throw assessmentResult.error;
+    player = playerResult.data; assessments = assessmentResult.data || [];
     if (role === 'coach') {
       document.getElementById('coachActions').classList.remove('hidden');
       setupCoachForms();
-      const ids = sessions.map(item => item.id);
-      if (ids.length) {
-        const { data } = await app.client.from('session_private_notes').select('session_id,note').in('session_id', ids);
-        const notes = Object.fromEntries((data || []).map(item => [item.session_id, item.note]));
-        sessions = sessions.map(item => ({ ...item, private_note: notes[item.id] }));
-      }
     }
     render();
   } catch (error) { app.setStatus(error.message === 'JSON object requested, multiple (or no) rows returned' ? 'You are not authorized to view this player.' : error.message, 'error'); }
@@ -36,13 +27,7 @@
     document.getElementById('playerName').textContent = `${player.first_name} ${player.last_name}`;
     document.getElementById('playerMeta').textContent = `${age === null ? 'Age not set' : `Age ${age}`} · ${title(player.current_ball_stage)} Ball`;
     document.getElementById('profileStats').innerHTML = `<article class="panel stat-card"><span>Sessions with Rally School</span><strong>${assessments.length}</strong><small class="muted">Based on saved assessments since ${app.formatDate(player.rally_school_start_date)}</small></article>`;
-    renderReports(); renderAssessments(); renderChart();
-  }
-  function renderReports() {
-    document.getElementById('reports').innerHTML = reports.length ? reports.map((report,index) => {
-      const session = sessions.find(item => item.id === report.session_id); const historicalSession = report.session_snapshot || {};
-      return `<article class="list-item"><header><div><strong>${index === 0 ? 'Latest report · ' : ''}${app.formatDateTime(report.published_at)}</strong><p class="muted">${historicalSession.duration_minutes || 0} minutes · trained ${app.formatDateTime(historicalSession.session_started_at)}</p></div><a class="button secondary" href="progress-report.html?id=${encodeURIComponent(report.id)}">Open report</a></header><p>${app.escapeHtml(report.parent_summary)}</p>${role === 'coach' && session && session.private_note ? `<p><strong>Private coach note:</strong> ${app.escapeHtml(session.private_note)}</p>` : ''}</article>`;
-    }).join('') : '<p class="muted">No published reports yet.</p>';
+    renderAssessments(); renderChart();
   }
   function renderAssessments() {
     const corrections = new Map(
