@@ -428,8 +428,80 @@
 
   function setupCoachForms() {
     document.querySelectorAll('[data-open]').forEach(button => button.addEventListener('click', () => document.getElementById(button.dataset.open).classList.toggle('hidden')));
-    setupPlayerEdit(); setupAssessmentForm();
+    setupPlayerEdit(); setupSessionForm(); setupAssessmentForm();
   }
+
+  function setupSessionForm() {
+    const form = document.getElementById('sessionForm');
+    const sessionStartedAt = form.elements.session_started_at;
+    const publishedPanel = document.getElementById('reportPublishedPanel');
+    const publishedLink = document.getElementById('publishedReportLink');
+    const openLink = document.getElementById('openPublishedReportLink');
+    const copyButton = document.getElementById('copyPublishedReportLink');
+    sessionStartedAt.value = localDateTimeValue(new Date());
+
+    sessionStartedAt.addEventListener('click', () => {
+      if (typeof sessionStartedAt.showPicker === 'function') {
+        try { sessionStartedAt.showPicker(); } catch (_) { /* Native input remains available. */ }
+      }
+    });
+
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const raw = Object.fromEntries(new FormData(form));
+      const button = form.querySelector('button[type="submit"]');
+      const originalLabel = button.textContent;
+      const startedAt = new Date(raw.session_started_at);
+      if (Number.isNaN(startedAt.getTime())) {
+        app.setStatus('Choose a valid session date and time.', 'error');
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = 'Publishing…';
+      app.setStatus('Publishing training report…');
+      const { data: reportId, error } = await app.client.rpc('publish_training_report', {
+        p_player_id: playerId,
+        p_session_started_at: startedAt.toISOString(),
+        p_duration_minutes: Number(raw.duration_minutes),
+        p_focus_areas: app.splitList(raw.focus_areas),
+        p_parent_summary: raw.parent_summary.trim(),
+        p_private_note: raw.private_note.trim() || null,
+        p_assessments: []
+      });
+      button.disabled = false;
+      button.textContent = originalLabel;
+      if (error) {
+        app.setStatus(error.message, 'error');
+        return;
+      }
+      if (!reportId) {
+        app.setStatus('The report could not be published. Please try again.', 'error');
+        return;
+      }
+
+      const url = new URL('progress-report.html', location.href);
+      url.searchParams.set('id', reportId);
+      publishedLink.value = url.href;
+      openLink.href = url.href;
+      publishedPanel.classList.remove('hidden');
+      publishedPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      app.setStatus('Training outcome recorded and parent report published.', 'success');
+    });
+
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(publishedLink.value);
+        copyButton.textContent = 'Copied';
+        setTimeout(() => { copyButton.textContent = 'Copy link'; }, 1800);
+      } catch (_) {
+        publishedLink.focus();
+        publishedLink.select();
+        app.setStatus('Select and copy the report link.', 'success');
+      }
+    });
+  }
+
   function setupPlayerEdit() {
     const form = document.getElementById('editPlayerForm');
 

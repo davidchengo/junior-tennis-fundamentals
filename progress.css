@@ -53,6 +53,10 @@ input:focus,select:focus,textarea:focus { outline:2px solid rgba(76,175,80,.35);
 .list-item p:last-child { margin-bottom:0; }
 .tag-list { display:flex; flex-wrap:wrap; gap:7px; }
 .tag { padding:4px 8px; border-radius:6px; color:#cbd2dc; background:var(--panel-2); font-size:.78rem; }
+.report-published { border-color:rgba(102,187,106,.4); background:linear-gradient(135deg,rgba(76,175,80,.13),rgba(22,27,34,.92) 58%); }
+.share-link-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+.share-link-row input { flex:1 1 320px; min-width:0; }
+.share-link-row .button { display:inline-flex; align-items:center; justify-content:center; }
 .progress-track { height:9px; margin:11px 0 7px; overflow:hidden; border-radius:99px; background:#0b0e13; }
 .progress-fill { height:100%; border-radius:inherit; background:linear-gradient(90deg,var(--green),var(--green-light)); }
 .login-shell { min-height:calc(100vh - 65px); display:grid; place-items:center; padding:32px 16px; }
