@@ -34,8 +34,8 @@
     const age = app.ageFromDob(player.date_of_birth); const totalMinutes = sessions.reduce((sum, session) => sum + session.duration_minutes, 0);
     document.title = `${player.first_name} ${player.last_name} | Rally School`;
     document.getElementById('playerName').textContent = `${player.first_name} ${player.last_name}`;
-    document.getElementById('playerMeta').textContent = `${age === null ? 'Age not set' : `Age ${age}`} · ${title(player.current_ball_stage)} Ball · ${player.current_development_stage || 'Stage not set'} → ${player.target_stage || 'Target not set'}`;
-    document.getElementById('profileStats').innerHTML = `<article class="panel stat-card"><span>Sessions with Rally School</span><strong>${sessions.length}</strong><small class="muted">Since ${app.formatDate(player.rally_school_start_date)}</small></article><article class="panel stat-card"><span>Total training time</span><strong>${formatDuration(totalMinutes)}</strong><small class="muted">Derived from session records</small></article><article class="panel stat-card"><span>Current focus</span><div class="tag-list" style="margin-top:12px">${tags(player.current_focus_areas)}</div></article>`;
+    document.getElementById('playerMeta').textContent = `${age === null ? 'Age not set' : `Age ${age}`} · ${title(player.current_ball_stage)} Ball`;
+    document.getElementById('profileStats').innerHTML = `<article class="panel stat-card"><span>Sessions with Rally School</span><strong>${sessions.length}</strong><small class="muted">Since ${app.formatDate(player.rally_school_start_date)}</small></article><article class="panel stat-card"><span>Total training time</span><strong>${formatDuration(totalMinutes)}</strong><small class="muted">Derived from session records</small></article>`;
     renderReports(); renderAssessments(); renderChart();
   }
   function renderReports() {
@@ -434,36 +434,6 @@
   function setupPlayerEdit() {
     const form = document.getElementById('editPlayerForm');
 
-    const developmentLevels = [
-      'No prior experience',
-      'Beginner – Green Ball',
-      'Beginner – Yellow Ball',
-      'Intermediate – Yellow Ball',
-      'USTA L7 level',
-      'USTA L6 level',
-      'USTA L5+ level'
-    ];
-
-    function developmentOptions(currentValue) {
-      const values = [...developmentLevels];
-
-      if (currentValue && !values.includes(currentValue)) {
-        values.unshift(currentValue);
-      }
-
-      return `
-        <option value="">Not set</option>
-        ${values.map(value => `
-          <option
-            value="${attr(value)}"
-            ${value === currentValue ? 'selected' : ''}
-          >
-            ${app.escapeHtml(value)}
-          </option>
-        `).join('')}
-      `;
-    }
-
     form.innerHTML = `
       <div class="form-field">
         <label>
@@ -536,52 +506,6 @@
         </label>
       </div>
 
-      <div class="form-field full">
-        <label>
-          Current Focus Area
-          <select name="current_focus_area">
-            ${[
-              '',
-              'Fundamentals / Technique',
-              'Rally Consistency',
-              'Movement / Recovery',
-              'Control / Placement',
-              'Match Play'
-            ].map(value => {
-              const current =
-                (player.current_focus_areas || [])[0] || '';
-
-              return `
-                <option
-                  value="${attr(value)}"
-                  ${value === current ? 'selected' : ''}
-                >
-                  ${value || 'Not set'}
-                </option>
-              `;
-            }).join('')}
-          </select>
-        </label>
-      </div>
-
-      <div class="form-field">
-        <label>
-          Current Development Level
-          <select name="current_development_stage">
-            ${developmentOptions(player.current_development_stage)}
-          </select>
-        </label>
-      </div>
-
-      <div class="form-field">
-        <label>
-          Target Development Level
-          <select name="target_stage">
-            ${developmentOptions(player.target_stage)}
-          </select>
-        </label>
-      </div>
-
       <div>
         <button class="button" type="submit">
           Update player
@@ -607,13 +531,6 @@
       const raw =
         Object.fromEntries(new FormData(form));
 
-      raw.current_focus_areas =
-        raw.current_focus_area
-          ? [raw.current_focus_area]
-          : [];
-
-      delete raw.current_focus_area;
-
       for (const key of [
         'date_of_birth',
         'tennis_start_date',
@@ -621,9 +538,6 @@
       ]) {
         raw[key] ||= null;
       }
-
-      raw.current_development_stage ||= null;
-      raw.target_stage ||= null;
 
       const { error } =
         await app.client
@@ -1022,7 +936,6 @@
   }
 
   function finish(error, success='Saved.') { if (error) { app.setStatus(error.message, 'error'); return; } app.setStatus(success, 'success'); setTimeout(() => location.reload(), 500); }
-  function tags(items=[]) { return items.length ? items.map(item => `<span class="tag">${app.escapeHtml(item)}</span>`).join('') : '<span class="muted">Not set</span>'; }
   function attr(value) { return app.escapeHtml(value).replace(/`/g,'&#96;'); }
   function title(value='') { return value.charAt(0).toUpperCase()+value.slice(1); }
   function formatDuration(minutes) { const hours=Math.floor(minutes/60), remainder=minutes%60; return hours ? `${hours}h ${remainder ? `${remainder}m` : ''}` : `${remainder}m`; }
