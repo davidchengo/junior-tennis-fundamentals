@@ -19,7 +19,7 @@
     if (!players.length) { grid.innerHTML = `<section class="panel"><h2>No assigned players yet</h2><p class="muted">${role === 'coach' ? 'Add your first player to begin.' : 'Ask the coach to link this email to a player.'}</p></section>`; return; }
     grid.innerHTML = players.map(player => {
       const age = app.ageFromDob(player.date_of_birth);
-      const playerType = age === null ? '' : age < 18 ? ' · Junior player' : ' · Parent player';
+      const playerType = age === null ? '' : age < 18 ? ' · Junior player' : ' · Adult player';
       return `<a class="player-card" href="progress-player.html?id=${encodeURIComponent(player.id)}"><span class="stage">${app.escapeHtml(player.current_ball_stage)} ball</span><h2>${app.escapeHtml(player.first_name)} ${app.escapeHtml(player.last_name)}</h2><p class="muted">${age === null ? 'Age not set' : `Age ${age}${playerType}`}</p><span class="eyebrow">Open profile →</span></a>`;
     }).join('');
   }
