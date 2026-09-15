@@ -7,7 +7,7 @@
     if (!role) throw new Error('This account has not been assigned a coach or parent role.');
     document.getElementById('roleLabel').textContent = role === 'coach' ? 'Coach dashboard' : 'Parent view · Read only';
     document.getElementById('pageTitle').textContent = role === 'coach' ? 'Your Players' : 'Your Player Progress';
-    document.getElementById('pageIntro').textContent = role === 'coach' ? 'Manage profiles, training reports, assessments, and goals.' : 'View reports, goals, assessments, and progress for your assigned child or children.';
+    document.getElementById('pageIntro').textContent = role === 'coach' ? 'Manage player profiles and assessments.' : 'View current and previous assessments for your assigned player or players.';
     if (role === 'coach') setupCoachForm(user);
     const { data, error } = await app.client.from('players').select('*').order('last_name').order('first_name');
     if (error) throw error;
