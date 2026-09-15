@@ -26,23 +26,12 @@
 
     <div class="form-field">
       <label>
-        Assessment date & time
+        Assessment date
         <input
           name="evaluated_at"
-          type="datetime-local"
+          type="date"
           required
         >
-      </label>
-    </div>
-
-    <div class="form-field">
-      <label>
-        Training duration
-        <select name="training_duration_minutes">
-          <option value="60">60 minutes · 1 hour</option>
-          <option value="90">90 minutes · 1.5 hours</option>
-          <option value="120">120 minutes · 2 hours</option>
-        </select>
       </label>
     </div>
 
@@ -60,31 +49,16 @@
 
     <div class="form-field">
       <label>
-        Longest rally
-        <select name="longest_rally_band">
-          <option value="">Not measured</option>
-          <option value="1-5">1–5 shots</option>
-          <option value="6-10">6–10 shots</option>
-          <option value="11-20">11–20 shots</option>
-          <option value="21+">21+ shots</option>
-        </select>
+        Longest rally with coach
+        <input name="longest_rally" type="number" min="0" step="1" inputmode="numeric" placeholder="Number of shots">
       </label>
     </div>
 
     <div class="form-field">
       <label>
-        Longest deep-ball streak
-        <select name="longest_deep_ball_streak_band">
-          <option value="">Not measured</option>
-          <option value="1-5">1–5 shots</option>
-          <option value="6-10">6–10 shots</option>
-          <option value="11-20">11–20 shots</option>
-          <option value="21+">21+ shots</option>
-        </select>
+        Longest rally with other trainees
+        <input name="longest_rally_with_trainees" type="number" min="0" step="1" inputmode="numeric" placeholder="Number of shots">
       </label>
-      <small class="muted">
-        Consecutive shots landing deep, past the service line.
-      </small>
     </div>
 
     <div class="form-field">

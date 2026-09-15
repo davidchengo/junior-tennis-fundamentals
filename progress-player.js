@@ -64,14 +64,7 @@
                 <header>
                   <div>
                     <strong>Assessment</strong>
-                    <p class="muted">
-                      ${app.formatDateTime(item.evaluated_at)}
-                      ${
-                        item.training_duration_minutes
-                          ? ` · ${item.training_duration_minutes} min`
-                          : ''
-                      }
-                    </p>
+                    <p class="muted">${app.formatDate(item.evaluated_at)}</p>
                   </div>
 
                   <div class="button-row">
@@ -232,14 +225,8 @@
       return;
     }
 
-    const bandPercent = value => {
-      return ({
-        '1-5': 25,
-        '6-10': 50,
-        '11-20': 75,
-        '21+': 100
-      })[value] || 0;
-    };
+    const rallyPercent = value =>
+      Math.min(100, Math.round(Number(value) / 20 * 100));
 
     const ratingPercent = value => {
       if (
@@ -272,15 +259,14 @@
 
     const metrics = [
       {
-        label: 'Longest Rally',
-        value: item => assessmentRallyBand(item),
-        percent: bandPercent
+        label: 'Longest Rally with Coach',
+        value: item => item.longest_rally,
+        percent: rallyPercent
       },
       {
-        label: 'Deep-Ball Streak',
-        value: item =>
-          item.longest_deep_ball_streak_band,
-        percent: bandPercent
+        label: 'Longest Rally with Other Trainees',
+        value: item => item.longest_rally_with_trainees,
+        percent: rallyPercent
       },
       {
         label: 'Shape / Net Clearance',
@@ -332,14 +318,9 @@
       const percent =
         metric.percent(raw);
 
-      const duration =
-        item.training_duration_minutes
-          ? ` · ${item.training_duration_minutes} min`
-          : '';
-
       const title =
         `${app.formatDate(item.evaluated_at)} · ` +
-        `${metric.label}: ${value}${duration}`;
+        `${metric.label}: ${value}`;
 
       return `
         <td
@@ -385,13 +366,6 @@
                     <span>
                       ${app.formatDate(item.evaluated_at)}
                     </span>
-                    ${
-                      item.training_duration_minutes
-                        ? `<small>
-                             ${item.training_duration_minutes}m
-                           </small>`
-                        : ''
-                    }
                   </th>
                 `
               ).join('')}
@@ -555,7 +529,6 @@
     const modeSelect = form.elements.assessment_mode;
     const previousSelect = form.elements.previous_assessment_id;
     const evaluatedAtInput = form.elements.evaluated_at;
-    const durationSelect = form.elements.training_duration_minutes;
     const previousField =
       document.getElementById('previousAssessmentField');
 
@@ -582,7 +555,7 @@
               supersededIds.has(item.id);
 
             const label =
-              `${app.formatDateTime(item.evaluated_at)} · Assessment` +
+              `${app.formatDate(item.evaluated_at)} · Assessment` +
               `${superseded ? ' · Already superseded' : ''}`;
 
             return `
@@ -614,12 +587,9 @@
 
 
     function clearAssessment() {
-      evaluatedAtInput.value =
-        localDateTimeValue(new Date());
-
-      durationSelect.value = '60';
-      form.elements.longest_rally_band.value = '';
-      form.elements.longest_deep_ball_streak_band.value = '';
+      evaluatedAtInput.value = localDateValue(new Date());
+      form.elements.longest_rally.value = '';
+      form.elements.longest_rally_with_trainees.value = '';
 
       ratingFields.forEach(name => {
         form.elements[name].value = '';
@@ -632,12 +602,9 @@
 
 
     function renderOriginalReference(item) {
-      const longestRally =
-        assessmentRallyBand(item) || 'Not measured';
-
-      const deepBall =
-        item.longest_deep_ball_streak_band ||
-        'Not measured';
+      const longestRally = item.longest_rally ?? 'Not measured';
+      const longestRallyWithTrainees =
+        item.longest_rally_with_trainees ?? 'Not measured';
 
       reference.innerHTML = `
         <article class="list-item">
@@ -646,7 +613,7 @@
             <div>
               <strong>Previous assessment reference</strong>
               <p class="muted">
-                ${app.formatDateTime(item.evaluated_at)}
+                ${app.formatDate(item.evaluated_at)}
               </p>
             </div>
 
@@ -654,11 +621,11 @@
 
           <div class="tag-list">
             <span class="tag">
-              Longest rally: ${app.escapeHtml(longestRally)}
+              Longest rally with coach: ${app.escapeHtml(longestRally)}
             </span>
 
             <span class="tag">
-              Deep-ball streak: ${app.escapeHtml(deepBall)}
+              Longest rally with other trainees: ${app.escapeHtml(longestRallyWithTrainees)}
             </span>
           </div>
 
@@ -707,19 +674,10 @@
     function loadAssessment(item) {
       if (!item) return;
 
-      evaluatedAtInput.value =
-        localDateTimeValue(new Date(item.evaluated_at));
-
-      durationSelect.value =
-        item.training_duration_minutes
-          ? String(item.training_duration_minutes)
-          : '60';
-
-      form.elements.longest_rally_band.value =
-        assessmentRallyBand(item) || '';
-
-      form.elements.longest_deep_ball_streak_band.value =
-        item.longest_deep_ball_streak_band || '';
+      evaluatedAtInput.value = localDateValue(new Date(item.evaluated_at));
+      form.elements.longest_rally.value = item.longest_rally ?? '';
+      form.elements.longest_rally_with_trainees.value =
+        item.longest_rally_with_trainees ?? '';
 
       ratingFields.forEach(name => {
         setRating(name, item[name]);
@@ -772,11 +730,7 @@
 
     evaluatedAtInput.addEventListener('click', () => {
       if (typeof evaluatedAtInput.showPicker === 'function') {
-        try {
-          evaluatedAtInput.showPicker();
-        } catch (_) {
-          // Native date/time controls remain available.
-        }
+        try { evaluatedAtInput.showPicker(); } catch (_) { /* Native date control remains available. */ }
       }
     });
 
@@ -851,20 +805,25 @@
         });
 
 
-        raw.longest_rally_band ||=
-          null;
-
-        raw.longest_deep_ball_streak_band ||=
-          null;
+        for (const name of [
+          'longest_rally',
+          'longest_rally_with_trainees'
+        ]) {
+          raw[name] = raw[name] === '' ? null : Number(raw[name]);
+          if (
+            raw[name] !== null &&
+            (!Number.isInteger(raw[name]) || raw[name] < 0)
+          ) {
+            app.setStatus('Rally counts must be whole numbers of 0 or more.', 'error');
+            return;
+          }
+        }
 
         raw.note ||=
           null;
 
-        raw.training_duration_minutes =
-          Number(raw.training_duration_minutes);
-
         raw.evaluated_at =
-          new Date(raw.evaluated_at).toISOString();
+          new Date(`${raw.evaluated_at}T12:00:00`).toISOString();
 
 
         // Preserve session relationship automatically
@@ -939,7 +898,7 @@
   function attr(value) { return app.escapeHtml(value).replace(/`/g,'&#96;'); }
   function title(value='') { return value.charAt(0).toUpperCase()+value.slice(1); }
   function formatDuration(minutes) { const hours=Math.floor(minutes/60), remainder=minutes%60; return hours ? `${hours}h ${remainder ? `${remainder}m` : ''}` : `${remainder}m`; }
-  function localDateTimeValue(date) { const local = new Date(date.getTime()-date.getTimezoneOffset()*60000); return local.toISOString().slice(0,16); }
+  function localDateValue(date) { const local = new Date(date.getTime()-date.getTimezoneOffset()*60000); return local.toISOString().slice(0,10); }
   function assessmentArea(item) {
     if (item.assessment_area) {
       return item.assessment_area;
@@ -991,33 +950,6 @@
   }
 
 
-  function assessmentRallyBand(item) {
-    if (item.longest_rally_band) {
-      return item.longest_rally_band;
-    }
-
-    if (
-      item.longest_rally === null ||
-      item.longest_rally === undefined
-    ) {
-      return null;
-    }
-
-    const value =
-      Number(item.longest_rally);
-
-    if (!Number.isFinite(value) || value <= 0) {
-      return null;
-    }
-
-    if (value <= 5) return '1-5';
-    if (value <= 10) return '6-10';
-    if (value <= 20) return '11-20';
-
-    return '21+';
-  }
-
-
   function scorePairs(item) {
     return [
       ['Shape', item.shape_net_clearance],
@@ -1030,12 +962,12 @@
 
   function objectivePairs(item) {
     return [
-      ['Longest rally', assessmentRallyBand(item)],
+      ['Longest rally with coach', item.longest_rally],
       [
-        'Deep-ball streak',
-        item.longest_deep_ball_streak_band
+        'Longest rally with other trainees',
+        item.longest_rally_with_trainees
       ]
-    ].filter(([, value]) => value);
+    ].filter(([, value]) => value !== null && value !== undefined);
   }
 
 
