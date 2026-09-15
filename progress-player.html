@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Player Profile | Rally School</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="progress.css"></head>
 <body><nav class="progress-nav"><div class="progress-nav-inner"><a class="brand" href="index.html">🎾 Rally School</a><span class="nav-spacer"></span><a class="nav-link" href="progress.html">← All players</a><button id="signOut" class="ghost-button">Sign out</button></div></nav>
 <main class="page-shell"><div class="config-warning">Supabase is not configured. See <strong>PLAYER_PROGRESS_SETUP.md</strong>.</div><header class="page-heading"><div><p class="eyebrow">Player profile</p><h1 id="playerName">Loading…</h1><p id="playerMeta" class="muted"></p></div><div id="coachActions" class="button-row hidden"><button class="button secondary" data-open="playerFormPanel">Edit player</button><button class="button" data-open="assessmentFormPanel">Add assessment</button></div></header><p data-status class="status-message" aria-live="polite"></p>
-<section id="profileStats" class="grid three"></section>
+<section id="profileStats" class="grid two"></section>
 <section id="playerFormPanel" class="panel hidden"><h2>Edit player information</h2><form id="editPlayerForm" class="form-grid"></form></section>
 
 <section id="assessmentFormPanel" class="panel hidden">

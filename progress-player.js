@@ -31,11 +31,11 @@
   } catch (error) { app.setStatus(error.message === 'JSON object requested, multiple (or no) rows returned' ? 'You are not authorized to view this player.' : error.message, 'error'); }
 
   function render() {
-    const age = app.ageFromDob(player.date_of_birth); const totalMinutes = sessions.reduce((sum, session) => sum + session.duration_minutes, 0);
+    const age = app.ageFromDob(player.date_of_birth);
     document.title = `${player.first_name} ${player.last_name} | Rally School`;
     document.getElementById('playerName').textContent = `${player.first_name} ${player.last_name}`;
     document.getElementById('playerMeta').textContent = `${age === null ? 'Age not set' : `Age ${age}`} · ${title(player.current_ball_stage)} Ball`;
-    document.getElementById('profileStats').innerHTML = `<article class="panel stat-card"><span>Sessions with Rally School</span><strong>${sessions.length}</strong><small class="muted">Since ${app.formatDate(player.rally_school_start_date)}</small></article><article class="panel stat-card"><span>Total training time</span><strong>${formatDuration(totalMinutes)}</strong><small class="muted">Derived from session records</small></article>`;
+    document.getElementById('profileStats').innerHTML = `<article class="panel stat-card"><span>Sessions with Rally School</span><strong>${assessments.length}</strong><small class="muted">Based on saved assessments since ${app.formatDate(player.rally_school_start_date)}</small></article>`;
     renderReports(); renderAssessments(); renderChart();
   }
   function renderReports() {
@@ -897,7 +897,6 @@
   function finish(error, success='Saved.') { if (error) { app.setStatus(error.message, 'error'); return; } app.setStatus(success, 'success'); setTimeout(() => location.reload(), 500); }
   function attr(value) { return app.escapeHtml(value).replace(/`/g,'&#96;'); }
   function title(value='') { return value.charAt(0).toUpperCase()+value.slice(1); }
-  function formatDuration(minutes) { const hours=Math.floor(minutes/60), remainder=minutes%60; return hours ? `${hours}h ${remainder ? `${remainder}m` : ''}` : `${remainder}m`; }
   function localDateValue(date) { const local = new Date(date.getTime()-date.getTimezoneOffset()*60000); return local.toISOString().slice(0,10); }
   function assessmentArea(item) {
     if (item.assessment_area) {
