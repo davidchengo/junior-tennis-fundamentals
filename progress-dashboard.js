@@ -32,7 +32,7 @@
     form.addEventListener('submit', async event => {
       event.preventDefault(); const status = document.querySelector('[data-form-status]'); status.textContent = 'Saving…';
       const raw = Object.fromEntries(new FormData(form));
-      const record = { first_name: raw.first_name.trim(), last_name: raw.last_name.trim(), date_of_birth: raw.date_of_birth || null, tennis_start_date: raw.tennis_start_date || null, current_ball_stage: raw.current_ball_stage, rally_school_start_date: raw.rally_school_start_date || null, tennis_experience_note: raw.tennis_experience_note || null, current_focus_areas: app.splitList(raw.current_focus_areas), current_development_stage: raw.current_development_stage || null, target_stage: raw.target_stage || null };
+      const record = { first_name: raw.first_name.trim(), last_name: raw.last_name.trim(), date_of_birth: raw.date_of_birth || null, tennis_start_date: raw.tennis_start_date || null, current_ball_stage: raw.current_ball_stage, rally_school_start_date: raw.rally_school_start_date || null, tennis_experience_note: raw.tennis_experience_note || null };
       const { data: playerId, error } = await app.client.rpc('create_player', { p_player: record });
       if (error) { status.textContent = error.message; status.className = 'status-message error'; return; }
       location.href = `progress-player.html?id=${encodeURIComponent(playerId)}`;
