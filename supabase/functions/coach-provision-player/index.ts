@@ -34,16 +34,19 @@ Deno.serve(async request => {
   const { data: { user }, error: userError } = await userClient.auth.getUser();
   if (userError || !user) return reply({ error: 'Please sign in again.' }, 401);
 
-  const admin = createClient(projectUrl, serviceRoleKey, {
-    auth: { persistSession: false, autoRefreshToken: false }
-  });
-  const { data: coachRole } = await admin
+  // Use the authenticated coach session for this authorization decision.
+  // Its RLS policy exposes only the caller's own role record.
+  const { data: coachRole, error: coachRoleError } = await userClient
     .from('profile_roles')
     .select('profile_id')
     .eq('profile_id', user.id)
     .eq('role', 'coach')
     .maybeSingle();
-  if (!coachRole) return reply({ error: 'Only an authorized coach can add players and parent access.' }, 403);
+  if (coachRoleError || !coachRole) return reply({ error: 'Only an authorized coach can add players and parent access.' }, 403);
+
+  const admin = createClient(projectUrl, serviceRoleKey, {
+    auth: { persistSession: false, autoRefreshToken: false }
+  });
 
   let payload: Record<string, unknown>;
   try { payload = await request.json(); } catch { return reply({ error: 'Invalid request.' }, 400); }
