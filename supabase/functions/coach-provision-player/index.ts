@@ -95,12 +95,24 @@ Deno.serve(async request => {
     if (coachAccount) return reply({ error: 'That email belongs to a coach account and cannot be assigned as a parent.' }, 400);
   }
 
-  const { error: roleError } = await admin
+  const { data: existingParentRole, error: existingParentRoleError } = await admin
     .from('profile_roles')
-    .upsert({ profile_id: parentId, role: 'parent' }, { onConflict: 'profile_id,role' });
-  if (roleError) {
+    .select('profile_id')
+    .eq('profile_id', parentId)
+    .eq('role', 'parent')
+    .maybeSingle();
+  if (existingParentRoleError) {
     if (createdParentAccount) await admin.auth.admin.deleteUser(parentId);
     return reply({ error: 'Unable to enable the parent sign-in account.' }, 500);
+  }
+  if (!existingParentRole) {
+    const { error: roleInsertError } = await admin
+      .from('profile_roles')
+      .insert({ profile_id: parentId, role: 'parent' });
+    if (roleInsertError) {
+      if (createdParentAccount) await admin.auth.admin.deleteUser(parentId);
+      return reply({ error: 'Unable to enable the parent sign-in account.' }, 500);
+    }
   }
 
   const player = {
