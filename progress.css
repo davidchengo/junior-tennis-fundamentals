@@ -35,6 +35,10 @@ h2 { font-size:1.25rem; }
 .form-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px; }
 .form-field { display:grid; gap:7px; }
 .form-field.full { grid-column:1/-1; }
+.access-section { margin:4px 0 0; padding:16px; border:1px solid var(--border); border-radius:11px; }
+.access-section legend { padding:0 6px; color:var(--text); font-size:.95rem; font-weight:800; }
+.access-help { margin:0 0 14px; font-size:.85rem; }
+.access-section small { font-size:.75rem; }
 label { color:#cbd2dc; font-size:.82rem; font-weight:700; }
 input,select,textarea { width:100%; border:1px solid var(--border); border-radius:9px; padding:10px 11px; color:var(--text); background:#11161d; }
 textarea { min-height:92px; resize:vertical; }

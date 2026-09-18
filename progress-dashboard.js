@@ -34,9 +34,37 @@
       event.preventDefault(); const status = document.querySelector('[data-form-status]'); status.textContent = 'Saving…';
       const raw = Object.fromEntries(new FormData(form));
       const record = { first_name: raw.first_name.trim(), last_name: raw.last_name.trim(), date_of_birth: raw.date_of_birth || null, tennis_start_date: raw.tennis_start_date || null, current_ball_stage: raw.current_ball_stage, rally_school_start_date: raw.rally_school_start_date || null, tennis_experience_note: raw.tennis_experience_note || null };
-      const { data: playerId, error } = await app.client.rpc('create_player', { p_player: record });
-      if (error) { status.textContent = error.message; status.className = 'status-message error'; return; }
+      const parentEmail = raw.parent_email.trim();
+      let playerId;
+      if (parentEmail) {
+        if (raw.parent_account_mode === 'new' && raw.parent_password.length < 6) {
+          status.textContent = 'Choose an initial parent password with at least 6 characters.';
+          status.className = 'status-message error';
+          return;
+        }
+        try {
+          const result = await app.provisionPlayerWithParent(record, {
+            email: parentEmail,
+            accountMode: raw.parent_account_mode,
+            password: raw.parent_account_mode === 'new' ? raw.parent_password : null
+          });
+          playerId = result.playerId;
+        } catch (error) {
+          status.textContent = error.message;
+          status.className = 'status-message error';
+          return;
+        }
+      } else {
+        const { data, error } = await app.client.rpc('create_player', { p_player: record });
+        if (error) { status.textContent = error.message; status.className = 'status-message error'; return; }
+        playerId = data;
+      }
       location.href = `progress-player.html?id=${encodeURIComponent(playerId)}`;
     });
+    const mode = form.querySelector('[name="parent_account_mode"]');
+    const passwordField = form.querySelector('[data-parent-password]');
+    const updateParentMode = () => passwordField.classList.toggle('hidden', mode.value !== 'new');
+    mode.addEventListener('change', updateParentMode);
+    updateParentMode();
   }
 })();

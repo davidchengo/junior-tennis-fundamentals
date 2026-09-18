@@ -33,5 +33,21 @@
     const roles = data.map(item => item.role);
     return roles.includes('coach') ? 'coach' : roles.includes('parent') ? 'parent' : null;
   }
-  window.ProgressApp = { client, escapeHtml, splitList, formatDate, formatDateTime, ageFromDob, setStatus, requireUser, getRole };
+  async function provisionPlayerWithParent(player, parent) {
+    const { data: { session } } = await client.auth.getSession();
+    if (!session) throw new Error('Your session has expired. Please sign in again.');
+    const response = await fetch(`${config.supabaseUrl}/functions/v1/coach-provision-player`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        apikey: config.supabaseAnonKey,
+        Authorization: `Bearer ${session.access_token}`
+      },
+      body: JSON.stringify({ player, parent })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.error || 'Unable to create the player and parent access.');
+    return payload;
+  }
+  window.ProgressApp = { client, escapeHtml, splitList, formatDate, formatDateTime, ageFromDob, setStatus, requireUser, getRole, provisionPlayerWithParent };
 })();
