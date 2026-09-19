@@ -520,6 +520,11 @@
     const reference =
       document.getElementById('originalAssessmentReference');
 
+    const correctionDetails =
+      document.getElementById('correctionDetails');
+    const correctionReasonInput =
+      form.elements.correction_reason;
+
     const ratingFields = [
       'shape_net_clearance',
       'contact_preparation',
@@ -583,6 +588,7 @@
       form.elements.note.value = '';
       reference.innerHTML = '';
       reference.classList.add('hidden');
+      correctionReasonInput.value = '';
     }
 
 
@@ -686,6 +692,8 @@
       if (modeSelect.value === 'new') {
         previousField.classList.add('hidden');
         previousSelect.required = false;
+        correctionDetails.classList.add('hidden');
+        correctionReasonInput.required = false;
 
         clearAssessment();
         return;
@@ -693,6 +701,8 @@
 
       previousField.classList.remove('hidden');
       previousSelect.required = true;
+      correctionDetails.classList.remove('hidden');
+      correctionReasonInput.required = true;
 
       if (!latestActiveAssessment) {
         previousSelect.value = '';
@@ -770,6 +780,12 @@
         delete raw.assessment_mode;
         delete raw.previous_assessment_id;
 
+        const correctionReason =
+          String(raw.correction_reason || '').trim();
+
+        delete raw.correction_reason;
+        delete raw.correction_kind;
+
         if (
           mode === 'correction' &&
           !previousAssessment
@@ -778,6 +794,15 @@
             'Select a previous assessment.',
             'error'
           );
+          return;
+        }
+
+        if (mode === 'correction' && !correctionReason) {
+          app.setStatus(
+            'Enter a correction reason before saving.',
+            'error'
+          );
+          correctionReasonInput.focus();
           return;
         }
 
@@ -854,7 +879,10 @@
             ? 'correction'
             : null;
 
-        raw.correction_reason = null;
+        raw.correction_reason =
+          mode === 'correction'
+            ? correctionReason
+            : null;
 
 
         Object.assign(raw, {

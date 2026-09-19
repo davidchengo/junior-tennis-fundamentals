@@ -47,6 +47,19 @@
     <div id="originalAssessmentReference"
          class="form-field full hidden"></div>
 
+    <div id="correctionDetails" class="form-field full hidden">
+      <label>
+        Correction reason
+        <input
+          name="correction_reason"
+          maxlength="240"
+          placeholder="What should be corrected?"
+        >
+      </label>
+      <p class="muted">Required when correcting a previous assessment. The original remains in history.</p>
+      <input type="hidden" name="correction_kind" value="correction">
+    </div>
+
     <div class="form-field">
       <label>
         Longest rally with coach
