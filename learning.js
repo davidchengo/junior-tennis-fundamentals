@@ -57,3 +57,24 @@ if (sourceVideo) {
     });
   });
 }
+
+const lessonPlayerWrap = document.querySelector(".lesson-player-wrap");
+const lessonMoments = document.querySelector(".lesson-moments");
+const desktopLessonLayout = window.matchMedia("(min-width: 921px)");
+
+function matchTimelineToVideo() {
+  if (!lessonPlayerWrap || !lessonMoments) return;
+  if (!desktopLessonLayout.matches) {
+    lessonMoments.style.maxHeight = "";
+    return;
+  }
+
+  const playerHeight = lessonPlayerWrap.getBoundingClientRect().height;
+  if (playerHeight > 0) lessonMoments.style.maxHeight = `${Math.round(playerHeight)}px`;
+}
+
+if (lessonPlayerWrap && lessonMoments) {
+  matchTimelineToVideo();
+  new ResizeObserver(matchTimelineToVideo).observe(lessonPlayerWrap);
+  desktopLessonLayout.addEventListener("change", matchTimelineToVideo);
+}
