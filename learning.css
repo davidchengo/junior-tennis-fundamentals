@@ -100,6 +100,12 @@ a.skill-card:hover { transform: translateY(-4px); border-color: rgba(112, 224, 1
 .chapter-analysis p { margin: 0; color: #b7c4ba; font-size: 0.68rem; line-height: 1.6; }
 .chapter-analysis a { color: var(--learn-green); text-decoration: underline; text-decoration-color: rgba(112, 224, 139, 0.4); text-underline-offset: 2px; }
 .chapter-crosscheck { padding: 12px 14px; background: rgba(112, 224, 139, 0.045); border-left: 2px solid rgba(112, 224, 139, 0.55); border-radius: 0 7px 7px 0; }
+.lesson-practice-card, .source-reference { margin-top: 18px; padding: 21px 23px; background: linear-gradient(145deg, rgba(112, 224, 139, 0.09), rgba(21, 30, 25, 0.92)); border: 1px solid rgba(112, 224, 139, 0.22); border-radius: 11px; }
+.lesson-practice-card h2 { margin: 7px 0 8px; color: var(--learn-ink); font-size: 1.2rem; letter-spacing: -0.035em; }
+.lesson-practice-card p, .source-reference p { margin: 0; color: var(--learn-muted); font-size: 0.73rem; line-height: 1.7; }
+.source-reference { background: var(--learn-panel); border-color: var(--learn-line); }
+.source-reference p + p { margin-top: 10px; }
+.source-reference a { color: var(--learn-green); text-decoration: underline; text-decoration-color: rgba(112, 224, 139, 0.4); text-underline-offset: 2px; }
 .moment-status { margin: 14px 0 0; color: #97a59b; font-size: 0.65rem; }
 
 @media (max-width: 920px) {
@@ -145,4 +151,5 @@ a.skill-card:hover { transform: translateY(-4px); border-color: rgba(112, 224, 1
   .moment-link { grid-template-columns: 48px minmax(0, 1fr); }
   .moment-link strong { font-size: 0.86rem; }
   .chapter-analysis { grid-template-columns: 1fr; margin: 15px 0 0; gap: 13px; }
+  .lesson-practice-card, .source-reference { padding: 17px 15px; }
 }

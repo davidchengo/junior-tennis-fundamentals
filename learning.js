@@ -22,11 +22,11 @@ if (sourceVideo) {
   const momentButtons = [...document.querySelectorAll("[data-start][data-end]")];
   const momentStatus = document.getElementById("momentStatus");
   const videoSources = {
-    "n4Cq4VaiFTw": {
-      name: "Rick Macci Tennis",
-      note: "Rick Macci with Dr. Brian Gordon",
-      title: "The forehand video that changed tennis teaching",
-      url: "https://www.youtube.com/watch?v=n4Cq4VaiFTw"
+    "LTgTLvvn7jQ": {
+      name: "Patrick Mouratoglou",
+      note: "Court lesson with student-athlete Francesca",
+      title: "Full forehand lesson: timing, power, spin, and consistency",
+      url: "https://www.youtube.com/watch?v=LTgTLvvn7jQ"
     }
   };
 
