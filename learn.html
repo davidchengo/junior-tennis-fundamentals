@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn junior tennis skills through coach-led videos, focused tip cards, and on-court practice ideas.">
+  <title>Video Lessons | Rally School</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="learning.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="learning-page">
+  <header class="learning-nav">
+    <a class="learning-logo" href="index.html">🎾 Rally School</a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="learn.html">Learn</a>
+      <a href="#coach-library">Coaches</a>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="learn-hero">
+      <div class="learn-hero-copy">
+        <span class="learning-eyebrow">WATCH · UNDERSTAND · PRACTICE</span>
+        <h1>What do you want<br><span>to improve?</span></h1>
+        <p>Choose a skill. Learn from trusted tennis coaches. Take one clear idea onto the court.</p>
+        <label class="skill-search-wrap" for="skillSearch">
+          <span aria-hidden="true">⌕</span>
+          <input id="skillSearch" type="search" placeholder="Search a skill, like forehand power" autocomplete="off">
+        </label>
+      </div>
+      <div class="learn-hero-mark" aria-hidden="true"><span>01</span><b>SKILL<br>→ CLIP<br>→ PRACTICE</b></div>
+    </section>
+
+    <section class="learning-section" aria-labelledby="skillsHeading">
+      <div class="learning-section-head">
+        <div><span class="learning-eyebrow">START WITH A GOAL</span><h2 id="skillsHeading">Explore by skill</h2></div>
+        <p>Short, focused lessons connect each coaching idea to the moment it appears in the video.</p>
+      </div>
+      <div class="skill-grid" id="skillGrid">
+        <a class="skill-card skill-card-featured" href="learn-forehand-power.html" data-search="forehand power pace racket speed">
+          <span class="skill-card-icon" aria-hidden="true">↗</span>
+          <span class="skill-card-kicker">FEATURED LESSON · 5 MIN GUIDE</span>
+          <h3>Build a more powerful forehand</h3>
+          <p>Watch Rick Macci and Dr. Brian Gordon, jump through the video chapters, and try a focused practice task.</p>
+          <span class="skill-card-footer">Explore the lesson <b>→</b></span>
+        </a>
+        <article class="skill-card skill-card-upcoming" data-search="forehand topspin spin">
+          <span class="skill-card-icon" aria-hidden="true">◌</span>
+          <span class="skill-card-kicker">GROUNDSTROKES</span>
+          <h3>Shape your forehand with topspin</h3>
+          <p>Compare coaching cues for swing path, contact, and height over the net.</p>
+          <span class="skill-card-footer">More coach clips in curation</span>
+        </article>
+        <article class="skill-card skill-card-upcoming" data-search="backhand rally consistency control">
+          <span class="skill-card-icon" aria-hidden="true">↔</span>
+          <span class="skill-card-kicker">GROUNDSTROKES</span>
+          <h3>Build a steadier rally ball</h3>
+          <p>Learn simple ways to send the ball deep, recover, and repeat under control.</p>
+          <span class="skill-card-footer">More coach clips in curation</span>
+        </article>
+        <article class="skill-card skill-card-upcoming" data-search="serve toss serve return">
+          <span class="skill-card-icon" aria-hidden="true">⌁</span>
+          <span class="skill-card-kicker">SERVE &amp; RETURN</span>
+          <h3>Make the serve easier to repeat</h3>
+          <p>Break a complex motion into useful visual cues and achievable practice steps.</p>
+          <span class="skill-card-footer">More coach clips in curation</span>
+        </article>
+      </div>
+      <p class="search-empty" id="searchEmpty" hidden>No skill matches that search yet. Try a different word.</p>
+    </section>
+
+    <section class="coach-library" id="coach-library" aria-labelledby="coachHeading">
+      <div class="learning-section-head">
+        <div><span class="learning-eyebrow">THE PEOPLE BEHIND THE CUES</span><h2 id="coachHeading">Browse coach videos</h2></div>
+        <p>Explore the original lesson, then return to Rally School’s skill guide for selected moments and practice ideas.</p>
+      </div>
+      <article class="coach-source-card">
+        <a class="coach-source-thumb" href="https://www.youtube.com/watch?v=n4Cq4VaiFTw" target="_blank" rel="noopener noreferrer" aria-label="Watch The forehand video that changed tennis teaching on YouTube">
+          <img src="https://i.ytimg.com/vi/n4Cq4VaiFTw/hqdefault.jpg" alt="Video thumbnail for Rick Macci and Dr. Brian Gordon's forehand lesson">
+          <span class="thumb-play" aria-hidden="true">▶</span>
+        </a>
+        <div class="coach-source-copy">
+          <span class="coach-source-label">RICK MACCI TENNIS · WITH DR. BRIAN GORDON</span>
+          <h3>The forehand video that changed tennis teaching</h3>
+          <p>A single-source forehand guide built around the public video’s chapter list, with observation prompts and a court practice task. This upload does not expose captions, so the cards are not presented as transcript analysis.</p>
+          <a class="text-link" href="learn-forehand-power.html">Open the Rally School lesson <span>→</span></a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="learning-footer"><a href="index.html">Rally School</a><span>Learn one useful thing. Try it on court.</span></footer>
+  <script src="analytics.js"></script>
+  <script src="learning.js"></script>
+</body>
+</html>

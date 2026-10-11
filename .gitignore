@@ -5,6 +5,10 @@ CLAUDE.md
 __pycache__/
 .ipynb_checkpoints/
 
+# Local YouTube research credentials and transcript working files
+.env.youtube
+.local/youtube/
+
 # Third-party tennis source data
 data/tennis-sackmann-archive/
 data/raw/
