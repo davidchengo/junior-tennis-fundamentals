@@ -96,10 +96,18 @@ a.skill-card:hover { transform: translateY(-4px); border-color: rgba(112, 224, 1
 .moment-link small { margin-top: 4px; color: var(--learn-muted); font-size: 0.64rem; line-height: 1.45; }
 .chapter-type { flex: 0 0 auto; padding: 6px 9px; color: #a7bcac; background: #202a23; border: 1px solid var(--learn-line); border-radius: 100px; font-size: 0.55rem; font-weight: 800; letter-spacing: 0.07em; }
 .chapter-analysis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 17px 0 0 55px; gap: 16px 24px; }
+.chapter-analysis > div:not(.chapter-crosscheck) { padding: 12px 14px; background: rgba(255, 255, 255, 0.018); border: 1px solid var(--learn-line); border-left-width: 3px; border-radius: 0 8px 8px 0; }
 .chapter-analysis h3 { margin: 0 0 5px; color: #f2f7f2; font-size: 0.7rem; }
 .chapter-analysis p { margin: 0; color: #b7c4ba; font-size: 0.68rem; line-height: 1.6; }
 .chapter-analysis a { color: var(--learn-green); text-decoration: underline; text-decoration-color: rgba(112, 224, 139, 0.4); text-underline-offset: 2px; }
-.chapter-crosscheck { padding: 12px 14px; background: rgba(112, 224, 139, 0.045); border-left: 2px solid rgba(112, 224, 139, 0.55); border-radius: 0 7px 7px 0; }
+.chapter-analysis > .chapter-cue { border-left-color: #70e08b; background: rgba(112, 224, 139, 0.045); }
+.chapter-cue h3 { color: #8deaa2; }
+.chapter-analysis > .chapter-why { border-left-color: #73c8f2; background: rgba(73, 164, 215, 0.06); }
+.chapter-why h3 { color: #8bd6fb; }
+.chapter-analysis > .chapter-perspective { border-left-color: #c0a0ef; background: rgba(157, 113, 206, 0.065); }
+.chapter-perspective h3 { color: #d0b7f4; }
+.chapter-crosscheck { padding: 12px 14px; background: rgba(255, 205, 112, 0.055); border: 1px solid rgba(255, 205, 112, 0.18); border-left: 3px solid rgba(255, 205, 112, 0.72); border-radius: 0 8px 8px 0; }
+.chapter-crosscheck h3 { color: #f0cd91; }
 .lesson-practice-card, .source-reference { margin-top: 18px; padding: 21px 23px; background: linear-gradient(145deg, rgba(112, 224, 139, 0.09), rgba(21, 30, 25, 0.92)); border: 1px solid rgba(112, 224, 139, 0.22); border-radius: 11px; }
 .lesson-practice-card h2 { margin: 7px 0 8px; color: var(--learn-ink); font-size: 1.2rem; letter-spacing: -0.035em; }
 .lesson-practice-card p, .source-reference p { margin: 0; color: var(--learn-muted); font-size: 0.73rem; line-height: 1.7; }
